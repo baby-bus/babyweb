@@ -1,0 +1,16 @@
+ <volist name="data" id="val">
+ 		<div class="col-sm-4 border">
+			<div class="box">
+			<img src="{:$val['app_images'] ? $val['app_images']:'__PUBLIC__/images/Public/default.gif'}" class="img-responsive imgradius" onerror="javascript:this.src='__PUBLIC__/images/Public/default.gif'"/>
+			<h1>{$val['app_name']}</h1>
+			<p class="describe"><span>{$val['intro']}</span></p>
+			<if condition="$val['is_active'] eq 0">
+				<p class="device-icon">
+					<span><input class="btn btn-default" type="button" disabled="disabled" value="Aguarde por favor..."></span>
+				</p>
+			<else />
+			      {:show_down($val[android_url],$val[cell_android_url],$val[iphone_url],$val[ipad_url])}
+			</if>
+		</div>
+	</div>
+ </volist>

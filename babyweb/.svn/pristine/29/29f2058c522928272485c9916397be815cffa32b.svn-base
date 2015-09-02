@@ -1,0 +1,17 @@
+<div class="actGotop"><a href="javascript:;" title="PAGE TOP"></a></div>
+<div class="four">
+	<div class="container">
+        <if condition="$link_data neq null">
+            <p>Parcerias：
+                <foreach name="link_data" item="vo">
+                    <a href="{$vo.link_url}">{$vo.link_name}</a>&nbsp;&nbsp;
+                </foreach>
+                <a href="{:U('Index/link')}">Ver mais</a>
+            </p>
+        </if>
+		<P>Grupo BabyBus © 2015 Todos os Direitos Reservados<br />
+			<a href="{:U('Index/declaration')}" target="_blank">Termos de Uso</a>&nbsp;&nbsp;<a href="{:U('Index/privacyPolicy')}" target="_blank">Política de Privacidade</a>
+			<script src="http://s22.cnzz.com/stat.php?id=3356281&web_id=3356281&show=pic" language="JavaScript"></script>
+		</P>
+	</div>
+</div>

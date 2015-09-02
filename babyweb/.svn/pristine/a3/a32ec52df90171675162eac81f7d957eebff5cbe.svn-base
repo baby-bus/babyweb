@@ -1,0 +1,19 @@
+    <div class="col-xs-12"> 
+    <div class="row innerpadding">
+     <div class="col-xs-12 visible-lg">  
+     	<a id="guide"></a>
+     	<h3 class="text-left" style="text-shadow: 0 1px 0 #efefef; line-height: 60px;">Guia para utilizadores Android
+     	</h3>
+     </div>     
+ 	<div class="col-xs-12 margin-top20">
+     	<div class="float-left step">PASSO</div><div class="span float-left">1</div><div class="float-left content" style=" padding-right: 100px;">Entre na loja Android de sua preferência</div>
+     </div>
+     
+     <div class="col-xs-12 margin-top20">
+     	<div class="float-left step">PASSO</div><div class="span float-left">2</div><div class="float-left content" style="line-height: 20px; ">No campo de pesquisa digite "BabyBus" ou o nome do aplicativo que procura <br />e clique em "Instalar" de seguida</div>
+     </div>
+     <div class="col-xs-12 margin-top40">
+     	<img src="__PUBLIC__/images/download/android_1.jpg" class="img-responsive">
+     </div>
+     </div>
+   </div> 

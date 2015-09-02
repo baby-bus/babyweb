@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta name="description" content="BabyBus focuses on meeting the educational needs of preschool children. Our apps are divided into two age groups, the Starter Series for toddlers and the Prodigy Series for children 3 year and older. It is our goal to make learning a fun task for children. We are children's best companion to knowledge and growth.">
+<meta name="keywords" content="BabyBus,preschool,early education,childhood,cognition,toddlers,alphabet,children apps,panda,UPK,kindergarten,kids,Baby Learns Shapes">
+<meta name="author" content="BabyBus (Fujian) Network Technology Ltd.">
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+<link href="__PUBLIC__/css/toastr.css" rel="stylesheet">
+<link rel="apple-touch-icon-precomposed" href="{:WEB_URL}/favicon.png">
+<!--[if lt IE 9]><script src="__PUBLIC__/js/respons/ie8-responsive-file-warning.js"></script><![endif]-->
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="__PUBLIC__/js/respons/html5shiv.js"></script>
+      <script src="__PUBLIC__/js/respons/respond.min.js"></script>
+    <![endif]-->
+<link href="__PUBLIC__/css/public.css" rel="stylesheet">
+<script src="__PUBLIC__/js/jquery.min.js"></script> 

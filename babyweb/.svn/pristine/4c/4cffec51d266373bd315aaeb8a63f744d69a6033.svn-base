@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+		<meta name="description" content="专注于为学龄前儿童研发教育软件产品，通过移动互联平台，打造一个全球知名的卡通品牌形象，将中国传统文化融合国际化元素传播至大中华文化圈乃至全球。">
+		<meta name="keywords" content="宝宝巴士,宝贝巴士,BabyBus,在线教育,幼儿教学,儿童软件,儿童应用,移动早教,熊猫,早教,幼教">
+		<meta name="author" content="宝宝巴士（福建）网络科技有限公司">
+		<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="apple-touch-icon-precomposed" href="{:WEB_URL}/favicon.png">
+		
+		<!--[if lt IE 9]><script src="__PUBLIC__/js/respons/ie8-responsive-file-warning.js"></script><![endif]-->
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+      <script src="__PUBLIC__/js/respons/html5shiv.js"></script>
+      <script src="__PUBLIC__/js/respons/respond.min.js"></script>
+    <![endif]-->
+		<link href="__PUBLIC__/css/public.css" rel="stylesheet">
+		<title>版权声明 - 宝宝巴士 快乐童年 - 启蒙教育第一品牌</title>
+	</head>
+
+	<body>
+
+		<!--=============section主体内容区域===================
+==============================================-->
+		<include file="Public:_navbar" />
+		<div class="container download margin-top90">
+			<div class="row joinus">
+				<div class="col-md-3 hidden-xs hidden-sm">
+					<div class="ist-group margin-top30"style="width: 213px;" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+						
+					 
+					  <a href="declaration.shtml" class="list-group-item">使用申明</a>
+					  <a href="privacyPolicy.shtml" class="list-group-item ">隐私政策</a>
+					  <a href="copyright.shtml" class="list-group-item active">版权声明</a>
+                        <if condition="$count gt 0">
+                            <a href="link.shtml" class="list-group-item">友情链接</a>
+                        </if>
+					</div>
+				</div>
+				<div class="col-md-9 margin-top10 statements">
+
+					<h3 style="color: #00BAE9;">一、版权说明</h3>
+					<ul>
+						<li>
+							宝宝巴士（BabyBus），专门针对学龄前儿童研发教育应用产品,通过寓教于乐的方式达到启蒙益智的目的。宝宝巴士自行创作或提供的内容，版权由自身全权拥有，并有处置和取得收益的权力。包括各种动画、文章、图片、声音、法律文件等各种形式的内容。
+						</li>
+							
+					</ul>
+					<h3 style="color: #00BAE9;">二、版权声明</h3>
+					<ul>
+						<li>
+							<p>1.宝宝巴士儿歌产品绝大多数歌曲拥有权利人授权。但是由于部分音乐来自搜索引擎，本站未及一一审核，同时由于信息的不对称，在我们在逐步建立一个版权清晰的曲库上有一定难度，所以在这里本站也再次重申，若任何第三方声称是任何音乐作品的版权拥有者，请及时联系我们。我们会尽一切所能在最大范围内保证版权人行使权利,保护版权人的合法利益。</p>
+							<p>版权许可问题请联系： 18050156306  王小姐<br />工作时间：上午8:30--11:30   下午：14:00--17:00</p> 
+						</li>
+						<li>
+							<p>宝宝巴士所有内容均属于自主研发创作，未经本公司的明确许可，任何人不得进行盗链本站内容；不得复制或者仿照本网站或者非所属的服务器上建立镜像；不得使用和盗用的所有形象，宝宝巴士对其自行创作的或和他人共同创作的所有内容、形象、产品、应用和服务拥有全部知识产权及专利，任何人不得侵害或破坏。</p>
+							<p>任何单位及个人不得以任何方式或理由对上述产品的任何部分进行使用、复制、修改、抄录、传播或与其它产品捆绑使用、销售。</p> 
+							<p>凡侵犯本公司版权等知识产权的，本公司必依法追究其法律责任。</p> 
+						</li>	
+					</ul>
+
+
+
+
+
+
+				</div>
+			</div>
+
+		</div>
+		<script src="__PUBLIC__/js/jquery.min.js"></script>
+		<script src="__PUBLIC__/js/bootstrap.min.js"></script> 
+	</body>
+
+</html>

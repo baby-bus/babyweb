@@ -1,0 +1,212 @@
+[ 2014-12-26T16:16:04+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/ko/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004523s ]
+SQL: SHOW COLUMNS FROM `website_link` [ RunTime:0.006425s ]
+SQL: SELECT * FROM `website_link` WHERE ( `lang` = 'ko' ) ORDER BY link_sort LIMIT 10   [ RunTime:0.001419s ]
+SQL: SHOW COLUMNS FROM `website_index_images` [ RunTime:0.007791s ]
+SQL: SELECT * FROM `website_index_images` WHERE ( lang='ko' and used=1 ) ORDER BY num asc,id asc  [ RunTime:0.001161s ]
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\projcet\babyweb\ko\Lib\Action\IndexAction.class.php 第 11 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\projcet\babyweb\ko\Lib\Action\IndexAction.class.php 第 11 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\projcet\babyweb\ko\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\projcet\babyweb\ko\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\projcet\babyweb\ko\Lib\Action\IndexAction.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\ko\Runtime\Cache\f17d287d6385c8e836a566ae5c4d7731.php 第 131 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\ko\Runtime\Cache\f17d287d6385c8e836a566ae5c4d7731.php 第 144 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\ko\Runtime\Cache\f17d287d6385c8e836a566ae5c4d7731.php 第 131 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\ko\Runtime\Cache\f17d287d6385c8e836a566ae5c4d7731.php 第 144 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\ko\Runtime\Cache\f17d287d6385c8e836a566ae5c4d7731.php 第 217 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\ko\Runtime\Cache\f17d287d6385c8e836a566ae5c4d7731.php 第 217 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.087635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087829s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001458s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001328s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001557s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006968s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002439s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002666s ]
+
+[ 2014-12-26T16:16:08+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/ko/index.php/index/link.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002151s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002334s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002765s ]
+SQL: SHOW COLUMNS FROM `website_link` [ RunTime:0.005844s ]
+SQL: SELECT * FROM `website_link` WHERE ( `lang` = 'ko' ) ORDER BY link_sort LIMIT 10   [ RunTime:0.001377s ]
+SQL: SELECT * FROM `website_link` WHERE ( `lang` = 'ko' ) ORDER BY link_sort  [ RunTime:0.001280s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045934s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001382s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001340s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001025s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005575s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002169s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002338s ]
+
+[ 2014-12-26T16:16:10+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/ko/index.php/index/privacyPolicy.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001580s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001712s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+SQL: SHOW COLUMNS FROM `website_link` [ RunTime:0.004581s ]
+SQL: SELECT * FROM `website_link` WHERE ( `lang` = 'ko' ) ORDER BY link_sort LIMIT 10   [ RunTime:0.000495s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.200709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.200846s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001166s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001032s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000770s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004309s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001606s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001729s ]
+
+[ 2014-12-26T16:16:11+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/ko/index.php/index/declaration.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001586s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001717s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+SQL: SHOW COLUMNS FROM `website_link` [ RunTime:0.004019s ]
+SQL: SELECT * FROM `website_link` WHERE ( `lang` = 'ko' ) ORDER BY link_sort LIMIT 10   [ RunTime:0.000496s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.073680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073815s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001735s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001673s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000896s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005794s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001710s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001871s ]
+
+[ 2014-12-26T16:16:12+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/ko/index.php/index/link.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001655s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001874s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+SQL: SHOW COLUMNS FROM `website_link` [ RunTime:0.004090s ]
+SQL: SELECT * FROM `website_link` WHERE ( `lang` = 'ko' ) ORDER BY link_sort LIMIT 10   [ RunTime:0.000522s ]
+SQL: SELECT * FROM `website_link` WHERE ( `lang` = 'ko' ) ORDER BY link_sort  [ RunTime:0.000486s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017609s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000970s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000920s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000767s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003956s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001252s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001338s ]
+
+[ 2014-12-26T16:28:48+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/ko/index.php/index/link.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002048s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002306s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001888s ]
+SQL: SHOW COLUMNS FROM `website_link` [ RunTime:0.004435s ]
+SQL: SELECT * FROM `website_link` WHERE ( `lang` = 'ko' ) ORDER BY link_sort LIMIT 10   [ RunTime:0.001109s ]
+SQL: SELECT * FROM `website_link` WHERE ( `lang` = 'ko' ) ORDER BY link_sort  [ RunTime:0.001101s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038633s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001142s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001065s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000763s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004265s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001305s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001453s ]
+
+[ 2014-12-26T16:28:50+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/ko/index.php/index/declaration.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001682s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001811s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+SQL: SHOW COLUMNS FROM `website_link` [ RunTime:0.004947s ]
+SQL: SELECT * FROM `website_link` WHERE ( `lang` = 'ko' ) ORDER BY link_sort LIMIT 10   [ RunTime:0.000549s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027800s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002002s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001576s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001147s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006895s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001743s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001909s ]
+
+[ 2014-12-26T16:28:50+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/ko/index.php/index/privacyPolicy.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001464s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001595s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+SQL: SHOW COLUMNS FROM `website_link` [ RunTime:0.003724s ]
+SQL: SELECT * FROM `website_link` WHERE ( `lang` = 'ko' ) ORDER BY link_sort LIMIT 10   [ RunTime:0.000427s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017937s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001164s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001325s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000842s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004698s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002555s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002688s ]
+
+[ 2014-12-26T16:28:51+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/ko/index.php/index/link.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002110s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002276s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+SQL: SHOW COLUMNS FROM `website_link` [ RunTime:0.004017s ]
+SQL: SELECT * FROM `website_link` WHERE ( `lang` = 'ko' ) ORDER BY link_sort LIMIT 10   [ RunTime:0.000470s ]
+SQL: SELECT * FROM `website_link` WHERE ( `lang` = 'ko' ) ORDER BY link_sort  [ RunTime:0.000646s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018526s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001105s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001009s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000792s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004231s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001569s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001666s ]
+

@@ -1,0 +1,91 @@
+<include file="Public:_navheader" />
+<title>Приложения - BabyBus - всегда отличные приложения для детей</title>
+</head>
+<body>
+<!--=============navbar导航===================
+==============================================-->
+
+<include file="Public:_navbar" />
+
+
+<include file="Product:_nav" />
+<a id="product"></a>
+<div class="container product_two" >
+	<div class="row">
+		<div class="col-sm-6">
+			<ol class="breadcrumb">
+				<li>Приложения</li>
+				<li>Новинки</li>
+			</ol>
+		</div>
+		<div class="col-sm-6 pull-right">
+			
+		<div class="input-group margin-bottom10 margin-top10">     
+          <input class="form-control flexselect" type="text" id="president_flexselect" placeholder="Быстрый поиск" autocomplete="off" tabindex="2" style="visibility: visible;">
+          <span class="input-group-btn">
+            <button id="search" class="btn btn-default btn-color" type="button">Поиск</button>
+          </span>
+        </div>
+        </div>
+	</div>
+</div>
+
+
+<div class="container product_two product_list">
+	<div class="row infinitescroll" id="product_list">
+	 <volist name="data" id="val">
+	 		<div class="col-sm-4 border">
+				<div class="box">
+				
+				<img src="{:$val['app_images'] ? $val['app_images']:'__PUBLIC__/images/Public/default.gif'}" class="img-responsive imgradius" onerror="javascript:this.src='__PUBLIC__/images/Public/default.gif'"/>
+				<h1>{$val['app_name']}</h1>
+				<p class="describe"><span>{$val['intro']}</span></p>
+				<if condition="$val['is_active'] eq 0">
+					<p class="device-icon"><span><img src="__PUBLIC__/images/product/waitfor.png"></span></p>
+				<else />
+						{:show_down($val[android_url],$val[cell_android_url],$val[iphone_url],$val[ipad_url])}
+				</if>
+			</div>
+		</div>
+	 </volist>
+	</div>
+
+        <!--<a href="http://wwww.badidu.com/qq.htm?page=1"></a>-->       <!-- 此处可以是url，可以是action，要注意不是每种html都可以加，是跟当前网页有相同布局的才可以。另外一个重要的地方是page参数，这个一定要加在这里，它的作用是指出当前页面页码，没加载一次数据，page自动+1,我们可以从服务器用request拿到他然后进行后面的分页处理。-->
+       <a id="navigation" href="{:U('getMore',array('page'=>2))}"></a> 
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--=============footer页脚====================
+==============================================-->
+<div class="product_three">
+
+</div>
+
+<include file="Public:_navfooter" />
+
+
+<script src="__PUBLIC__/js/toastr.js"></script>
+<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/js/jquery.infinitescroll.min.js"></script>
+<script src="__PUBLIC__/js/public.js"></script>
+<script src="__PUBLIC__/js/function.js"></script>
+<script>
+	$(".describe").each(function (i) {
+		//超出3行 添加省略号！
+            var divH = $(this).height();
+            var $p = $("span", $(this)).eq(0);
+            while ($p.outerHeight() > divH) {
+                $p.text($p.text().replace(/(\s)*([a-zA-Z0-9]+|\W)(\.\.\.)?$/, "..."));
+            };
+        });
+</script>
+</body>
+</html>

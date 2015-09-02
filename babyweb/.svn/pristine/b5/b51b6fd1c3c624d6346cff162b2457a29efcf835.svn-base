@@ -1,0 +1,67 @@
+[ 2014-12-03T17:32:14+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.011942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029760s ]
+SQL: SHOW COLUMNS FROM `website_index_images` [ RunTime:0.049502s ]
+SQL: SELECT * FROM `website_index_images` WHERE ( lang='zh-Hans' and used=1 ) ORDER BY num asc,id asc  [ RunTime:0.025911s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\projcet\babyweb\cn\Lib\Action\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined variable: res D:\wamp\www\projcet\babyweb\cn\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.131214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131380s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010419s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.010244s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001955s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005912s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028895s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.027032s ]
+INFO: [ view_end ] --END-- [ RunTime:0.027154s ]
+
+[ 2014-12-03T17:32:17+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/product/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007409s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007571s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+SQL: SHOW COLUMNS FROM `website_apps` [ RunTime:0.090589s ]
+NOTIC: [8] Undefined index: cata_id D:\wamp\www\projcet\babyweb\cn\Lib\Action\ProductAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: search_word D:\wamp\www\projcet\babyweb\cn\Lib\Action\ProductAction.class.php 第 16 行.
+NOTIC: [8] Undefined index: cata_id D:\wamp\www\projcet\babyweb\cn\Lib\Action\ProductAction.class.php 第 22 行.
+NOTIC: [8] Undefined index: is_hot D:\wamp\www\projcet\babyweb\cn\Lib\Action\ProductAction.class.php 第 23 行.
+SQL: SELECT `id`,`ipad_id`,`iphone_id`,`cell_android_url`,`android_url`,`app_name`,`app_images`,`intro`,`myapp_url`,`myios_url` FROM `website_apps` WHERE ( `del` = 0 ) AND ( `lang` = 'zh-Hans' ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.162797s ]
+SQL: SHOW COLUMNS FROM `app_langs` [ RunTime:0.063063s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 123 or app_id = 124) )  [ RunTime:0.104764s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 1318 or app_id = 1317) )  [ RunTime:0.028976s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 1380 or app_id = 1379) )  [ RunTime:0.033614s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 5 or app_id = 20) )  [ RunTime:0.027675s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 1218 or app_id = 1217) )  [ RunTime:0.160406s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 1377 or app_id = 1376) )  [ RunTime:0.113075s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 1368 or app_id = 1367) )  [ RunTime:0.003775s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 1193 or app_id = 1192) )  [ RunTime:0.003692s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 1189 or app_id = 1190) )  [ RunTime:0.004482s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\projcet\babyweb\cn\Lib\Action\ProductAction.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.125485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125645s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002399s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001254s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000869s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005930s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001378s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001511s ]
+

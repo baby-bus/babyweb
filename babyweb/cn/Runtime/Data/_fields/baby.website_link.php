@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'id', 1 => 'lang', 2 => 'link_name', 3 => 'link_url', 4 => 'link_sort', 5 => 'lastupdatetime', '_autoinc' => true, '_pk' => 'id', '_type' => array ( 'id' => 'int(11)', 'lang' => 'varchar(10)', 'link_name' => 'varchar(50)', 'link_url' => 'varchar(255)', 'link_sort' => 'int(11)', 'lastupdatetime' => 'datetime', ), );?>

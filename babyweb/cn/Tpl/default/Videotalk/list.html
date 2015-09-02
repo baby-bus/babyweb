@@ -1,0 +1,12 @@
+<volist name='data' id='vo' >
+    <div class="col-xs-6 border">
+        <div class="box">
+            <div class="video-container">
+                <a href="{:U('video/boxvideo_detail','id='.$vo[id])}">
+                    <img src="{$vo.song_img}" onerror="javascript:this.src='__PUBLIC__/images/public/default.gif'" class="img-responsive imgradius"/>
+                </a>
+            </div>
+            <h1>{$vo.song_name}</h1>
+        </div>
+    </div>
+</volist>

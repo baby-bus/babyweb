@@ -1,0 +1,40 @@
+<div class="product_one">
+	<div class="container margin-top70">
+		<ul class="list-unstyled menu" role="tablist">
+			<li class="color_green list-clear "><a href="javascript:;" id="new_product">最新产品</a></li>			
+				
+			<li class="color_yellow list-clear dropdown">
+
+				<a id="dLabel" class="active" data-target="#" href="#" data-toggle="dropdown">
+			      	启蒙教育1-3岁
+			    <span class="caret"></span>
+			  </a>
+
+			    <ul class="list-unstyled dropdown-menu list-inline menu educate" role="menu" aria-labelledby="dLabel">
+				  	<li data-value="2"  data-label = "启蒙教育" data-title="认知篇"><a href="javascript:;">认知篇</a></li>
+				  	<li data-value="3"  data-label = "启蒙教育" data-title="游戏篇"><a href="javascript:;">游戏篇</a></li>
+				  	<li data-value="4"  data-label = "启蒙教育" data-title="儿歌篇"><a href="javascript:;">儿歌篇</a></li>
+				</ul>
+
+			</li>
+			
+			<li class="color_pink list-clear dropdown">
+
+				<a id="dLabel" data-target="#" href="#" data-toggle="dropdown" >
+			      探索教育3-6岁
+			    <span class="caret"></span>
+			  </a>
+
+			    <ul class="list-unstyled dropdown-menu probe list-inline menu educate" role="menu" aria-labelledby="dLabel">
+				  	<li data-value="7" data-label = "探索教育" data-title="百科馆"><a href="javascript:;">百科馆</a></li>
+				  	<li data-value="8" data-label = "探索教育" data-title="智力园"><a href="javascript:;">智力园</a></li>
+				  	<li data-value="9" data-label = "探索教育" data-title="艺术馆"><a href="javascript:;">艺术馆</a></li>
+				</ul>
+
+			</li>
+
+			<li class="color_purple list-clear "><a href="{:U('childsong')}">儿歌动画</a></li>			
+			<!--<li class="color_purple list-clear "><a href="{:U('fm')}">父母必备</a></li>-->			
+		</ul>
+	</div>
+</div>

@@ -1,0 +1,19 @@
+    <div class="col-xs-12"> 
+    <div class="row innerpadding">
+     <div class="col-xs-12 visible-lg">  
+     	<a id="guide"></a>
+     	<h3 class="text-left" style="text-shadow: 0 1px 0 #efefef; line-height: 60px;">안드로이드 사용자 다운받기 안내문
+     	</h3>
+     </div>     
+ 	<div class="col-xs-12 margin-top20">
+     	<div class="float-left step">STEP</div><div class="span float-left">1</div><div class="float-left content" style=" padding-right: 100px;">안드로이드 마켓을 선택한다.</div>
+     </div>
+     
+     <div class="col-xs-12 margin-top20">
+     	<div class="float-left step">STEP</div><div class="span float-left">2</div><div class="float-left content">검색창에 '베이비버스'혹은 앱명칭을 입력검색을 하여 다운로드를 받는다.</div>
+     </div>
+     <div class="col-xs-12 margin-top40">
+     	<img src="__PUBLIC__/images/download/android_1.jpg">
+     </div>
+     </div>
+   </div> 

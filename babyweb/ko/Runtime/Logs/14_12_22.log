@@ -1,0 +1,90 @@
+[ 2014-12-22T14:27:41+08:00 ] 10.1.1.228 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001638s ]
+SQL: SHOW COLUMNS FROM `website_index_images` [ RunTime:0.006021s ]
+SQL: SELECT * FROM `website_index_images` WHERE ( lang='ko' and used=1 ) ORDER BY num asc,id asc  [ RunTime:0.001084s ]
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\projcet\babyweb\ko\Lib\Action\IndexAction.class.php 第 11 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\projcet\babyweb\ko\Lib\Action\IndexAction.class.php 第 11 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\projcet\babyweb\ko\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\projcet\babyweb\ko\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\projcet\babyweb\ko\Lib\Action\IndexAction.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\ko\Runtime\Cache\f17d287d6385c8e836a566ae5c4d7731.php 第 131 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\ko\Runtime\Cache\f17d287d6385c8e836a566ae5c4d7731.php 第 145 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\ko\Runtime\Cache\f17d287d6385c8e836a566ae5c4d7731.php 第 131 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\ko\Runtime\Cache\f17d287d6385c8e836a566ae5c4d7731.php 第 145 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\ko\Runtime\Cache\f17d287d6385c8e836a566ae5c4d7731.php 第 218 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\ko\Runtime\Cache\f17d287d6385c8e836a566ae5c4d7731.php 第 218 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064576s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001762s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001037s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000588s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004880s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001807s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002220s ]
+
+[ 2014-12-22T14:27:56+08:00 ] 10.1.1.228 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+SQL: SHOW COLUMNS FROM `website_index_images` [ RunTime:0.004458s ]
+SQL: SELECT * FROM `website_index_images` WHERE ( lang='ko' and used=1 ) ORDER BY num asc,id asc  [ RunTime:0.001206s ]
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\projcet\babyweb\ko\Lib\Action\IndexAction.class.php 第 11 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\projcet\babyweb\ko\Lib\Action\IndexAction.class.php 第 11 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\projcet\babyweb\ko\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\projcet\babyweb\ko\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\projcet\babyweb\ko\Lib\Action\IndexAction.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\ko\Runtime\Cache\f17d287d6385c8e836a566ae5c4d7731.php 第 131 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\ko\Runtime\Cache\f17d287d6385c8e836a566ae5c4d7731.php 第 144 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\ko\Runtime\Cache\f17d287d6385c8e836a566ae5c4d7731.php 第 131 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\ko\Runtime\Cache\f17d287d6385c8e836a566ae5c4d7731.php 第 144 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\ko\Runtime\Cache\f17d287d6385c8e836a566ae5c4d7731.php 第 217 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\ko\Runtime\Cache\f17d287d6385c8e836a566ae5c4d7731.php 第 217 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.047499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047644s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001134s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000720s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000484s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003397s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001369s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001534s ]
+
+[ 2014-12-22T14:31:38+08:00 ] 10.1.1.228 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+SQL: SHOW COLUMNS FROM `website_index_images` [ RunTime:0.006184s ]
+SQL: SELECT * FROM `website_index_images` WHERE ( lang='ko' and used=1 ) ORDER BY num asc,id asc  [ RunTime:0.001441s ]
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\projcet\babyweb\ko\Lib\Action\IndexAction.class.php 第 11 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\projcet\babyweb\ko\Lib\Action\IndexAction.class.php 第 11 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\projcet\babyweb\ko\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\projcet\babyweb\ko\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\projcet\babyweb\ko\Lib\Action\IndexAction.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\ko\Runtime\Cache\f17d287d6385c8e836a566ae5c4d7731.php 第 131 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\ko\Runtime\Cache\f17d287d6385c8e836a566ae5c4d7731.php 第 144 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\ko\Runtime\Cache\f17d287d6385c8e836a566ae5c4d7731.php 第 131 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\ko\Runtime\Cache\f17d287d6385c8e836a566ae5c4d7731.php 第 144 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\ko\Runtime\Cache\f17d287d6385c8e836a566ae5c4d7731.php 第 217 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\ko\Runtime\Cache\f17d287d6385c8e836a566ae5c4d7731.php 第 217 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.059065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059265s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002834s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001107s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000710s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006814s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002036s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002274s ]
+

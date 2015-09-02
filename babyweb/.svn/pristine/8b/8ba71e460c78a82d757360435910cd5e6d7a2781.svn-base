@@ -1,0 +1,281 @@
+[ 2014-12-04T10:31:38+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/fr/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+SQL: SHOW COLUMNS FROM `website_index_images` [ RunTime:0.004997s ]
+SQL: SELECT * FROM `website_index_images` WHERE ( lang='fr' and used=1 ) ORDER BY num asc,id asc  [ RunTime:0.000642s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\projcet\babyweb\fr\Lib\Action\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined variable: res D:\wamp\www\projcet\babyweb\fr\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.085776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085909s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001008s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000900s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000673s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003910s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001207s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001313s ]
+
+[ 2014-12-04T10:31:41+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/fr/index.php/product/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007415s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007632s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+SQL: SHOW COLUMNS FROM `website_apps` [ RunTime:0.178371s ]
+NOTIC: [8] Undefined index: cata_id D:\wamp\www\projcet\babyweb\fr\Lib\Action\ProductAction.class.php 第 12 行.
+NOTIC: [8] Undefined index: search_word D:\wamp\www\projcet\babyweb\fr\Lib\Action\ProductAction.class.php 第 13 行.
+NOTIC: [8] Undefined index: cata_id D:\wamp\www\projcet\babyweb\fr\Lib\Action\ProductAction.class.php 第 19 行.
+NOTIC: [8] Undefined index: is_hot D:\wamp\www\projcet\babyweb\fr\Lib\Action\ProductAction.class.php 第 20 行.
+SQL: SELECT `id`,`ipad_id`,`iphone_id`,`cell_android_url`,`android_url`,`app_name`,`app_images`,`intro` FROM `website_apps` WHERE ( `del` = 0 ) AND ( `lang` = 'fr' ) ORDER BY last_top desc,id desc LIMIT 0,9   [ RunTime:0.022623s ]
+SQL: SHOW COLUMNS FROM `app_langs` [ RunTime:0.030361s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'fr' and (app_id = 1366 or app_id = 1365) )  [ RunTime:0.038270s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'fr' and (app_id = 0 or app_id = 0) )  [ RunTime:0.001058s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\projcet\babyweb\fr\Lib\Action\ProductAction.class.php 第 62 行.
+NOTIC: [8] Undefined index: ipad_url D:\wamp\www\projcet\babyweb\fr\Lib\Action\ProductAction.class.php 第 70 行.
+NOTIC: [8] Undefined index: iphone_url D:\wamp\www\projcet\babyweb\fr\Lib\Action\ProductAction.class.php 第 70 行.
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'fr' and (app_id = 1380 or app_id = 1379) )  [ RunTime:0.152993s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'fr' and (app_id = 1368 or app_id = 1367) )  [ RunTime:0.005190s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'fr' and (app_id = 1335 or app_id = 1334) )  [ RunTime:0.023318s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'fr' and (app_id = 485 or app_id = 487) )  [ RunTime:0.011200s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'fr' and (app_id = 1389 or app_id = 1388) )  [ RunTime:0.008938s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'fr' and (app_id = 1391 or app_id = 1390) )  [ RunTime:0.001775s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'fr' and (app_id = 463 or app_id = 466) )  [ RunTime:0.012381s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant android_url - assumed 'android_url' D:\wamp\www\projcet\babyweb\fr\Runtime\Cache\b55462dea5d12e85cc6d96a73f5c9d58.php 第 153 行.
+NOTIC: [8] Use of undefined constant cell_android_url - assumed 'cell_android_url' D:\wamp\www\projcet\babyweb\fr\Runtime\Cache\b55462dea5d12e85cc6d96a73f5c9d58.php 第 153 行.
+NOTIC: [8] Use of undefined constant iphone_url - assumed 'iphone_url' D:\wamp\www\projcet\babyweb\fr\Runtime\Cache\b55462dea5d12e85cc6d96a73f5c9d58.php 第 153 行.
+NOTIC: [8] Use of undefined constant ipad_url - assumed 'ipad_url' D:\wamp\www\projcet\babyweb\fr\Runtime\Cache\b55462dea5d12e85cc6d96a73f5c9d58.php 第 153 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\fr\Common\common.php 第 121 行.
+NOTIC: [8] Use of undefined constant android_url - assumed 'android_url' D:\wamp\www\projcet\babyweb\fr\Runtime\Cache\b55462dea5d12e85cc6d96a73f5c9d58.php 第 153 行.
+NOTIC: [8] Use of undefined constant cell_android_url - assumed 'cell_android_url' D:\wamp\www\projcet\babyweb\fr\Runtime\Cache\b55462dea5d12e85cc6d96a73f5c9d58.php 第 153 行.
+NOTIC: [8] Use of undefined constant iphone_url - assumed 'iphone_url' D:\wamp\www\projcet\babyweb\fr\Runtime\Cache\b55462dea5d12e85cc6d96a73f5c9d58.php 第 153 行.
+NOTIC: [8] Use of undefined constant ipad_url - assumed 'ipad_url' D:\wamp\www\projcet\babyweb\fr\Runtime\Cache\b55462dea5d12e85cc6d96a73f5c9d58.php 第 153 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\fr\Common\common.php 第 121 行.
+NOTIC: [8] Use of undefined constant android_url - assumed 'android_url' D:\wamp\www\projcet\babyweb\fr\Runtime\Cache\b55462dea5d12e85cc6d96a73f5c9d58.php 第 153 行.
+NOTIC: [8] Use of undefined constant cell_android_url - assumed 'cell_android_url' D:\wamp\www\projcet\babyweb\fr\Runtime\Cache\b55462dea5d12e85cc6d96a73f5c9d58.php 第 153 行.
+NOTIC: [8] Use of undefined constant iphone_url - assumed 'iphone_url' D:\wamp\www\projcet\babyweb\fr\Runtime\Cache\b55462dea5d12e85cc6d96a73f5c9d58.php 第 153 行.
+NOTIC: [8] Use of undefined constant ipad_url - assumed 'ipad_url' D:\wamp\www\projcet\babyweb\fr\Runtime\Cache\b55462dea5d12e85cc6d96a73f5c9d58.php 第 153 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\fr\Common\common.php 第 121 行.
+NOTIC: [8] Use of undefined constant android_url - assumed 'android_url' D:\wamp\www\projcet\babyweb\fr\Runtime\Cache\b55462dea5d12e85cc6d96a73f5c9d58.php 第 153 行.
+NOTIC: [8] Use of undefined constant cell_android_url - assumed 'cell_android_url' D:\wamp\www\projcet\babyweb\fr\Runtime\Cache\b55462dea5d12e85cc6d96a73f5c9d58.php 第 153 行.
+NOTIC: [8] Use of undefined constant iphone_url - assumed 'iphone_url' D:\wamp\www\projcet\babyweb\fr\Runtime\Cache\b55462dea5d12e85cc6d96a73f5c9d58.php 第 153 行.
+NOTIC: [8] Use of undefined constant ipad_url - assumed 'ipad_url' D:\wamp\www\projcet\babyweb\fr\Runtime\Cache\b55462dea5d12e85cc6d96a73f5c9d58.php 第 153 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\fr\Common\common.php 第 121 行.
+NOTIC: [8] Use of undefined constant android_url - assumed 'android_url' D:\wamp\www\projcet\babyweb\fr\Runtime\Cache\b55462dea5d12e85cc6d96a73f5c9d58.php 第 153 行.
+NOTIC: [8] Use of undefined constant cell_android_url - assumed 'cell_android_url' D:\wamp\www\projcet\babyweb\fr\Runtime\Cache\b55462dea5d12e85cc6d96a73f5c9d58.php 第 153 行.
+NOTIC: [8] Use of undefined constant iphone_url - assumed 'iphone_url' D:\wamp\www\projcet\babyweb\fr\Runtime\Cache\b55462dea5d12e85cc6d96a73f5c9d58.php 第 153 行.
+NOTIC: [8] Use of undefined constant ipad_url - assumed 'ipad_url' D:\wamp\www\projcet\babyweb\fr\Runtime\Cache\b55462dea5d12e85cc6d96a73f5c9d58.php 第 153 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\fr\Common\common.php 第 121 行.
+NOTIC: [8] Use of undefined constant android_url - assumed 'android_url' D:\wamp\www\projcet\babyweb\fr\Runtime\Cache\b55462dea5d12e85cc6d96a73f5c9d58.php 第 153 行.
+NOTIC: [8] Use of undefined constant cell_android_url - assumed 'cell_android_url' D:\wamp\www\projcet\babyweb\fr\Runtime\Cache\b55462dea5d12e85cc6d96a73f5c9d58.php 第 153 行.
+NOTIC: [8] Use of undefined constant iphone_url - assumed 'iphone_url' D:\wamp\www\projcet\babyweb\fr\Runtime\Cache\b55462dea5d12e85cc6d96a73f5c9d58.php 第 153 行.
+NOTIC: [8] Use of undefined constant ipad_url - assumed 'ipad_url' D:\wamp\www\projcet\babyweb\fr\Runtime\Cache\b55462dea5d12e85cc6d96a73f5c9d58.php 第 153 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\fr\Common\common.php 第 121 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027153s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001642s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001533s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001157s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005843s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001579s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001706s ]
+
+[ 2014-12-04T11:08:53+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/fr/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001618s ]
+SQL: SHOW COLUMNS FROM `website_index_images` [ RunTime:0.005477s ]
+SQL: SELECT * FROM `website_index_images` WHERE ( lang='fr' and used=1 ) ORDER BY num asc,id asc  [ RunTime:0.000675s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\projcet\babyweb\fr\Lib\Action\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined variable: res D:\wamp\www\projcet\babyweb\fr\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040756s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001249s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001202s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000762s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005060s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001786s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001944s ]
+
+[ 2014-12-04T11:08:55+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/fr/index.php/blog/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001580s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001753s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001304s ]
+SQL: SHOW COLUMNS FROM `website_blog` [ RunTime:0.073533s ]
+SQL: SELECT * FROM `website_blog` WHERE ( review=1 and lang='fr'  ) ORDER BY id desc LIMIT 0,3   [ RunTime:0.024867s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039435s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001248s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000950s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000776s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004275s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001521s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001710s ]
+
+[ 2014-12-04T11:08:58+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/fr/index.php/blog/infoMore/page/2.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001507s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001632s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+SQL: SHOW COLUMNS FROM `website_blog` [ RunTime:0.004079s ]
+SQL: SELECT * FROM `website_blog` WHERE ( review=1 and lang='fr'  ) ORDER BY id desc LIMIT 3,3   [ RunTime:0.008326s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022696s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001051s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000887s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000844s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003956s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001051s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001125s ]
+
+[ 2014-12-04T11:08:59+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/fr/index.php/download/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008813s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008956s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029696s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001203s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000978s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000911s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004452s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001354s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001479s ]
+
+[ 2014-12-04T11:09:01+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/fr/index.php/about/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002127s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002305s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040642s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001166s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001038s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000912s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004460s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003182s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003361s ]
+
+[ 2014-12-04T11:11:20+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/fr/index.php/index/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001640s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001779s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001447s ]
+SQL: SHOW COLUMNS FROM `website_index_images` [ RunTime:0.006476s ]
+SQL: SELECT * FROM `website_index_images` WHERE ( lang='fr' and used=1 ) ORDER BY num asc,id asc  [ RunTime:0.000854s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\projcet\babyweb\fr\Lib\Action\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined variable: res D:\wamp\www\projcet\babyweb\fr\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045970s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001463s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001606s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001054s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006082s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002857s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002988s ]
+
+[ 2014-12-04T11:11:21+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/fr/index.php/blog/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001749s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001880s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+SQL: SHOW COLUMNS FROM `website_blog` [ RunTime:0.003990s ]
+SQL: SELECT * FROM `website_blog` WHERE ( review=1 and lang='fr'  ) ORDER BY id desc LIMIT 0,3   [ RunTime:0.001645s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026396s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001545s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001164s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000833s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004951s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001847s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001983s ]
+
+[ 2014-12-04T11:11:24+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/fr/index.php/download/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002149s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029568s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001354s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001013s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000859s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004939s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002238s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002394s ]
+
+[ 2014-12-04T11:11:25+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/fr/index.php/about/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001439s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001578s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022937s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001050s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000916s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000891s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004757s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001335s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001446s ]
+

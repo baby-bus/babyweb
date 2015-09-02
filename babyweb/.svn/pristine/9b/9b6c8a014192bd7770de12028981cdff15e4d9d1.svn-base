@@ -1,0 +1,26 @@
+ <div class="col-xs-12"> 
+  <div class="row innerpadding">  
+   <div class="col-xs-12 margin-topa50 visible-lg">        	
+   	<h3 class="text-left" style="text-shadow: 0 1px 0 #efefef; line-height: 60px;">Pour Apple
+   	</h3>
+   </div>   
+   <div class="col-xs-12 margin-top20">
+   	<div class="float-left step">ÉTAPE</div><div class="span float-left">1</div><div class="float-left content" style="width: 100%;">Ouvrir l'Apple Store.</div>
+   </div>
+   <div class="col-xs-12 margin-top40">
+   	<img src="__PUBLIC__/images/download/ios_1.jpg">
+   </div>
+   <div class="col-xs-12 margin-top60">
+   	<div class="float-left step">ÉTAPE</div><div class="span float-left">2</div><div class="float-left content">Se connecter à son compte Apple habituel ou créer un nouveau compte.</div>
+   </div>
+   <div class="col-xs-12 margin-top40">
+   	<img src="__PUBLIC__/images/download/ios_2.jpg">
+   </div>
+   <div class="col-xs-12 margin-top60">
+   	<div class="float-left step">ÉTAPE</div><div class="span float-left">3</div><div class="float-left content">Dans la barre de recherche, taper "BabyBus" ou le nom de l'application souhaitée, puis sélectionner "Installer". Une fois le téléchargement terminé, l'icône de l'application apparaîtra automatiquement sur l'écran d'accueil.</div>
+   </div>
+   <div class="col-xs-12 margin-top40">
+   	<img src="__PUBLIC__/images/download/ios_3.jpg">
+   </div>
+   </div>
+</div>

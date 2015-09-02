@@ -1,0 +1,21 @@
+[ 2014-11-18T15:51:36+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/en/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002384s ]
+SQL: SHOW COLUMNS FROM `website_index_images` [ RunTime:0.003997s ]
+SQL: SELECT * FROM `website_index_images` WHERE ( lang='en' and used=1 ) ORDER BY num asc,id asc  [ RunTime:0.000556s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\projcet\babyweb\en\Lib\Action\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined variable: res D:\wamp\www\projcet\babyweb\en\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.048167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048401s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000857s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000759s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000649s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003495s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000962s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001083s ]
+

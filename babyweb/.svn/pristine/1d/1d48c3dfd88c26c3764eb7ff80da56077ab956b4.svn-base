@@ -1,0 +1,18 @@
+<div class="container">
+	<div class="row joinus margin-top90">
+
+        <div class="col-sm-12 downline title_icon">
+           <h2><img src="__PUBLIC__/images/Public/title_content.png" class="response_img"></h2>
+        </div>
+    </div>
+    <div class="row joinus">
+    	<div class="col-sm-6 text-center margin-top20">
+        <img class=" response_img" src="__PUBLIC__/images/joinus/map.png"></div>
+        <div class="col-sm-6 margin-top50">
+        	<p><img src="__PUBLIC__/images/Public/map.png"> 福州市仓山区金工路1号 福州海峡创意产业园9号楼3F 宝宝巴士</p>
+            <p><img src="__PUBLIC__/images/Public/email-open.png"> 邮箱: hr@babybus.com  招聘电话：18050156312</p>
+            <p><A href="http://weibo.com/sinyeebabyapp" target="_blank"><img src="__PUBLIC__/images/Public/icon_03.png"> @宝宝巴士</A></p>
+            <p><A href="http://t.qq.com/sinyeebabyapp" target="_blank"><img src="__PUBLIC__/images/Public/icon_02.png"> @宝宝巴士</A></p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,177 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+		<meta name="description" content="BabyBus focuses on meeting the educational needs of preschool children. Our apps are divided into two age groups, the Starter Series for toddlers and the Prodigy Series for children 3 year and older. It is our goal to make learning a fun task for children. We are children's best companion to knowledge and growth.">
+		<meta name="keywords" content="BabyBus,preschool,early education,childhood,cognition,toddlers,alphabet,children apps,panda,UPK,kindergarten,kids,Baby Learns Shapes">
+		<meta name="author" content="BabyBus (Fujian) Network Technology Ltd.">
+		<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="apple-touch-icon-precomposed" href="<?php echo WEB_URL;?>/favicon.png">
+		<!--[if lt IE 9]><script src="__PUBLIC__/js/respons/ie8-responsive-file-warning.js"></script><![endif]-->
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+      <script src="__PUBLIC__/js/respons/html5shiv.js"></script>
+      <script src="__PUBLIC__/js/respons/respond.min.js"></script>
+    <![endif]-->
+		<link href="__PUBLIC__/css/public.css" rel="stylesheet">
+		<title>TERMS OF SERVICE - BabyBus - Your children's best learning companion!</title>
+	</head>
+
+	<body>
+		<!--=============navbar导航===================
+==============================================-->
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="logo"><a href="<?php echo WEB_URL;?>"><img src="__PUBLIC__/images/Public/logo.png" alt="BabyBus focuses on meeting the educational needs of preschool children. We are fully mobile so children can take their favorite BabyBus characters with them anywhere they go. It's time to have the most fun learning." /></a></div>
+        </div>
+        <div class="navbar-collapse collapse navbar-right navbar-margintop">
+          <ul class="nav navbar-nav">
+            <li data-value="Index"><a href="<?php echo U('Index/index');?>">Accueil</a></li>            
+            <!--<li data-value="Product"><a href="<?php echo U('Product/index');?>">Applications</a></li>-->
+            <!--<li data-value="Join"><a href="<?php echo U('Join/index');?>">招聘</a></li>-->
+            <li data-value="Blog"><a href="<?php echo U('blog/index');?>">Blog</a></li>
+            <li data-value="Download"><a href="<?php echo U('Download/index');?>">Aide</a></li>  
+            <li data-value="About"><a href="<?php echo U('About/index');?>">A propos de BabyBus</a></li>
+			<li class="dropdown"><a href="#" class="dropdown-toggle"  data-toggle="dropdown">Français<span class="caret"></span></a>
+            	<ul class="dropdown-menu" role="menu">
+					<li><a href="http://cn.babybus.com">简体中文</a></li>
+					<li><a href="http://tw.babybus.com">繁體中文</a></li>
+					<li><a href="http://en.babybus.com">English</a></li>
+					<li><a href="http://ko.babybus.com">한국어</a></li>
+					<li><a href="http://ja.babybus.com">日本語</a></li>
+					<li><a href="http://de.babybus.com">Deutsch</a></li>
+                    <li><a href="http://ru.babybus.com">Русский</a></li>
+					<li><a href="http://pt.babybus.com">Português</a></li>
+                    
+                </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+<script>
+  $(function(){
+  	web_url = '<?php echo WEB_URL;?>';
+  	var model = '<?php echo MODULE_NAME;?>';
+  	$(".navbar-nav li").each(function(){
+  		var val = $(this).attr("data-value");
+  		if(val!="undefined"){
+  			if(model==val){
+  				$(this).addClass("active");
+  				$(this).siblings().removeClass("active");
+  			}
+  		}
+  	})
+  })
+</script>
+		<!--=============section主体内容区域===================
+==============================================-->
+		<div class="container download  margin-top90">
+			<div class="row joinus">
+				<div class="col-md-3 hidden-xs hidden-sm">
+					<div class="ist-group margin-top30"style="width: 213px;" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+						
+					
+					  <a href="declaration.shtml" class="list-group-item active">User Agreement</a>
+					  <a href="privacyPolicy.shtml" class="list-group-item">Privacy Policy</a>
+                        <?php if($count > 0): ?><a href="link.shtml" class="list-group-item">Partenariat web</a><?php endif; ?>
+					</div>
+				</div>
+
+				<div class="col-md-9 statements">
+<h3 style="color: #00BAE9;">TERMS OF SERVICE</h3>
+					<p>THIS TERMS OF SERVICE ("AGREEMENT") DESCRIBES THE TERMS AND CONDITIONS ON WHICH WE GRANT TO AN END USER (“YOU” OR “USER”) ACCESS TO BABYBUS APPS AND SERVICES ("PRODUCTS"). BY ENTERING, USING, PLAYING OR OTHERWISE ACCESSING OUR PRODUCTS, YOU AGREE TO THIS AGREEMENT (AS MAY BE AMENDED FROM TIME TO TIME). PLEASE READ THE FOLLOWING INFORMATION CAREFULLY. IF YOU DO NOT AGREE TO THE TERMS AND CONDITIONS OF THIS AGREEMENT, PROMPTLY EXIT THIS PAGE AND STOP ACCESSING THE PRODUCTS. THE PRODUCTS ARE PROTECTED UNDER INTERNATIONAL INTELLECTUAL RIGHTS. THE PRODUCTS ARE ONLY ALLOWED FOR PERSONAL USE; THEY MAY NOT, AT ANY TIME, BE USED OR DISTRIBUTED FOR COMMERCIAL USE OR ACTIVITIES.</p>
+					<p>Please read this terms of service agreement. If you do not agree to the terms and conditions stated within this agreement, you will not be provided the rights to use BabyBus products. Your use of BabyBus apps and services constitute your agreement to all such terms and conditions.BabyBus Network Technology Co., Ltd (“BabyBus”) grants you the end user rights to this application under the guidance of this agreement. You must agree to the following conditions stated by BabyBus:</p>
+					<ul>
+						<li>1.Software Protection Provisions
+							<ul >
+								<li>a) Licensing and Restrictions:
+									<p>Authorization: BabyBus authorizes users the rights to use BabyBus products: You may install this product unlimited times for non-commercial use.</p>
+									<p>Restrictions: Please note that other than explicitly stated under this agreement, BabyBus did not grant you any other rights. You may not, at any time distribute, copy, reverse engineer, decompile, or reassemble BabyBus products. Any unauthorized usage of BabyBus products in public activities for personal gains, such as distributing, reproducing or disseminating, will be viewed as an infringement, and BabyBus may take legal means to prosecute such actions.</p>
+								</li>
+								<li>
+									b) Termination: 
+									<p>If you failed to comply with any of the terms and conditions stated in this agreement, the agreement will be terminate immediately. Individual mandate: Any organization or person must receive a written consent by BabyBus before distributing, reproducing or disseminating this product, otherwise such actions will be viewed as infringement.</p>
+								</li>
+								<li>c) Intellectual Property and Business Trademark:
+									<p>
+										This agreement does not grant you the rights to use any trademark, logo or any commercial representation that reflects our commercial identity (“Logo”) owned by BabyBus. BabyBus products (including, but not limited to, images, sound, animations, written characters and software programming) and any derivative products are properties belonging to BabyBus, who possesses full ownership, intellectual property rights and copyright of these products. This agreement does not grant you the rights to these contents. 
+									</p>
+								</li>
+								<li>d) Limited Warranty, No Warranty:
+									<p>The use of this product requires internet access, and may lead to many conditions of instability, where the services may lead to vulnerability, computer viruses, hacks, operating system crashes, user location inaccuracy, device shut down or malfunctions, or any other technical issues related to software, internet connection, or telecommunication that may result in service interruption or any risks may decrease user satisfaction. User will assume all the above mentioned risks, and BabyBus hereby declares zero-fault for any of the risks users may take while accessing BabyBus products such as search, download, or message related issues; the user party will taken full risk and responsibility, and BabyBus will not compensate users for any losses, under any circumstances, as allowed by law, and herein notifying all parties of the risks involved.</p>
+									<p>No Liability for Losses: When using our products, you may be exposed to offensive, threatening, profane, evasive, violation of privacy, copyright, or illegal contents or conducts, or violation of the rights of others (including intellectual property) caused by an anonymous or known third party. User will assume all risks, and BabyBus does not make any types of guarantees or commitments, whether expressed or implied, to the authenticity, applicability and suitability of information or content, or any warranties pertaining to usage or infringement activities. Therefore, we will not take any responsibility for any direct, indirect, incidental, special or consequential liabilities due to the improper or illegal use of our products.</p>
+								</li>
+							</ul>
+						</li>
+						<li>2.User Notice
+							<p>Users are reminded under this agreement that they must comply with relevant national policies and laws guiding the use of internet, such as criminal law, national security law, privacy law, computer information system security regulations, protection of national interests and the protection of national security. Users will take full responsibility for the improper or illegal usage of the internet.</p>
+							<ul >
+								<li>a) Users must use BabyBus products and series in compliance with any and all relevant laws and regulations, and at no time should our products be used for or used in association with the sending or promoting sensitive information pertaining to illegal activities or activities that threatens national security; users may not use our product in association with sending or promoting false, harassing, abusive, threatening, provocative, vulgar, obscene or pornographic information or materials; users may not, at any time, use BabyBus products and contents for commercial purposes without a written consent by BabyBus.</li>
+								<li>b) When using our apps, we might read information (such as IP address, GPS location, network connection, device status, Wi-Fi connection and etc.) for the use of multi-language product development. The collection of information will be used for the development and functional improvements of our products to ensure user experience for both Android and iOS operating systems. Due to the uniqueness of mobile products, we ask to read Wi-Fi connectivity to prevent users from downloading updates using cellular data. We hereby declare that any information we received will be used solely for the purpose of product development and no information will be disclosed to any third person party unless we have received your consent or under government order. </li>
+								<li>c) Like other common internet software, BabyBus products are susceptible to various security issues, such as viruses from the infected software or files downloaded onto a device that threaten the security of personal information and data, and likewise, BabyBus information and data; therefore, we strongly advise users to strengthen personal data protection to prevent any inconvenience to personal activities and the normal use of our products without unnecessary disruption. </li>
+								<li>d) Children and adolescents, namely children under the age of 13, must use our products and internet service under the supervision of an adult; we strongly advise parents and guardians to monitor their children’s activities in our products, email exchanges, and other online events and activities.</li>
+								<li>e) Users must not spread unfavorable remarks or actions that reflect negatively on BabyBus’ image; ranging in severity, BabyBus may take legal actions against the person or organization responsible.</li>
+								<li>f) Users must not, at any time, use our products in association with activities that violate national laws. If discovered, BabyBus will assist the public authority in the investigation work. </li>
+							</ul >
+						</li>
+						
+						<li>3. Third Party Liabilities
+							<p>
+								Please note that BabyBus will take no responsibility for any violations of rights by other parties (including, but not limited to, intellectual property), as such, we will not take responsibility for the liabilities by any party using our products or services to deliver messages or contents.
+							</p>
+						</li>
+						
+						<li>4. Law and Guidance
+							<p>
+							This agreement complies with the highest national law, of which this agreement is guided by. When this agreement contradicts the law, this agreement will be amended in accordance to the national law, otherwise, all conditions stated in this agreement will stand and hold. 
+							</p>
+						</li>
+						
+						<li>5.Amendments
+							<p>
+								We may amend (such as update, modify, correct, or terminate) this agreement (including any additional terms and conditions applicable to any specific products and services) at any time in our sole discretion by posting the amended agreement on our website or on or within the services. The amendments must comply with the national laws and regulations, and must not produce any harm to users’ basic rights to the services. If you do not agree to the amended agreement, immediately stop accessing the products, otherwise, BabyBus has the rights to assume your acceptance to the amended agreement.
+							</p>
+						</li>
+						
+						<li>6.Effective Date
+							<p>
+								This agreement is posted on the BabyBus Website. This agreement will take effect upon your initial use of our products or services.
+							</p>
+						</li>
+						
+						<li>7.Disclaimer
+							<p>
+								BabyBus reserves the rights to the final interpretation to the terms and conditions of this agreement and it contents.
+							</p>
+						</li>
+						
+							
+					</ul>
+					<P style="text-align: right; border-top: 4px solid #efefef; padding-right: 2em;">BabyBus (Fujian) Network Technology Co., Ltd<br /> In 2011 May</P>
+
+
+
+
+
+
+				</div>
+			</div>
+
+		</div>
+		<script src="__PUBLIC__/js/jquery.min.js"></script>
+		<script src="__PUBLIC__/js/bootstrap.min.js"></script> 		
+	</body>
+
+</html>

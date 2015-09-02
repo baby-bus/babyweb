@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta name="description" content="Die BabyBus Serie besteht aus eigens für Kinder im Vorschulalter entwickelten Apps, erhältlich für iOS und Android. Das Angebot wird durchgehend erweitert und umfasst lernfördernde Spiele, Rätsel, Geschichten, Lieder und vieles mehr. ">
+<meta name="keywords" content="BabyBus,宝宝巴士,Frühpädagogik,Grundwissen,Edutainment,Vorschultalter,Panda,Spiel,lernen,Mobiles Internet">
+<meta name="author" content="BabyBus Group">
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="apple-touch-icon-precomposed" href="{:WEB_URL}/favicon.png">
+
+<!--[if lt IE 9]><script src="__PUBLIC__/js/respons/ie8-responsive-file-warning.js"></script><![endif]-->
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="__PUBLIC__/js/respons/html5shiv.js"></script>
+      <script src="__PUBLIC__/js/respons/respond.min.js"></script>
+    <![endif]-->
+<link href="__PUBLIC__/css/public.css" rel="stylesheet">
+<script src="__PUBLIC__/js/jquery.min.js"></script> 
+
+<title>Über uns-BabyBus - Apps zum Lernen und Spielen</title>
+</head>
+<body>
+<!--=============navbar导航===================
+==============================================-->
+
+<include file="Public:_navbar"/>
+
+<!--=============banner横幅广告区===================
+==============================================-->
+<div class="about padding-top70 about-banner">
+	
+		<div class="about-banner1 hidden-xs">
+			
+		</div>
+		<div class="container about-banner2 visible-xs">
+			
+		</div>
+	
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--=============section主体内容区域===================
+==============================================-->
+<div class="container download">
+	<div class="row joinus">
+    	<div class="col-sm-12 downline title_icon2">
+        	<h2><img src="__PUBLIC__/images/Public/title_about2.png" class="response_img"></h2>
+        </div>
+        <div class="col-sm-5 margin-top20">
+        	<img class="response_img slide-left" src="__PUBLIC__/images/joinus/c_photo.jpg">
+        </div>
+        <div class="col-sm-7 margin-top10">
+        <h4><strong class="font_c_blue">Was ist BabyBus?</strong></h4>
+        <P>BabyBus ist eine Serie mobiler Anwendungen, die für Kinder im Vorschulalter entwickelt wurden. In den Apps vereinen sich Unterhaltung und Bildung.</P>
+        
+        <h4 class="margin-top30"><strong class="font_c_blue">Was tun wir? </strong></h4>
+        <P>Wir haben mehr als 100 Apps als Teil der BabyBus Reihe veröffentlicht. Diese sind erhältlich für iOS und Android in 9 Sprachen (Vereinfachtes Chinesisch, Traditionelles Chinesisch, Japanisch, Englisch, Russisch, Arabisch, Französisch, Koreanisch, Deutsch). </P>
+        
+        <h4 class="margin-top30"><strong class="font_c_blue">Unser Motto</strong></h4>
+        <P>Inspirieren, nicht bloß lehren<br />
+			Entwicklung fördern, nicht bloß Wissen vermitteln<br />
+			Mit Freude lernen, nicht bloß pauken</P>
+
+        </div>
+    </div>
+    
+    <div class="row joinus margin-top30">
+    	<div class="col-sm-12 downline margin-top20 title_icon2">
+        	<h2><img src="__PUBLIC__/images/Public/title_honour2.png" class="response_img"></h2>
+        </div>
+    </div>
+    <div class="row joinus">
+    	<div class="col-sm-4 hidden-xs margin-top90"><img src="__PUBLIC__/images/joinus/Honor_bg.png" class="response_img"/></div>
+        <div class="col-sm-8 height500">
+        
+        <div id="history">
+        	
+        
+            <div class="title">
+                <div id="circle" >
+
+                </div>
+            </div>
+            
+            <div id="content">
+                <ul class="list">
+                	
+                    <li>
+                        <div class="liwrap">
+                            <div class="lileft">
+                                <div class="date">
+                                    <span class="year">2009</span>
+                                </div>
+                            </div>
+                            
+                            <div class="point"><b></b></div>
+                            
+                            <div class="liright">
+                                <div class="histt histtline"><a href="javascript:void(0)">Firmengründung</a></div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="liwrap">
+                            <div class="lileft">
+                                <div class="date">
+                                    <span class="year">2010</span>
+                                </div>
+                            </div>
+                            
+                            <div class="point"><b></b></div>
+                            
+                            <div class="liright">
+                                <div class="histt histtline"><a href="javascript:void(0)">Beginn der Aktivitäten im Bereich Mobiles Internet</a></div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="liwrap">
+                            <div class="lileft">
+                                <div class="date">
+                                    <span class="year">2011</span>
+                                </div>
+                            </div>
+                            
+                            <div class="point"><b></b></div>
+                            
+                            <div class="liright">
+                                <div class="histt"><a href="javascript:void(0)">Die BabyBus Serie erscheint. Die ersten Apps schaffen es im App Store in die Top 10 in der Kategorie Bildung</a></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="liwrap">
+                            <div class="lileft">
+                                <div class="date">
+                                    <span class="year">2012</span>
+                                </div>
+                            </div>
+                            
+                            <div class="point"><b></b></div>
+                            
+                            <div class="liright">
+                                <div class="histt"><a href="javascript:void(0)">10 Millionen User! BabyBus schafft es in die Liste der 100 vielversprechendsten Entwickler bei den CVAwards</a></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="liwrap">
+                            <div class="lileft">
+                                <div class="date">
+                                    <span class="year">2013</span>
+                                </div>
+                            </div>
+                            
+                            <div class="point"><b></b></div>
+                            
+                            <div class="liright">
+                                <div class="histt"><a href="javascript:void(0)">BabyBus erhält 1 Million USD Finanzierung von Shunwei</a></div>
+                            </div>
+                        </div>
+                    </li>
+              		  <li>
+                        <div class="liwrap">
+                            <div class="lileft">
+                                <div class="date">
+                                    <span class="year">2014</span>
+                                </div>
+                            </div>
+                            
+                            <div class="point"><b></b></div>
+                            
+                            <div class="liright">
+                                <div class="histt"><a href="javascript:void(0)">BabyBus wird zu Chinas siebtgrößtem App-Entwickler, außerhalb der “Spiele” Kategorie</a></div>
+                            </div>
+                        </div>
+                    </li>
+
+                    
+                </ul>
+            </div>
+        </div>
+        </div> 
+		
+
+    </div>
+    
+</div>
+
+
+
+
+<include file="Public:_navcontact" />
+
+
+
+
+<!--=============footer页脚====================
+==============================================-->
+<div class="product_three">
+
+</div>
+<include file="Public:_navfooter" />
+
+
+<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/js/public.js"></script>
+<script src="__PUBLIC__/js/function.js"></script>
+</body>
+</html>

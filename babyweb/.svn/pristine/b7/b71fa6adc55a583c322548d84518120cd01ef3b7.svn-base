@@ -1,0 +1,18 @@
+<div class="container">
+	<div class="row joinus margin-top90">
+
+        <div class="col-sm-12 downline title_icon">
+           <h2><img src="__PUBLIC__/images/Public/title_content.png" class="response_img"></h2>
+        </div>
+    </div>
+    <div class="row joinus">
+    	<div class="col-sm-6 text-center margin-top20">
+        <img class=" response_img" src="__PUBLIC__/images/joinus/map.png"></div>
+        <div class="col-sm-6 joinus-p margin-top60">
+        	<p class="p1">Fuzhou Cross-Strait Creative Garden Building 9#3F</p>     
+            <p class="p4"><A href="https://www.facebook.com/babybusen" target="_blank">Facebook</A></p>
+            <p class="p5"><A href="https://twitter.com/BabyBusGood" target="_blank">Twitter</A></p>
+            <p class="p3">E-mail: ser@babybus.com</p>
+        </div>
+    </div>
+</div>

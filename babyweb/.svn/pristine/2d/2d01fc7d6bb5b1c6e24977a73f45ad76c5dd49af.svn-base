@@ -1,0 +1,1286 @@
+[ 2014-11-24T08:38:22+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `website_index_images` [ RunTime:0.014374s ]
+SQL: SELECT * FROM `website_index_images` WHERE ( lang='zh-Hans' and used=1 ) ORDER BY num asc,id asc  [ RunTime:0.001221s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\projcet\babyweb\cn\Lib\Action\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined variable: res D:\wamp\www\projcet\babyweb\cn\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.050854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051017s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000715s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000539s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000322s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002847s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000709s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2014-11-24T08:38:24+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001080s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001257s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.015957s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000562s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 179 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 192 行.
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 218 行.
+NOTIC: [8] Use of undefined constant job_name - assumed 'job_name' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant job_name - assumed 'job_name' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 308 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 309 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030506s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000563s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000389s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000243s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002106s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000808s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2014-11-24T08:40:06+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/save
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001096s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001259s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+NOTIC: [8] Undefined index: error D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant upload_url - assumed 'upload_url' D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `website_resume` [ RunTime:0.071800s ]
+NOTIC: [8] Undefined variable: file_path D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 64 行.
+SQL: INSERT INTO `website_resume` (`job_class_id`,`job_id`,`lang`,`file_path`,`uploadtime`) VALUES (4,7,'zh-Hans','http://localhost/projcet/babyweb/htdocs/cn/',1416789603) [ RunTime:0.060384s ]
+NOTIC: [8] Undefined variable: file_path D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 70 行.
+
+[ 2014-11-24T08:41:06+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/save
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001079s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001229s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+NOTIC: [8] Undefined index: error D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant upload_url - assumed 'upload_url' D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `website_resume` [ RunTime:0.002890s ]
+NOTIC: [8] Undefined variable: file_path D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 64 行.
+SQL: INSERT INTO `website_resume` (`job_class_id`,`job_id`,`lang`,`file_path`,`uploadtime`) VALUES (4,7,'zh-Hans','http://localhost/projcet/babyweb/htdocs/cn/',1416789664) [ RunTime:0.045839s ]
+NOTIC: [8] Undefined variable: file_path D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 70 行.
+
+[ 2014-11-24T08:42:18+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/save
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001287s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001467s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+NOTIC: [8] Undefined index: error D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant upload_url - assumed 'upload_url' D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant upload_url - assumed 'upload_url' D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `website_resume` [ RunTime:0.004900s ]
+SQL: INSERT INTO `website_resume` (`job_class_id`,`job_id`,`lang`,`file_path`,`uploadtime`) VALUES (4,7,'zh-Hans','http://localhost/projcet/babyweb/htdocs/cn/Public/Uploads/job_upload/20141124084216.zip',1416789736) [ RunTime:0.272711s ]
+NOTIC: [8192] Function set_magic_quotes_runtime() is deprecated D:\wamp\www\projcet\babyweb\ThinkPHP\Extend\Library\ORG\Mail\phpmailer.class.php 第 1471 行.
+NOTIC: [8192] Function set_magic_quotes_runtime() is deprecated D:\wamp\www\projcet\babyweb\ThinkPHP\Extend\Library\ORG\Mail\phpmailer.class.php 第 1475 行.
+
+[ 2014-11-24T08:47:55+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000929s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.003139s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000394s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 179 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 192 行.
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 218 行.
+NOTIC: [8] Use of undefined constant job_name - assumed 'job_name' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant job_name - assumed 'job_name' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 308 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 309 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037550s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000626s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000459s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000330s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002296s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000601s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2014-11-24T08:48:10+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/save
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001062s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001251s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+NOTIC: [8] Undefined index: error D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant upload_url - assumed 'upload_url' D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 45 行.
+
+[ 2014-11-24T08:48:40+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002237s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002438s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002309s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.003385s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000868s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 179 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 192 行.
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 218 行.
+NOTIC: [8] Use of undefined constant job_name - assumed 'job_name' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant job_name - assumed 'job_name' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 308 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 309 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035085s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001616s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001354s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001184s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006033s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001901s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002039s ]
+
+[ 2014-11-24T08:48:49+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/save
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001177s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+NOTIC: [8] Undefined index: error D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant upload_url - assumed 'upload_url' D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 45 行.
+
+[ 2014-11-24T08:49:34+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001225s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001402s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.004014s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000861s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 179 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 192 行.
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 218 行.
+NOTIC: [8] Use of undefined constant job_name - assumed 'job_name' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant job_name - assumed 'job_name' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 308 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 309 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030034s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000856s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000727s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000571s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000751s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003237s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000986s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001123s ]
+
+[ 2014-11-24T08:49:46+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/save
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001318s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001505s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+NOTIC: [8] Undefined index: error D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant upload_url - assumed 'upload_url' D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `website_resume` [ RunTime:0.004694s ]
+SQL: INSERT INTO `website_resume` (`job_class_id`,`job_id`,`lang`,`file_path`,`uploadtime`) VALUES (4,7,'zh-Hans','http://localhost/projcet/babyweb/htdocs/cn/Public/Uploads/job_upload/547280a77160b.rar',1416790183) [ RunTime:0.051255s ]
+NOTIC: [8192] Function set_magic_quotes_runtime() is deprecated D:\wamp\www\projcet\babyweb\ThinkPHP\Extend\Library\ORG\Mail\phpmailer.class.php 第 1471 行.
+NOTIC: [2] file_get_contents(/Public/Uploads/job_upload/547280a77160b.rar) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\wamp\www\projcet\babyweb\ThinkPHP\Extend\Library\ORG\Mail\phpmailer.class.php 第 1473 行.
+NOTIC: [8192] Function set_magic_quotes_runtime() is deprecated D:\wamp\www\projcet\babyweb\ThinkPHP\Extend\Library\ORG\Mail\phpmailer.class.php 第 1475 行.
+
+[ 2014-11-24T09:52:56+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001624s ]
+SQL: SHOW COLUMNS FROM `website_index_images` [ RunTime:0.004761s ]
+SQL: SELECT * FROM `website_index_images` WHERE ( lang='zh-Hans' and used=1 ) ORDER BY num asc,id asc  [ RunTime:0.000546s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\projcet\babyweb\cn\Lib\Action\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined variable: res D:\wamp\www\projcet\babyweb\cn\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042406s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000714s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000499s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000407s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000701s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002634s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000748s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2014-11-24T09:52:57+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002330s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002752s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001607s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.003529s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000513s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 179 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 192 行.
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 218 行.
+NOTIC: [8] Use of undefined constant job_name - assumed 'job_name' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant job_name - assumed 'job_name' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 308 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 309 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030689s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000837s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000679s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000401s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002933s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001195s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001326s ]
+
+[ 2014-11-24T09:53:06+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/save
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001209s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001387s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+NOTIC: [8] Undefined index: error D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant upload_url - assumed 'upload_url' D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant upload_url - assumed 'upload_url' D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `website_resume` [ RunTime:0.002896s ]
+SQL: INSERT INTO `website_resume` (`job_class_id`,`job_id`,`lang`,`file_path`,`uploadtime`) VALUES (4,7,'zh-Hans','http://localhost/projcet/babyweb/htdocs/cn/Public/Uploads/job_upload/20141124095304.zip',1416793984) [ RunTime:0.054256s ]
+NOTIC: [8192] Function set_magic_quotes_runtime() is deprecated D:\wamp\www\projcet\babyweb\ThinkPHP\Extend\Library\ORG\Mail\phpmailer.class.php 第 1471 行.
+NOTIC: [8192] Function set_magic_quotes_runtime() is deprecated D:\wamp\www\projcet\babyweb\ThinkPHP\Extend\Library\ORG\Mail\phpmailer.class.php 第 1475 行.
+
+[ 2014-11-24T10:55:12+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+SQL: SHOW COLUMNS FROM `website_index_images` [ RunTime:0.003566s ]
+SQL: SELECT * FROM `website_index_images` WHERE ( lang='zh-Hans' and used=1 ) ORDER BY num asc,id asc  [ RunTime:0.000513s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\projcet\babyweb\cn\Lib\Action\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined variable: res D:\wamp\www\projcet\babyweb\cn\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039555s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001184s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000723s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000499s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003541s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000769s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2014-11-24T10:55:14+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001406s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001625s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.003716s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000767s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 179 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 192 行.
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 218 行.
+NOTIC: [8] Use of undefined constant job_name - assumed 'job_name' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant job_name - assumed 'job_name' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 308 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 309 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038188s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001546s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000941s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000630s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004783s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000889s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2014-11-24T10:55:28+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/save
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001452s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001651s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+NOTIC: [8] Undefined index: error D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant upload_url - assumed 'upload_url' D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant upload_url - assumed 'upload_url' D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `website_resume` [ RunTime:0.004712s ]
+SQL: INSERT INTO `website_resume` (`job_class_id`,`job_id`,`lang`,`file_path`,`uploadtime`) VALUES (4,7,'zh-Hans','http://localhost/projcet/babyweb/htdocs/cn/Public/Uploads/job_upload/20141124105526.zip',1416797726) [ RunTime:0.117388s ]
+NOTIC: [8192] Function set_magic_quotes_runtime() is deprecated D:\wamp\www\projcet\babyweb\ThinkPHP\Extend\Library\ORG\Mail\phpmailer.class.php 第 1471 行.
+NOTIC: [8192] Function set_magic_quotes_runtime() is deprecated D:\wamp\www\projcet\babyweb\ThinkPHP\Extend\Library\ORG\Mail\phpmailer.class.php 第 1475 行.
+
+[ 2014-11-24T13:52:27+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001609s ]
+SQL: SHOW COLUMNS FROM `website_index_images` [ RunTime:0.003864s ]
+SQL: SELECT * FROM `website_index_images` WHERE ( lang='zh-Hans' and used=1 ) ORDER BY num asc,id asc  [ RunTime:0.000701s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\projcet\babyweb\cn\Lib\Action\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined variable: res D:\wamp\www\projcet\babyweb\cn\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038334s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000789s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000741s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000522s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003171s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001071s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001206s ]
+
+[ 2014-11-24T14:16:45+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002300s ]
+SQL: SHOW COLUMNS FROM `website_index_images` [ RunTime:0.003361s ]
+SQL: SELECT * FROM `website_index_images` WHERE ( lang='zh-Hans' and used=1 ) ORDER BY num asc,id asc  [ RunTime:0.000651s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\projcet\babyweb\cn\Lib\Action\IndexAction.class.php 第 9 行.
+NOTIC: [8] Undefined variable: res D:\wamp\www\projcet\babyweb\cn\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041555s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001321s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001041s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000512s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000798s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004214s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000816s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000924s ]
+
+[ 2014-11-24T14:16:47+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001118s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001284s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.002865s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000479s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 179 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 192 行.
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 218 行.
+NOTIC: [8] Use of undefined constant job_name - assumed 'job_name' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant job_name - assumed 'job_name' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 308 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 309 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031850s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001056s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000692s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000440s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000842s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003346s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001178s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001346s ]
+
+[ 2014-11-24T15:01:43+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001580s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001862s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.002801s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000514s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 179 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 192 行.
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 218 行.
+NOTIC: [8] Use of undefined constant job_name - assumed 'job_name' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant job_name - assumed 'job_name' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 308 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 309 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030990s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001433s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000807s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000552s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004265s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001284s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001463s ]
+
+[ 2014-11-24T15:03:09+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001386s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001538s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.003784s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000731s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 179 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 192 行.
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 218 行.
+NOTIC: [8] Use of undefined constant job_name - assumed 'job_name' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant job_name - assumed 'job_name' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 308 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 309 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030405s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000744s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000946s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000902s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000996s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003991s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000876s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2014-11-24T15:03:23+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001784s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001944s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.002849s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000444s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 179 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 192 行.
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 218 行.
+NOTIC: [8] Use of undefined constant job_name - assumed 'job_name' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant job_name - assumed 'job_name' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 308 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 309 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030099s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001398s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001089s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000732s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000828s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004557s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000827s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2014-11-24T15:04:06+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001059s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.003169s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000527s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 179 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 192 行.
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 218 行.
+NOTIC: [8] Use of undefined constant job_name - assumed 'job_name' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant job_name - assumed 'job_name' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 308 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 309 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028558s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000812s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000649s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000465s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002964s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000842s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2014-11-24T15:12:39+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001313s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001469s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.003606s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000527s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 179 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 192 行.
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 218 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 308 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 309 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031723s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000928s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000689s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000478s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003232s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000816s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000924s ]
+
+[ 2014-11-24T15:23:05+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001581s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001789s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.003504s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000473s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 179 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 192 行.
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 218 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 308 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 309 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031828s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001271s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000894s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000481s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003971s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000921s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001069s ]
+
+[ 2014-11-24T15:23:13+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001352s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001517s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.003181s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000877s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 179 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 192 行.
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 218 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 302 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 308 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 309 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037050s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000887s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000674s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000507s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003273s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000836s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2014-11-24T15:23:30+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001007s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001162s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.003608s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000862s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 182 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 195 行.
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 221 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 311 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 312 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030472s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000823s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000709s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000480s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003591s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000974s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001111s ]
+
+[ 2014-11-24T15:24:00+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002306s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.003481s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000419s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 182 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 195 行.
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 221 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 311 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 312 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030316s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000782s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000633s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000504s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002966s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000866s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2014-11-24T15:24:56+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001080s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001275s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.004543s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000538s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 182 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 195 行.
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 221 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 311 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 312 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045463s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001025s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001077s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000583s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003858s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000945s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2014-11-24T15:26:19+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001226s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001401s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.004220s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000753s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 182 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 195 行.
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 221 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 311 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 312 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038268s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002080s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001191s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000785s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005799s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001331s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001478s ]
+
+[ 2014-11-24T15:27:38+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001647s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001928s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.004521s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000622s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 182 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 195 行.
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 221 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 311 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 312 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035165s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001947s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001849s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001251s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007564s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003129s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003388s ]
+
+[ 2014-11-24T15:28:07+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001499s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001703s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.003081s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000681s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 182 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 195 行.
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 221 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 311 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 312 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028412s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000994s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000691s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000540s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000873s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003449s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000846s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2014-11-24T15:28:19+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/save
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001386s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001559s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+NOTIC: [8] Undefined index: error D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant upload_url - assumed 'upload_url' D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant upload_url - assumed 'upload_url' D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `website_resume` [ RunTime:0.003380s ]
+SQL: INSERT INTO `website_resume` (`job_class_id`,`job_id`,`lang`,`file_path`,`uploadtime`) VALUES (1,2,'zh-Hans','http://localhost/projcet/babyweb/htdocs/cn/Public/Uploads/job_upload/20141124152817.zip',1416814097) [ RunTime:0.106856s ]
+NOTIC: [8192] Function set_magic_quotes_runtime() is deprecated D:\wamp\www\projcet\babyweb\ThinkPHP\Extend\Library\ORG\Mail\phpmailer.class.php 第 1471 行.
+NOTIC: [8192] Function set_magic_quotes_runtime() is deprecated D:\wamp\www\projcet\babyweb\ThinkPHP\Extend\Library\ORG\Mail\phpmailer.class.php 第 1475 行.
+
+[ 2014-11-24T15:28:34+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/save
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001721s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002002s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001781s ]
+NOTIC: [8] Undefined index: error D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant upload_url - assumed 'upload_url' D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant upload_url - assumed 'upload_url' D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `website_resume` [ RunTime:0.007456s ]
+SQL: INSERT INTO `website_resume` (`job_class_id`,`job_id`,`lang`,`file_path`,`uploadtime`) VALUES (1,8,'zh-Hans','http://localhost/projcet/babyweb/htdocs/cn/Public/Uploads/job_upload/20141124152833.zip',1416814113) [ RunTime:0.090433s ]
+NOTIC: [8192] Function set_magic_quotes_runtime() is deprecated D:\wamp\www\projcet\babyweb\ThinkPHP\Extend\Library\ORG\Mail\phpmailer.class.php 第 1471 行.
+NOTIC: [8192] Function set_magic_quotes_runtime() is deprecated D:\wamp\www\projcet\babyweb\ThinkPHP\Extend\Library\ORG\Mail\phpmailer.class.php 第 1475 行.
+
+[ 2014-11-24T15:28:58+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/save
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001742s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002029s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001707s ]
+NOTIC: [8] Undefined index: error D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant upload_url - assumed 'upload_url' D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant upload_url - assumed 'upload_url' D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `website_resume` [ RunTime:0.003668s ]
+SQL: INSERT INTO `website_resume` (`job_class_id`,`job_id`,`lang`,`file_path`,`uploadtime`) VALUES (1,7,'zh-Hans','http://localhost/projcet/babyweb/htdocs/cn/Public/Uploads/job_upload/20141124152856.zip',1416814136) [ RunTime:0.098021s ]
+NOTIC: [8192] Function set_magic_quotes_runtime() is deprecated D:\wamp\www\projcet\babyweb\ThinkPHP\Extend\Library\ORG\Mail\phpmailer.class.php 第 1471 行.
+NOTIC: [8192] Function set_magic_quotes_runtime() is deprecated D:\wamp\www\projcet\babyweb\ThinkPHP\Extend\Library\ORG\Mail\phpmailer.class.php 第 1475 行.
+
+[ 2014-11-24T15:29:33+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001255s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001491s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002396s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.003491s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000625s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 182 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 195 行.
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 221 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 311 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 312 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042642s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001183s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000695s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001085s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005737s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001869s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002172s ]
+
+[ 2014-11-24T15:30:51+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001690s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001956s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.003376s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000656s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 182 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 195 行.
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 221 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Uninitialized string offset: 1 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Uninitialized string offset: 4 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Uninitialized string offset: 1 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 311 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 312 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.057424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057605s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001003s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000831s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001133s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004372s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000871s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000995s ]
+
+[ 2014-11-24T15:31:21+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001948s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002221s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001559s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.004010s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000504s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 182 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 195 行.
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 221 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 311 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 312 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043222s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001203s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001146s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000950s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005196s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000935s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2014-11-24T15:34:07+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001156s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001315s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001672s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.003583s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000658s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 182 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 195 行.
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 221 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 311 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 312 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030832s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000977s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000686s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000685s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003631s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000838s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2014-11-24T15:35:11+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001909s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002195s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001609s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.002923s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000477s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 182 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 195 行.
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 221 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037660s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001518s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001301s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000827s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005863s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001711s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001943s ]
+
+[ 2014-11-24T15:35:25+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001153s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.003068s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000613s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 20 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032129s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000968s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000682s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000515s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003340s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000817s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000934s ]
+
+[ 2014-11-24T15:35:27+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001313s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001635s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.002987s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000875s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 20 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029162s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000763s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000630s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000528s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002967s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000759s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2014-11-24T15:36:53+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001091s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001258s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.002938s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000570s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 182 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 195 行.
+NOTIC: [8] Undefined offset: 4 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 208 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028796s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000899s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000665s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000549s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003277s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000811s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2014-11-24T15:37:03+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001919s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002212s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001635s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.003094s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000884s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 182 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 195 行.
+NOTIC: [8] Undefined offset: 4 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 208 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033225s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000915s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001047s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001017s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005100s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001319s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001494s ]
+
+[ 2014-11-24T15:37:03+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002062s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002356s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.004346s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 182 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 195 行.
+NOTIC: [8] Undefined offset: 4 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 208 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042312s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001369s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000857s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000653s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005021s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001833s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002098s ]
+
+[ 2014-11-24T15:37:04+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001715s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002013s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001410s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.004540s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000986s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 182 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 195 行.
+NOTIC: [8] Undefined offset: 4 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 208 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.044668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044927s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001353s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001073s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000826s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004955s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001194s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001387s ]
+
+[ 2014-11-24T15:37:04+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002202s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002561s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001617s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.003188s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.000740s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 182 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 195 行.
+NOTIC: [8] Undefined offset: 4 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 208 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.050963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051166s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001252s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001252s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000796s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005048s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001328s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001550s ]
+
+[ 2014-11-24T15:37:05+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002345s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002744s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.005243s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.001378s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 182 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 195 行.
+NOTIC: [8] Undefined offset: 4 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 208 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 305 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.050004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050545s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002040s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001598s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001124s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007391s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003991s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004281s ]
+
+[ 2014-11-24T15:37:21+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/save
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002267s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002484s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+NOTIC: [8] Undefined index: error D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant upload_url - assumed 'upload_url' D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant upload_url - assumed 'upload_url' D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `website_resume` [ RunTime:0.002701s ]
+SQL: INSERT INTO `website_resume` (`job_class_id`,`job_id`,`lang`,`file_path`,`uploadtime`) VALUES (1,9,'zh-Hans','http://localhost/projcet/babyweb/htdocs/cn/Public/Uploads/job_upload/20141124153719.zip',1416814639) [ RunTime:0.068375s ]
+NOTIC: [8192] Function set_magic_quotes_runtime() is deprecated D:\wamp\www\projcet\babyweb\ThinkPHP\Extend\Library\ORG\Mail\phpmailer.class.php 第 1471 行.
+NOTIC: [8192] Function set_magic_quotes_runtime() is deprecated D:\wamp\www\projcet\babyweb\ThinkPHP\Extend\Library\ORG\Mail\phpmailer.class.php 第 1475 行.
+
+[ 2014-11-24T15:37:32+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/save
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000933s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+NOTIC: [8] Undefined index: error D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant upload_url - assumed 'upload_url' D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant upload_url - assumed 'upload_url' D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `website_resume` [ RunTime:0.003309s ]
+SQL: INSERT INTO `website_resume` (`job_class_id`,`job_id`,`lang`,`file_path`,`uploadtime`) VALUES (1,10,'zh-Hans','http://localhost/projcet/babyweb/htdocs/cn/Public/Uploads/job_upload/20141124153732.zip',1416814652) [ RunTime:0.103550s ]
+NOTIC: [8192] Function set_magic_quotes_runtime() is deprecated D:\wamp\www\projcet\babyweb\ThinkPHP\Extend\Library\ORG\Mail\phpmailer.class.php 第 1471 行.
+NOTIC: [8192] Function set_magic_quotes_runtime() is deprecated D:\wamp\www\projcet\babyweb\ThinkPHP\Extend\Library\ORG\Mail\phpmailer.class.php 第 1475 行.
+
+[ 2014-11-24T15:37:47+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/save
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001136s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001307s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+NOTIC: [8] Undefined index: error D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant upload_url - assumed 'upload_url' D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant upload_url - assumed 'upload_url' D:\wamp\www\projcet\babyweb\cn\Lib\Action\JoinAction.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `website_resume` [ RunTime:0.005060s ]
+SQL: INSERT INTO `website_resume` (`job_class_id`,`job_id`,`lang`,`file_path`,`uploadtime`) VALUES (5,11,'zh-Hans','http://localhost/projcet/babyweb/htdocs/cn/Public/Uploads/job_upload/20141124153747.zip',1416814667) [ RunTime:0.096283s ]
+NOTIC: [8192] Function set_magic_quotes_runtime() is deprecated D:\wamp\www\projcet\babyweb\ThinkPHP\Extend\Library\ORG\Mail\phpmailer.class.php 第 1471 行.
+NOTIC: [8192] Function set_magic_quotes_runtime() is deprecated D:\wamp\www\projcet\babyweb\ThinkPHP\Extend\Library\ORG\Mail\phpmailer.class.php 第 1475 行.
+

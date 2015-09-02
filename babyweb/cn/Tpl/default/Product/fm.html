@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta name="description" content="结合不同年龄阶段的早教重点设计了启蒙站和探索站两个系列，通过寓教于乐的方式达到启蒙益智的目的。完善的知识体系框架，全方面培养宝宝能力，打造宝宝成长好伙伴。">
+<meta name="keywords" content="宝宝巴士,宝贝巴士,BabyBus,在线教育,宝宝学数字,宝宝学ABC,儿童软件,儿童应用,移动早教,熊猫,早教,幼教,宝宝学形状">
+<meta name="author" content="宝宝巴士（福建）网络科技有限公司">
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+<link href="__PUBLIC__/css/toastr.css" rel="stylesheet">
+<link rel="apple-touch-icon-precomposed" href="{:WEB_URL}/favicon.png">
+<!--[if lt IE 9]><script src="__PUBLIC__/js/respons/ie8-responsive-file-warning.js"></script><![endif]-->
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="__PUBLIC__/js/respons/html5shiv.js"></script>
+      <script src="__PUBLIC__/js/respons/respond.min.js"></script>
+    <![endif]-->
+<link href="__PUBLIC__/css/public.css" rel="stylesheet">
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<title>父母必备 - 宝宝巴士 快乐童年 - 启蒙教育第一品牌</title>
+</head>
+<body>
+<!--=============navbar导航===================
+==============================================-->
+
+<include file="Public:_navbar" />
+<div class="product_one">
+	<div class="container margin-top70">
+		<ul class="list-unstyled menu" role="tablist">
+			<li class="color_green list-clear "><a href="{:U('index')}" id="new_product">最新产品</a></li>			
+				
+			<li class="color_yellow list-clear dropdown">
+
+				<a id="dLabel" class="active" data-target="#" href="#" data-toggle="dropdown">
+			      	启蒙教育1-3岁
+			    <span class="caret"></span>
+			  </a>
+
+			    <ul class="list-unstyled dropdown-menu list-inline menu educate" role="menu" aria-labelledby="dLabel">
+				  	<li data-value="2"  data-label = "启蒙教育" data-title="认知篇"><a href="{:U('index',array('cata_id'=>2))}">认知篇</a></li>
+				  	<li data-value="3"  data-label = "启蒙教育" data-title="游戏篇"><a href="{:U('index',array('cata_id'=>3))}">游戏篇</a></li>
+				  	<li data-value="4"  data-label = "启蒙教育" data-title="儿歌篇"><a href="{:U('index',array('cata_id'=>4))}">儿歌篇</a></li>
+				</ul>
+
+			</li>
+			
+			<li class="color_pink list-clear dropdown">
+
+				<a id="dLabel" data-target="#" href="#" data-toggle="dropdown" >
+			      探索教育3-6岁
+			    <span class="caret"></span>
+			  </a>
+
+			    <ul class="list-unstyled dropdown-menu probe list-inline menu educate" role="menu" aria-labelledby="dLabel">
+				  	<li data-value="7" data-label = "探索教育" data-title="百科馆"><a href="{:U('index',array('cata_id'=>7))}">百科馆</a></li>
+				  	<li data-value="8" data-label = "探索教育" data-title="智力园"><a href="{:U('index',array('cata_id'=>8))}">智力园</a></li>
+				  	<li data-value="9" data-label = "探索教育" data-title="艺术馆"><a href="{:U('index',array('cata_id'=>9))}">艺术馆</a></li>
+				</ul>
+
+			</li>
+
+			<li class="color_purple list-clear "><a href="{:U('fm')}">父母必备</a></li>			
+		</ul>
+	</div>
+</div>
+<a id="product"></a>
+
+<div class="product_two_fm">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-5">
+				<img src="__PUBLIC__/images/product/fm_1.png" class="img-responsive"  />
+			</div>
+			<div class="col-sm-7">
+				<img src="__PUBLIC__/images/product/fm_2.png" class="img-responsive margin-top90"  />
+				<ul class="list-unstyled list-inline ul">
+					{:show_parent_down()}
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+		<div class="row product_two_line">
+		<div class="col-sm-6">
+				<img class="img-responsive margin-top90" src="__PUBLIC__/images/product/fm_3.png"/>
+			</div>
+			<div class="col-sm-6">
+				<img class="img-responsive" src="__PUBLIC__/images/product/fm_4.png"/>
+			</div>
+		</div>
+		
+		<div class="row product_two_line">
+			<div class="col-sm-6">
+				<img class="img-responsive margin-top160" src="__PUBLIC__/images/product/fm_5.png" />
+			</div>
+			<div class="col-sm-6">
+				<img class="img-responsive margin-top250" src="__PUBLIC__/images/product/fm_6.png"/>
+			</div>
+		</div>
+		
+		<div class="row product_two_line2">
+			<div class="col-sm-6">
+				<img class="img-responsive margin-top250"  src="__PUBLIC__/images/product/fm_7.png"/>
+			</div>
+			<div class="col-sm-6">
+				<img class="img-responsive margin-top160"  src="__PUBLIC__/images/product/fm_8.png"/>
+			</div>
+		</div>
+
+	</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--=============footer页脚====================
+==============================================-->
+
+	
+
+<div class="product_three">
+
+</div>
+<include file="Public:_navfooter" />
+
+
+
+
+
+
+
+
+<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/js/jquery.infinitescroll.min.js"></script>
+<script src="__PUBLIC__/js/toastr.js"></script>
+<script src="__PUBLIC__/js/public.js"></script>
+<script src="__PUBLIC__/js/function.js"></script>
+<script>
+	 $(document).ready(function (){               
+		 $('html,body').animate({scrollTop:$("#product").offset().top-50});  
+	 }); 
+</script>
+</body>
+</html>

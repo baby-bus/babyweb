@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta name="description" content="寶寶巴士結合不同年齡階段的早教重點設計了啟蒙站和探索站兩個系列，通過寓教於樂的方式達到啟蒙益智的目的。完善的知識體系框架，全方面培養寶寶能力，打造寶寶成長好夥伴。">
+<meta name="keywords" content="寶寶巴士,寶貝巴士,BabyBus,啟蒙,啟蒙教育,線上教育,寶寶學數字,寶寶學ABC,兒童軟體,兒童應用,移動早教,貓熊,早教,幼教,寶寶學形狀">
+<meta name="author" content="寶寶巴士（福建）網路科技有限公司">
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+<link href="__PUBLIC__/css/toastr.css" rel="stylesheet">
+<link rel="apple-touch-icon-precomposed" href="{:WEB_URL}/favicon.png">
+<!--[if lt IE 9]><script src="__PUBLIC__/js/respons/ie8-responsive-file-warning.js"></script><![endif]-->
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="__PUBLIC__/js/respons/html5shiv.js"></script>
+      <script src="__PUBLIC__/js/respons/respond.min.js"></script>
+    <![endif]-->
+<link href="__PUBLIC__/css/public.css" rel="stylesheet">
+<script src="__PUBLIC__/js/jquery.min.js"></script> 

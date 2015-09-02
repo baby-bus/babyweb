@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+		<meta name="description" content="Na BabyBus nos especializamos na produção e desenvolvimento de produtos educativos para crianças em idade pré-escolar, estamos criando nas plataformas portáteis, uma imagem de marca de animação de renome, e permitindo que a cultura tradicional da China em harmonia com elementos das diferentes culturas internacionais, chegue à esfera de influência da China bem como ao resto do mundo.">
+		<meta name="keywords" content="BabyBus,ensino online,educação,apps infantis,panda,crianças,pré-escolar">
+		<meta name="author" content="BabyBus Group">
+		<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="apple-touch-icon-precomposed" href="{:WEB_URL}/favicon.png">
+		<!--[if lt IE 9]><script src="__PUBLIC__/js/respons/ie8-responsive-file-warning.js"></script><![endif]-->
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+      <script src="__PUBLIC__/js/respons/html5shiv.js"></script>
+      <script src="__PUBLIC__/js/respons/respond.min.js"></script>
+    <![endif]-->
+		<link href="__PUBLIC__/css/public.css" rel="stylesheet">
+		<title>Termos de uso - BabyBus - Número 1 em Apps Infantis</title>
+	</head>
+
+	<body>
+
+		<!--=============section主体内容区域===================
+==============================================-->
+		<include file="Public:_navbar" />
+		<div class="container download margin-top90">
+			<div class="row joinus">
+				<div class="col-md-3 hidden-xs hidden-sm">
+					<div class="ist-group margin-top30"style="width: 213px;" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+					  <a href="declaration.shtml" class="list-group-item active">Termos de Uso </a>
+					  <a href="privacyPolicy.shtml" class="list-group-item">Política de Privacidade</a>
+                        <if condition="$count gt 0">
+                            <a href="link.shtml" class="list-group-item ">Parcerias</a>
+                        </if>
+					</div>
+				</div>
+				<div class="col-md-9 margin-top10 statements">
+					<h3 style="color: #00BAE9;">Termos de uso - BabyBus</h3>
+					<p>Pedimos a todos os usuários que leiam com atenção os termos de uso da BabyBus abaixo listados, caso não esteja de acordo com estes termos, não utilize os produtos BabyBus. A BabyBus (Fujian) Network Technology Co., LTD (doravante referida como BabyBus) permite a utilização final dos seus produtos, mas para tal, o usuário terá de garantir que:</p>
+					<br />
+					<p>O “Contrato do Usuário” (doravante referido por “Acordo”) é um acordo legal entre você (indivíduo ou instituição) e o já mencionado software BabyBus (doravante referido como “Software” ou “Produto”), propriedade intelectual da BabyBus. Antes de começar a usar o software, certifique-se de ler este “acordo”, quaisquer outros “acordos” relativos ao software, documentos eletrônicos, etc., devem respeitar os termos deste acordo que lhe foram concedidos. Este “acordo” também se aplica a lançamentos de futuros produtos e atualizações. Ao instalar e usar os produtos, está se comprometendo a concordar com o presente “acordo” e com os seus termos. Os produtos de software estão protegidos por leis de direitos autorais e tratados internacionais de direitos autorais, bem como outras leis e tratados de propriedade intelectual. Os produtos podem ser somente usados, nunca comercializados e não podem ser usados para atividades com fins comerciais.</p>
+					<ul>
+						<li>1. Termos de proteção do produto
+							<ul>
+								<li>I. Autorizações e restrições:
+									<p>Autorizações: A BabyBus autoriza a instalação e utilização dos produtos BabyBus: está autorizado a instalar um número ilimitado de vezes os produtos para a sua utilização.</p>
+									<p>Restrições: Pré-requisitos para o utilizador: excetuando as autorizações e direitos definidos neste acordo, a BabyBus não confere ao usuário quaisquer outros direitos sobre os seus produtos, como a distribuição comercial dos produtos, cópia, engenharia reversa, descompilação ou desmonte. Qualquer indivíduo ou organização que de alguma forma copie ou redistribua os produtos BabyBus para proveito próprio ou de outrem sem o consentimento prévio da BabyBus, estará a incorrer numa infração, e a BabyBus reserva-se no direito de processar estas infrações pelos meios legais. </p>
+								</li>
+								<li>
+									II. Rescisão:
+									<p>
+										Caso não respeite todos os “termos” deste “acordo”, o mesmo ficará automaticamente sem efeito. Autorização especial: Qualquer organização ou indivíduo que pretenda redistribuir, copiar e divulgar o produto para qualquer tipo de serviço público ou proveito próprio, deve obter previamente o consentimento do proprietário dos direitos autorais, de outra forma será considerada uma infração dos direitos.
+									</p>
+								</li>
+								<li>
+									III. Propriedade intelectual da marca:
+									<p>
+										O presente “acordo” não lhe confere quaisquer direitos sobre a marca, logotipo ou quaisquer outros símbolos protegidos por direitos autorais, propriedade da BabyBus, estes não estão limitados aos aplicativos BabyBus, mas a todas as imagens, sons, animações, texto e programas, bem como aos direitos autorais e propriedade intelectual de qualquer produto agregado aos mesmos, são assim, propriedade da BabyBus. Este “acordo” não lhe confere direitos de utilização destes conteúdos.  
+									</p>
+								</li>
+								<li>
+									IV. Garantia Limitada, sem garantia;
+									<p>
+										A utilização deste produto requere ligação à Internet, e pode por isso ser instável, uma vez que os computadores estão suscetíveis a vulnerabilidades, vírus, hacks, problemas no sistema operativo, localização do utilizador incorreta, falhas ou problemas nos dispositivos, ou quaisquer outros problemas relacionados com o software, ligação à internet, ou nas telecomunicações, que podem resultar na interrupção do serviço e reduzir a satisfação do cliente. O utilizador tem conhecimento dos riscos acima mencionados e a BabyBus não se responsabiliza por quaisquer problemas que possam ocorrer no acesso aos produtos, como problemas ao pesquisar, baixar ou relacionados com mensagens; o utilizador assume risco total e responsabilidade, e a BabyBus não se responsabiliza por quaisquer perdas, em quaisquer circunstâncias, de acordo com a lei, e notificadas todas as partes envolvidas.
+									</p>
+									<p>
+										Nenhuma responsabilidade por perdas: Ao usar os nossos produtos, poderá ficar exposto a linguagem ofensiva, ameaças, violação de privacidade e direitos autorais, conteúdos e condutas ilegais ou violação dos direitos alheios (incluindo propriedade intelectual) causados por terceiros anônimos ou conhecidos. O utilizador assume todos os riscos, e a BabyBus não garante ou se compromete, seja expressa ou implícita, à autenticidade, aplicabilidade e adequação da informação ou conteúdo, ou qualquer garantias relacionadas com a utilização ou violação. Assim, não assumimos qualquer responsabilidade pelas consequências diretas, indiretas, incidentais ou especiais resultantes da utilização imprópria ou ilícita dos nossos produtos.
+									</p>
+								</li>
+							</ul>
+						</li>
+						<li>2. Aviso ao usuário
+							<p>
+							Os usuários são lembrados no presente acordo que devem cumprir as políticas nacionais relevantes e leis no uso da Internet, bem como direito penal, segurança nacional, privacidade, regulamentações de segurança de sistemas de informação, proteção de interesses nacionais e segurança nacional. O usuário é inteiramente responsável pelo uso impróprio ou ilícito da Internet.	
+							</p>
+							<ul>
+								<li>
+									I. O usuário deve usar os produtos BabyBus de acordo com todas as leis e regulamentos relevantes, e os nossos produtos não devem nunca ser usados para enviar ou promover informação sensível para atividades ilegais ou atividades que possam comprometer a segurança nacional; o usuário não deve usar os nossos produtos para enviar ou promover materiais ou informações falsas, de assédio, abusivas, ameaçadoras, provocatórias, ordinárias, obscenas ou pornográficas; O usuário não deve nunca usar os produtos BabyBus para propósitos comerciais sem autorização prévia da BabyBus.
+								</li>
+								<li>
+									II. Quando utilizar os nossos aplicativos, nós temos acesso a ler informações (como endereço de IP, localização GPS, conexão de rede, estado do dispositivo, ligação Wi-fi, etc.) e utilizamos estas informações para desenvolvimento dos produtos multilíngues. A informação recolhida é usada para o desenvolvimento de melhorias funcionais dos nossos produtos para os sistemas iOS e Android. Devido à singularidade dos produtos móveis, os nossos aplicativos pedem permissão para ler a conectividade wi-fi, evitando assim que os usuários usem planos de dados para atualizar os aplicativos. Declaramos assim, que as informações recolhidas serão somente usadas para desenvolvimento dos produtos e nunca a terceiros sem a autorização do usuário, apenas sobre ordem judicial.
+								</li>
+								<li>
+									III. Tal como qualquer outro software na Internet, os aplicativos BabyBus estão suscetíveis a vários tipos de problemas de segurança, como vírus de softwares infetados os ficheiros baixados para o dispositivo que podem ameaçar a segurança dos dados e informações pessoais, e da mesma forma, os dados e informações da BabyBus; Assim, recomendamos os nossos usuários que reforcem a proteção aos dados pessoais para prevenir quaisquer inconvenientes à utilização normal dos nossos produtos.
+								</li>
+								<li>
+									IV. Crianças e adolescentes - crianças antes dos 13 anos de idade, devem usar os nossos aplicativos com a supervisão de um adulto; Recomendamos os pais e tutores que monitorizem as atividades das crianças nos nossos produtos, trocas de email e quaisquer outras atividades online.
+								</li>
+								<li>
+									V. O usuário não deve nunca usar os nossos produtos para atividades que violem leis nacionais. Se descobertas estas atividades, a BabyBus informará as autoridades competentes e as assistirá no trabalho de investigação.
+								</li>
+							</ul>
+						</li>
+
+						<li>3. Infrações de terceiros
+							<p>
+								Tenha em conta que a BabyBus não se responsabilizará por quaisquer violações de direitos por terceiros ou outras partes (incluindo, mas não limitado, a propriedade intelectual), e assim, não assumirá responsabilidade pelas violações de terceiros usando os nossos produtos ou serviços para enviar mensagens ou conteúdos.
+							</p>
+						</li>
+						<li>
+							4. Direito e orientação
+							<p>Este acordo está em conformidade com o mais alto direito nacional, e é orientado pelo mesmo. Quando este acordo contradisser a lei, este será alterado de acordo com a lei nacional, de outra forma, todas as condições presentes no acordo ficarão em espera.</p>
+						</li>
+						<li>
+							5. Alterações
+							<p>
+								Poderemos alterar (como atualizar, modificar, corrigir ou cancelar) o presente acordo (incluindo quaisquer termos e condições adicionais aplicáveis a produtos e serviços específicos), a qualquer momento, a nosso exclusivo critério, publicando o acordo no nosso website ou nos nossos produtos e serviços. As alterações devem cumprir as leis e regulamentos nacionais, e não devem causar danos aos direitos básicos dos usuários dos serviços. Se não concordar com alguma das alterações, pare imediatamente de acessar os nossos produtos, de outra forma a BabyBus reserva-se no direito que assumir a sua aceitação do acordo alterado.
+							</p>
+						</li>
+						<li>
+							6. Data de entrada em vigor
+							<p>
+								O presente acordo é colocado no website da BabyBus. O acordo entra em vigor assim que começa a usar os nossos produtos e serviços.
+							</p>
+						</li>
+						<li>
+							7. Declaração de exoneração de responsabilidade
+							<p>
+								A BabyBus reserva o direito da interpretação final dos termos e condições do presente acordo e seu conteúdo.
+							</p>
+						</li>
+
+
+					</ul>
+
+					<P style="text-align: right; border-top: 4px solid #efefef; padding-right: 2em; padding-top: 50px; padding-bottom: 200px;">BabyBus (Fujian) Network Technology Co., LTD<br />Maio de 2011</P>
+
+
+
+
+
+
+				</div>
+			</div>
+
+		</div>
+		<script src="__PUBLIC__/js/jquery.min.js"></script>
+		<script src="__PUBLIC__/js/bootstrap.min.js"></script> 
+	</body>
+
+</html>

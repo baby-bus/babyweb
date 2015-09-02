@@ -1,0 +1,24 @@
+	 <volist name="data" id="val">
+        <div class="col-xs-4 border">
+            <div class="box">
+                        <img src="{:$val['app_images'] ? $val['app_images']:'__PUBLIC__/images/Public/default.gif'}" class="img-responsive imgradius" onerror="javascript:this.src='__PUBLIC__/images/Public/default.gif'"/>
+                <h1>{$val['app_name']}</h1>
+				<if condition="$val['is_active'] eq 0">
+					<p class="device-icon">
+						<span><input class="btn btn-default" type="button" disabled="disabled" value="审核中"></span>
+					</p>
+				<else />
+                    <!-- 微信链接 -->
+                    <empty name='url_type'>
+                        {:show_down($val['android_url'],$val['cell_android_url'],$val['iphone_url'],$val['ipad_url'])}
+                    <else/>
+                        <if condition="($type eq 'android')">
+                            <p class='device-icon'><span><a href="{$val['myapp_url']}"  target="_blank" data-original-title=''><img src='__PUBLIC__/images/product/info/weixin_down.png'></a></span></p>
+                        <elseif condition="($type eq 'ios')"/>
+                            <p class='device-icon'><span><a href="{$val['myios_url']}"  target="_blank" data-original-title=''><img src='__PUBLIC__/images/product/info/weixin_down.png'></a></span></p>
+                        </if>
+                     </empty>
+				</if>
+			</div>
+		</div>
+	 </volist>

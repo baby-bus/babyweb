@@ -1,0 +1,202 @@
+<include file="Public:_navheader" />
+<title>Hilfe - BabyBus - Apps zum Lernen und Spielen</title>
+</head>
+<body data-spy="scroll" data-target=".navbar-example">
+<!--=============navbar导航===================
+==============================================-->
+<include file="Public:_navbar"/>
+
+
+<!--=============banner横幅广告区===================
+==============================================-->
+
+<div class="padding-top70 download-banner">
+	<div class="download-banner-International container">
+		
+	</div>
+	<php>if(device()=='pc'){</php>
+	<div class="product_one">
+	<div class="container">
+		<ul class="list-unstyled menu" role="tablist">
+			<li class="color_green list-clear down" style="width: 33.3333%; height: 35px;"><a style="padding: 8px 10px 15px 10px;" href="javascript:;" id="new_product">Download per QR Scan</a></li>			
+			<li class="color_yellow list-clear guide" style="width: 33.3333%; height: 35px;"><a style="padding: 8px 10px 15px 10px;" href="javascript:;" id="hot_product">Anleitung - Apps herunterladen</a></li>
+			<li class="color_pink list-clear faq" style="width: 33.3333%; height: 35px;"><a style="padding: 8px 10px 15px 10px;" href="javascript:;" id="hot_product">FAQ</a></li>	
+		</ul>
+	</div>	
+	</div>
+	<php>}</php>
+</div>
+
+
+
+
+
+<!--=============section主体内容区域===================
+==============================================-->
+<div class="download">
+	
+
+<div class="container">	
+    <php>if(device()=='pc'){</php>
+	<div class="row">
+		<div class="col-xs-12 downline margin-top10">
+			<a id="down"></a>
+        	<div class="title_icon">        		
+        		<div class="img pull-left"><img src="__PUBLIC__/images/Public/down.png" class="float-left"></div>
+				
+            </div>
+        </div>
+    </div>
+    <php>}</php>
+   <php>if(device()!='pc'){</php>
+	    <div class="row">
+			<div class="col-xs-12 margin-top40 text-center">
+				<a id="down"></a>
+	        	      		
+	        		<a href={:is_ios() ? "https://itunes.apple.com/cn/artist/babybus/id654666096" : U('product/showDownList')}><img src="__PUBLIC__/images/Public/click_down.png" class="img-responsive"></a>
+					
+	        
+	        </div>
+	    </div>
+	<php>}else{</php>
+    
+    
+	<div class="row  margin-top40 hidden-xs">
+		<div class="col-xs-6 text-center">
+			<img src="__PUBLIC__/images/download/code_ios.jpg" />
+			<p class="codebtni">Für iOS User</p>
+		</div>
+		<div class="col-xs-6 text-center">
+			<img src="__PUBLIC__/images/download/code_android.png" />
+			<p class="codebtna">Für Android User</p>
+		</div>
+	</div>
+	<php>}</php>
+    <div class="row download_img">
+    	
+        <div class="col-xs-12 downline margin-top40">
+        	
+        	<div class="title_icon">        		
+        		<div class="img pull-left"><img src="__PUBLIC__/images/Public/guide.png" class="float-left"></div>				
+            </div>            
+        </div>  
+            
+    </div>
+    <div class="row download_img">
+        <php>if(device()=='pc'){</php>
+    	  <include file="Download:android"/> 
+    	   <include file="Download:ios"/>
+    	<php>}else if(is_android()){</php>
+    		<include file="Download:android"/>
+    	<php>}else if(is_ios()){</php>
+    		<include file="Download:ios"/>
+    	<php>}</php>
+    </div>
+    
+    
+    
+</div>
+
+</div>
+<!--=============section主体内容区域 问答===================
+==============================================-->
+<php>if(device()=='pc'){</php>
+<div class="download">
+<div class="container max-width960 download_img">
+	<div class="row">
+
+        <div class="col-sm-12 downline margin-top50 title_icon">
+        	<a id="faq"></a>
+        	<h2 class="text-left"><img src="__PUBLIC__/images/Public/title_faq.png" class="response_img"></h2>
+        </div>
+        
+
+            
+        <div class="col-xs-12 margin-top20">
+        	<div class="panel panel-default">
+        		<a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseone">
+                <div class="panel-heading clearfix">
+                  <h4 class="panel-title">
+                    
+                      <span>Q1</span>Warum funktioniert auf meinem iOS Gerät die Audioausgabe nicht?
+                    
+                  </h4>
+                </div>
+                </a>
+                <div id="collapseone" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                    <P>Öffnen Sie die Einstellungen und wählen Sie unter“Seitenschalter” “Ton an/aus". Betätigen Sie dann den Seitenschalter und stellen Sie sicher, dass er nicht auf "stumm" geschaltet ist </P>
+                  </div>
+                </div>
+              </div>
+        
+        
+
+              
+              <div class="panel panel-default">
+              	<a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" class="collapsed">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    
+                      <span>Q2</span>Wie kann ich die BabyBus Anwendungen löschen?
+                    
+                  </h4>
+                </div>
+                </a>
+                <div id="collapsefour" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <h5><strong>Android：</strong></h5>
+                    <P>1. Option: Tippen Sie lange auf das Symbol der jeweiligen Anwendung und verschieben Sie es im Anschluss in den Papierkorb oder die "Deinstallieren" Schaltfläche.</P>
+					<P>2. Option: Öffnen Sie die "Einstellungen" "Apps" oder "Anwendungen", Unter “Anwendungen verwalten” und öffnen Sie dort die jeweiligen App-Einstellungen um diese zu löschen </P>
+                    <h5><strong>iOS：</strong></h5>
+                    <P>Tippen Sie auf das jeweilige App-Symbol auf dem Homescreen. Halten Sie Ihren Finger so lange gedrückt, bis das Symbol beginnt zu "zittern". Nun können Sie auf das kleine "X"-Symbol links oben tippen um die Anwendung zu löschen. </P>
+                  </div>
+                </div>
+              </div>
+              
+              
+              <div class="panel panel-default">
+              	<a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapsesix" class="collapsed">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    
+                      <span>Q3</span>Wie kann ich in Android Apps auf der SD Karte installieren?
+                    
+                  </h4>
+                </div>
+                </a>
+                <div id="collapsesix" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <P>Öffnen Sie die Systemeinstellungen und wählen Sie “Anwendungen verwalten”. Hier finden Sie eine Liste aller auf Ihrem Android Gerät installierten Apps. Wählen Sie die App aus, die Sie verschieben möchten. Tippen Sie auf den “Auf SD-Karte verschieben” Button im Info-Fenster der jeweiligen Anwendung. </P>
+                  </div>
+                </div>
+              </div>
+              
+              
+              
+           </div>
+		
+    	</div>
+    </div>
+</div>
+<php>}</php>
+</div>
+
+
+
+
+
+<!--=============footer页脚====================
+==============================================-->
+
+<div class="product_three">
+	<div class="container margin-top50">
+	</div>
+</div>
+<include file="Public:_navfooter"/>
+
+<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/js/public.js"></script>
+<script src="__PUBLIC__/js/function.js"></script>
+</body>
+</html>

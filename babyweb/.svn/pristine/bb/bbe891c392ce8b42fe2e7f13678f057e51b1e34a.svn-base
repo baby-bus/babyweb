@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta name="description" content="宝宝巴士结合不同年龄阶段的早教重点设计了启蒙站和探索站两个系列，通过寓教于乐的方式达到启蒙益智的目的。完善的知识体系框架，全方面培养宝宝能力，打造宝宝成长好伙伴。">
+<meta name="keywords" content="宝宝巴士,宝贝巴士,BabyBus,启蒙,启蒙教育,在线教育,宝宝学数字,宝宝学ABC,儿童软件,儿童应用,移动早教,熊猫,早教,幼教,宝宝学形状">
+<meta name="author" content="宝宝巴士（福建）网络科技有限公司">
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+<link href="__PUBLIC__/css/toastr.css" rel="stylesheet">
+<link rel="apple-touch-icon-precomposed" href="{:WEB_URL}/favicon.png">
+<!--[if lt IE 9]><script src="__PUBLIC__/js/respons/ie8-responsive-file-warning.js"></script><![endif]-->
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="__PUBLIC__/js/respons/html5shiv.js"></script>
+      <script src="__PUBLIC__/js/respons/respond.min.js"></script>
+    <![endif]-->
+<link href="__PUBLIC__/css/public.css" rel="stylesheet">
+<script src="__PUBLIC__/js/jquery.min.js"></script> 
+
+<title>产品 - 宝宝巴士 快乐童年 - 启蒙教育第一品牌</title>
+</head>
+<body>
+<!--=============navbar导航===================
+==============================================-->
+
+<include file="Public:_navbar" />
+
+
+<include file="Product:_nav" />
+<a id="product"></a>
+<div class="container product_two" >
+	<div class="row">
+		<div class="col-sm-9">
+			<ol class="breadcrumb">
+				<li>产品</li>
+				<li>最新产品</li>
+			</ol>
+		</div>
+		<div class="col-sm-3 pull-right">
+			
+		<div class="input-group margin-bottom10 margin-top10">     
+          <input class="form-control flexselect" type="text" id="president_flexselect" placeholder="热门产品搜索" autocomplete="off" id="president_flexselect" tabindex="2" style="visibility: visible;">
+          <span class="input-group-btn">
+            <button id="search" class="btn btn-default btn-color" type="button">搜索</button>
+          </span>
+        </div>
+        </div>
+	</div>
+</div>
+
+
+<div class="container product_two product_list">
+	<div class="row infinitescroll" id="product_list">
+	 <volist name="data" id="val">
+        <div class="col-sm-4 border">
+            <div class="box">
+                    <a href="{:U('/product/info/id/'.$val['id'])}">
+                        <img src="{:$val['app_images'] ? $val['app_images']:'__PUBLIC__/images/Public/default.gif'}" class="img-responsive imgradius" onerror="javascript:this.src='__PUBLIC__/images/Public/default.gif'"/>
+                    </a>
+                <h1>{$val['app_name']}</h1>
+				<p class="describe">{$val['intro']}</p>
+				<if condition="$val['is_active'] eq 0">
+					<p class="device-icon">
+						<span><input class="btn btn-default" type="button" disabled="disabled" value="审核中"></span>
+					</p>
+				<else />
+                    <!-- 微信链接 -->
+                    <empty name='url_type'>
+                        {:show_down($val['android_url'],$val['cell_android_url'],$val['iphone_url'],$val['ipad_url'])}
+                    <else/>
+                        <if condition="($type eq 'android')">
+                            <p class='device-icon'><span><a href="{$val['myapp_url']}"  target="_blank" data-original-title=''><img src='__PUBLIC__/images/product/info/weixin_down.png'></a></span></p>
+                        <elseif condition="($type eq 'ios')"/>
+                            <p class='device-icon'><span><a href="{$val['myios_url']}"  target="_blank" data-original-title=''><img src='__PUBLIC__/images/product/info/weixin_down.png'></a></span></p>
+                        </if>
+                     </empty>
+				</if>
+			</div>
+		</div>
+	 </volist>
+	</div>
+
+        <!--<a href="http://wwww.badidu.com/qq.htm?page=1"></a>-->       <!-- 此处可以是url，可以是action，要注意不是每种html都可以加，是跟当前网页有相同布局的才可以。另外一个重要的地方是page参数，这个一定要加在这里，它的作用是指出当前页面页码，没加载一次数据，page自动+1,我们可以从服务器用request拿到他然后进行后面的分页处理。-->
+       <a id="navigation" href="{:U('getMore',array('page'=>2))}"></a> 
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--=============footer页脚====================
+==============================================-->
+<div class="product_three">
+
+</div>
+
+<include file="Public:_navfooter" />
+
+
+<script src="__PUBLIC__/js/toastr.js"></script>
+<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/js/jquery.infinitescroll.min.js"></script>
+<script src="__PUBLIC__/js/public.js"></script>
+<script src="__PUBLIC__/js/function.js"></script>
+</body>
+</html>

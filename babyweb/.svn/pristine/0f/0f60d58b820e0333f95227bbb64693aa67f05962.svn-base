@@ -1,0 +1,39 @@
+<div class="product_one">
+	<div class="container margin-top70">
+		<ul class="list-unstyled menu" role="tablist">
+			<li class="color_green list-clear "><a href="javascript:;" id="new_product">신규제품</a></li>			
+			<li class="color_purple list-clear "><a href="javascript:;" id="hot_product">인기제품</a></li>	
+			<li class="color_yellow list-clear dropdown">
+
+				<a id="dLabel" class="active" data-target="#" href="#" data-toggle="dropdown">
+			      	인지발달 1-3세
+			    <span class="caret"></span>
+			  </a>
+
+			    <ul class="list-unstyled dropdown-menu list-inline menu educate" role="menu" aria-labelledby="dLabel">
+				  	<li data-value="2"  data-label = "인지발달 1-3세" data-title="인지편"><a href="javascript:;">인지편</a></li>
+				  	<li data-value="3"  data-label = "인지발달 1-3세" data-title="게임편"><a href="javascript:;">게임편</a></li>
+				  	<li data-value="4"  data-label = "인지발달 1-3세" data-title="동요편"><a href="javascript:;">동요편</a></li>
+				</ul>
+
+			</li>
+			
+			<li class="color_pink list-clear dropdown">
+
+				<a id="dLabel" data-target="#" href="#" data-toggle="dropdown" >
+			     탐구지능 3-6세
+			    <span class="caret"></span>
+			  </a>
+
+			    <ul class="list-unstyled dropdown-menu probe list-inline menu educate" role="menu" aria-labelledby="dLabel">
+				  	<li data-value="7" data-label = "탐구지능 3-6세" data-title="지능센터"><a href="javascript:;">지능센터</a></li>
+				  	<li data-value="8" data-label = "탐구지능 3-6세" data-title="백과센터 "><a href="javascript:;">백과센터</a></li>
+				  	<li data-value="9" data-label = "탐구지능 3-6세" data-title="아트센터"><a href="javascript:;">아트센터</a></li>
+				</ul>
+
+			</li>
+
+						
+		</ul>
+	</div>
+</div>

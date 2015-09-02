@@ -1,0 +1,17 @@
+<div class="actGotop"><a href="javascript:;" title="PAGE TOP"></a></div>
+<div class="four">
+	<div class="container">
+        <if condition="$link_data neq null">
+            <p>相互リンク：
+                <foreach name="link_data" item="vo">
+                    <a href="{$vo.link_url}">{$vo.link_name}</a>&nbsp;&nbsp;
+                </foreach>
+                <a href="{:U('Index/link')}">もっと見る</a>
+            </p>
+        </if>
+		<P>Copyright © 2015  信永情報技術有限会社 All Rights Reserved<br />
+			<a href="{:U('Index/declaration')}" target="_blank">利用規約</a>&nbsp;&nbsp;<a href="{:U('Index/privacyPolicy')}" target="_blank">プライバシーポリシー</a>
+			<script src="http://s22.cnzz.com/stat.php?id=3356281&web_id=3356281&show=pic" language="JavaScript"></script>
+		</P>
+	</div>
+</div>

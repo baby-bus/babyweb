@@ -1,0 +1,624 @@
+[ 2014-12-25T11:34:14+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.012765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012950s ]
+SQL: SHOW COLUMNS FROM `website_index_images` [ RunTime:0.022251s ]
+SQL: SELECT * FROM `website_index_images` WHERE ( lang='zh-Hans' and used=1 ) ORDER BY num asc,id asc  [ RunTime:0.000879s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 145 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 145 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 267 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 267 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.100053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100169s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010336s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.010269s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001161s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029251s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002244s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008071s ]
+
+[ 2014-12-25T11:50:36+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002641s ]
+SQL: SHOW COLUMNS FROM `website_index_images` [ RunTime:0.006844s ]
+SQL: SELECT * FROM `website_index_images` WHERE ( lang='zh-Hans' and used=1 ) ORDER BY num asc,id asc  [ RunTime:0.001026s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 145 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 145 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 267 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 267 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076717s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002276s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002066s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001778s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008395s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003348s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003653s ]
+
+[ 2014-12-25T11:51:23+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001787s ]
+SQL: SHOW COLUMNS FROM `website_index_images` [ RunTime:0.005916s ]
+SQL: SELECT * FROM `website_index_images` WHERE ( lang='zh-Hans' and used=1 ) ORDER BY num asc,id asc  [ RunTime:0.001533s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 145 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 145 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 267 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 267 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.063942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064113s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001547s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001036s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001015s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005274s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001974s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002284s ]
+
+[ 2014-12-25T11:54:15+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001775s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.011302s ]
+SQL: SELECT * FROM `link` ORDER BY link_sort LIMIT 10   [ RunTime:0.000675s ]
+
+[ 2014-12-25T11:56:26+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001892s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.004616s ]
+SQL: SELECT * FROM `link` ORDER BY link_sort LIMIT 10   [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `website_index_images` [ RunTime:0.004665s ]
+SQL: SELECT * FROM `website_index_images` WHERE ( lang='zh-Hans' and used=1 ) ORDER BY num asc,id asc  [ RunTime:0.000986s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 145 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 145 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 267 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 267 行.
+NOTIC: [8] Undefined variable: test D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 377 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.052971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053114s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001317s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000898s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000693s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000980s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004171s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001552s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001681s ]
+
+[ 2014-12-25T11:56:47+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001742s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.005218s ]
+SQL: SELECT * FROM `link` ORDER BY link_sort LIMIT 10   [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `website_index_images` [ RunTime:0.006208s ]
+SQL: SELECT * FROM `website_index_images` WHERE ( lang='zh-Hans' and used=1 ) ORDER BY num asc,id asc  [ RunTime:0.001210s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 145 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 145 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 267 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 267 行.
+NOTIC: [8] Undefined variable: test D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 377 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.185121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.185285s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001705s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001700s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001117s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006082s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001775s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001915s ]
+
+[ 2014-12-25T13:53:44+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.011456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011698s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.006160s ]
+SQL: SELECT * FROM `link` WHERE ( `lang` = 'zh-Hans' ) ORDER BY link_sort LIMIT 10   [ RunTime:0.005113s ]
+SQL: SHOW COLUMNS FROM `website_index_images` [ RunTime:0.058277s ]
+SQL: SELECT * FROM `website_index_images` WHERE ( lang='zh-Hans' and used=1 ) ORDER BY num asc,id asc  [ RunTime:0.001299s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 145 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 145 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 267 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 267 行.
+NOTIC: [8] Undefined variable: test D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 377 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.238050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.238255s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.051705s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.043191s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007376s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.105448s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015666s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015796s ]
+
+[ 2014-12-25T13:59:22+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001811s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.005363s ]
+SQL: SELECT * FROM `link` WHERE ( `lang` = 'zh-Hans' ) ORDER BY link_sort LIMIT 10   [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `website_index_images` [ RunTime:0.006023s ]
+SQL: SELECT * FROM `website_index_images` WHERE ( lang='zh-Hans' and used=1 ) ORDER BY num asc,id asc  [ RunTime:0.001274s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 145 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 145 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 267 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 267 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.103202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103410s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001938s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001536s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001253s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002167s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002356s ]
+
+[ 2014-12-25T13:59:32+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001774s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.004553s ]
+SQL: SELECT * FROM `link` WHERE ( `lang` = 'zh-Hans' ) ORDER BY link_sort LIMIT 10   [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `website_index_images` [ RunTime:0.004589s ]
+SQL: SELECT * FROM `website_index_images` WHERE ( lang='zh-Hans' and used=1 ) ORDER BY num asc,id asc  [ RunTime:0.002083s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 145 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 145 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 267 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 267 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.060118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060239s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001419s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001162s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000591s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000861s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004302s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001284s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001432s ]
+
+[ 2014-12-25T13:59:36+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/product/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.018732s ]
+INFO: [ route_check ] --END-- [ RunTime:0.019285s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002205s ]
+SQL: SHOW COLUMNS FROM `website_apps` [ RunTime:0.138747s ]
+NOTIC: [8] Undefined index: cata_id D:\wamp\www\projcet\babyweb\cn\Lib\Action\ProductAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: search_word D:\wamp\www\projcet\babyweb\cn\Lib\Action\ProductAction.class.php 第 16 行.
+NOTIC: [8] Undefined index: cata_id D:\wamp\www\projcet\babyweb\cn\Lib\Action\ProductAction.class.php 第 22 行.
+NOTIC: [8] Undefined index: is_hot D:\wamp\www\projcet\babyweb\cn\Lib\Action\ProductAction.class.php 第 23 行.
+SQL: SELECT `id`,`ipad_id`,`iphone_id`,`cell_android_url`,`android_url`,`app_name`,`app_images`,`intro`,`myapp_url`,`myios_url` FROM `website_apps` WHERE ( `del` = 0 ) AND ( `lang` = 'zh-Hans' ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.124588s ]
+SQL: SHOW COLUMNS FROM `app_langs` [ RunTime:0.076965s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 123 or app_id = 124) )  [ RunTime:0.048466s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 1318 or app_id = 1317) )  [ RunTime:0.016747s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 1380 or app_id = 1379) )  [ RunTime:0.023410s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 5 or app_id = 20) )  [ RunTime:0.039057s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 1218 or app_id = 1217) )  [ RunTime:0.025877s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 1377 or app_id = 1376) )  [ RunTime:0.021327s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 1368 or app_id = 1367) )  [ RunTime:0.012316s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 1193 or app_id = 1192) )  [ RunTime:0.004777s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 1189 or app_id = 1190) )  [ RunTime:0.009384s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\projcet\babyweb\cn\Lib\Action\ProductAction.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: link_data D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b6c885e76b3fad3e771f7977173d34c6.php 第 188 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.071864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072090s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002071s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001865s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001305s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001938s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007693s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002042s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002229s ]
+
+[ 2014-12-25T13:59:46+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/link
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001337s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001476s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037258s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000708s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000754s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000765s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003373s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001033s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2014-12-25T13:59:59+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.004942s ]
+SQL: SELECT * FROM `link` WHERE ( `lang` = 'zh-Hans' ) ORDER BY link_sort LIMIT 10   [ RunTime:0.027786s ]
+SQL: SHOW COLUMNS FROM `website_index_images` [ RunTime:0.004782s ]
+SQL: SELECT * FROM `website_index_images` WHERE ( lang='zh-Hans' and used=1 ) ORDER BY num asc,id asc  [ RunTime:0.001040s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 145 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 145 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 267 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 267 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.051991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052149s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001227s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001010s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000972s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004602s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001809s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001990s ]
+
+[ 2014-12-25T14:00:07+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/index/link
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003007s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003223s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002050s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.005731s ]
+SQL: SELECT * FROM `link` WHERE ( `lang` = 'zh-Hans' ) ORDER BY link_sort LIMIT 10   [ RunTime:0.002035s ]
+SQL: SELECT * FROM `link` WHERE ( `lang` = 'zh-Hans' ) ORDER BY link_sort  [ RunTime:0.035537s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037697s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001872s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001656s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001586s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007626s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002656s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002866s ]
+
+[ 2014-12-25T14:00:11+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/index/privacyPolicy.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001780s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001925s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.004174s ]
+SQL: SELECT * FROM `link` WHERE ( `lang` = 'zh-Hans' ) ORDER BY link_sort LIMIT 10   [ RunTime:0.000782s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.048831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049044s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001166s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000945s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000876s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004820s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001398s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001486s ]
+
+[ 2014-12-25T14:00:13+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/index/declaration.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001456s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001582s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.004275s ]
+SQL: SELECT * FROM `link` WHERE ( `lang` = 'zh-Hans' ) ORDER BY link_sort LIMIT 10   [ RunTime:0.000922s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.091662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091829s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001363s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000953s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000824s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004510s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001847s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002094s ]
+
+[ 2014-12-25T14:00:14+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/index/privacyPolicy.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001676s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001805s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001431s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.004218s ]
+SQL: SELECT * FROM `link` WHERE ( `lang` = 'zh-Hans' ) ORDER BY link_sort LIMIT 10   [ RunTime:0.001062s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016838s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001185s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000945s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000770s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004315s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001321s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001406s ]
+
+[ 2014-12-25T14:00:15+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/index/link.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001463s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001593s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.003940s ]
+SQL: SELECT * FROM `link` WHERE ( `lang` = 'zh-Hans' ) ORDER BY link_sort LIMIT 10   [ RunTime:0.000677s ]
+SQL: SELECT * FROM `link` WHERE ( `lang` = 'zh-Hans' ) ORDER BY link_sort  [ RunTime:0.000671s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017232s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001045s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000933s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000766s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004005s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001333s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001459s ]
+
+[ 2014-12-25T14:00:50+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/index/link.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001798s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001930s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.004181s ]
+SQL: SELECT * FROM `link` WHERE ( `lang` = 'zh-Hans' ) ORDER BY link_sort LIMIT 10   [ RunTime:0.000705s ]
+SQL: SELECT * FROM `link` WHERE ( `lang` = 'zh-Hans' ) ORDER BY link_sort  [ RunTime:0.000926s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017566s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001170s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000789s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000576s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000917s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003731s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001483s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001632s ]
+
+[ 2014-12-25T14:00:59+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/index/link.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001468s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001609s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.004834s ]
+SQL: SELECT * FROM `link` WHERE ( `lang` = 'zh-Hans' ) ORDER BY link_sort LIMIT 10   [ RunTime:0.000896s ]
+SQL: SELECT * FROM `link` WHERE ( `lang` = 'zh-Hans' ) ORDER BY link_sort  [ RunTime:0.000705s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016739s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000918s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000883s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001683s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004792s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004128s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004274s ]
+
+[ 2014-12-25T14:03:34+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.005545s ]
+SQL: SELECT * FROM `link` WHERE ( `lang` = 'zh-Hans' ) ORDER BY link_sort LIMIT 10   [ RunTime:0.001279s ]
+SQL: SHOW COLUMNS FROM `website_index_images` [ RunTime:0.006476s ]
+SQL: SELECT * FROM `website_index_images` WHERE ( lang='zh-Hans' and used=1 ) ORDER BY num asc,id asc  [ RunTime:0.001015s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 145 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 145 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 267 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 267 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.056927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057146s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001520s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000930s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000821s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004592s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001744s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001938s ]
+
+[ 2014-12-25T14:59:32+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.005259s ]
+SQL: SELECT * FROM `link` WHERE ( `lang` = 'zh-Hans' ) ORDER BY link_sort LIMIT 10   [ RunTime:0.001139s ]
+SQL: SHOW COLUMNS FROM `website_index_images` [ RunTime:0.007212s ]
+SQL: SELECT * FROM `website_index_images` WHERE ( lang='zh-Hans' and used=1 ) ORDER BY num asc,id asc  [ RunTime:0.001384s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 145 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 145 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 267 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 267 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.123740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123990s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001398s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001290s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000801s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006328s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001798s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001967s ]
+
+[ 2014-12-25T15:02:18+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001960s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.004847s ]
+SQL: SELECT * FROM `link` WHERE ( `lang` = 'zh-Hans' ) ORDER BY link_sort LIMIT 10   [ RunTime:0.000966s ]
+SQL: SHOW COLUMNS FROM `website_index_images` [ RunTime:0.006062s ]
+SQL: SELECT * FROM `website_index_images` WHERE ( lang='zh-Hans' and used=1 ) ORDER BY num asc,id asc  [ RunTime:0.001174s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 145 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 132 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 145 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 267 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 254 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 267 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.067209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067382s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001489s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001327s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000987s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006117s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002321s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002511s ]
+
+[ 2014-12-25T15:02:20+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/index/link.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.018064s ]
+INFO: [ route_check ] --END-- [ RunTime:0.018246s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.005615s ]
+SQL: SELECT * FROM `link` WHERE ( `lang` = 'zh-Hans' ) ORDER BY link_sort LIMIT 10   [ RunTime:0.000823s ]
+SQL: SELECT * FROM `link` WHERE ( `lang` = 'zh-Hans' ) ORDER BY link_sort  [ RunTime:0.001018s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029569s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001398s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001019s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001144s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005380s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001812s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001994s ]
+

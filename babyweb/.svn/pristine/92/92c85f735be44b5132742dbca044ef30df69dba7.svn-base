@@ -1,0 +1,19 @@
+    <div class="col-xs-12"> 
+    <div class="row innerpadding">
+     <div class="col-xs-12 visible-lg">  
+     	<a id="guide"></a>
+     	<h3 class="text-left" style="text-shadow: 0 1px 0 #efefef; line-height: 60px;">Pour Android
+     	</h3>
+     </div>     
+ 	<div class="col-xs-12 margin-top20">
+     	<div class="float-left step">ÉTAPE</div><div class="span float-left">1</div><div class="float-left content" style=" padding-right: 100px; width: 100%;">Ouvrir Google Play Store.</div>
+     </div>
+     
+     <div class="col-xs-12 margin-top20">
+     	<div class="float-left step">ÉTAPE</div><div class="span float-left">2</div><div class="float-left content">Dans la barre de recherche taper le mot-clé "BabyBus" ou le nom de l'application à installer, puis appuyer sur "Télécharger".</div>
+     </div>
+     <div class="col-xs-12 margin-top40">
+     	<img src="__PUBLIC__/images/download/android_1.jpg">
+     </div>
+     </div>
+   </div> 

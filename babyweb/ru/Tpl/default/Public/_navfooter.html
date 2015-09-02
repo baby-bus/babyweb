@@ -1,0 +1,17 @@
+<div class="actGotop"><a href="javascript:;" title="Наверх"></a></div>
+<div class="four">
+	<div class="container">
+        <if condition="$link_data neq null">
+            <p>Рекомендуемые ссылки：
+                    <foreach name="link_data" item="vo">
+                        <a href="{$vo.link_url}">{$vo.link_name}</a>&nbsp;&nbsp;
+                    </foreach>
+                <a href="{:U('Index/link')}">Еще больше</a>
+            </p>
+        </if>
+		<P>© BabyBus Group 2014 г. Все права защищены<br />
+			<a href="{:U('Index/declaration')}" target="_blank">Правила пользования</a>&nbsp;&nbsp;<a href="{:U('Index/privacyPolicy')}" target="_blank">Политика конфиденциальности</a>
+			<script src="http://s22.cnzz.com/stat.php?id=3356281&web_id=3356281&show=pic" language="JavaScript"></script>
+		</P>
+	</div>
+</div>

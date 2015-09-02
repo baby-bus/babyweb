@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta name="description" content="宝宝巴士结合不同年龄阶段的早教重点设计了启蒙站和探索站两个系列，通过寓教于乐的方式达到启蒙益智的目的。完善的知识体系框架，全方面培养宝宝能力，打造宝宝成长好伙伴。">
+<meta name="keywords" content="宝宝巴士,宝贝巴士,BabyBus,启蒙,启蒙教育,在线教育,宝宝学数字,宝宝学ABC,儿童软件,儿童应用,移动早教,熊猫,早教,幼教,宝宝学形状">
+<meta name="author" content="宝宝巴士（福建）网络科技有限公司">
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+<link href="__PUBLIC__/css/toastr.css" rel="stylesheet">
+<link rel="apple-touch-icon-precomposed" href="{:WEB_URL}/favicon.png">
+<!--[if lt IE 9]><script src="__PUBLIC__/js/respons/ie8-responsive-file-warning.js"></script><![endif]-->
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="__PUBLIC__/js/respons/html5shiv.js"></script>
+      <script src="__PUBLIC__/js/respons/respond.min.js"></script>
+<![endif]-->
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<link href="__PUBLIC__/css/public.css" rel="stylesheet">
+<style type="text/css">
+			body{
+				background:url('__PUBLIC__/images/boxvideo/video_bg.png') #7ee1f8;
+			}
+			.product_two .box .imgradius {
+			border-radius: 4px;
+			}
+			.product_two .box {
+				padding: 5px;
+				border-radius: 15px;
+				border:none;
+				background: #fff;
+				box-shadow: 0px 2px 2px #5CB4EA;
+				}
+			.product_two .box .imgradius {
+			border-radius: 15px;
+			}
+			.product_two .box h1 {
+				font-size: 14px;
+				text-align: center;
+				color: #28a2e1;
+				margin: 5px 0;
+				white-space:nowrap; 
+	            overflow:hidden; 
+	            text-overflow:ellipsis;
+				}
+			.col-xs-6,.col-xs-12{
+				padding-right: 5px;
+				padding-left: 5px;
+			}
+			.actGotops {
+			position: fixed;
+			display: none;
+			right: 10px;
+			bottom: 15px;
+			z-index: 9999;
+			width: 40px;
+			background: none;
+			}
+			.actGotops a{
+				display: block;
+				width: 80px;
+				height: 80px;
+				float: left;
+				margin-left: 10px;
+			}
+			#infscr-loading {
+			margin-bottom: 40px;
+			}
+			#infscr-loading img{
+				margin: auto;
+				margin-bottom: 20px;
+			}
+			.actGotops img{
+				width: 30px;
+			}
+			.col-xs-4{
+				position: relative;
+				min-height: 1px;
+				padding-right: 5px;
+				padding-left: 5px;
+			}
+			#navigation {
+				display: block !important;
+				border-radius: 10px;
+				-moz-border-radius: 10px;
+				-webkit-border-radius: 10px;
+				border: 1px solid #ddd;
+				background: #ffcd35;
+				box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.4);
+				color: #fff;
+				text-decoration: none;
+				width: 60%;
+				margin: auto;
+				margin-bottom: 20px;
+				padding: 10px;
+				text-align: center;
+			}
+			.menu{
+				margin-top: 25px;
+				background: #ffcc00;
+				border-bottom: 2px solid #e88039;
+				border-top: 2px solid #e88039;
+			}
+			.menu img{
+				height: 30px;
+				cursor: hand;
+				float: left;
+			}
+			.menu .down_3{		
+				float: left;
+				display: block;
+				cursor: pointer;
+				width: 91px;
+				height: 35px;
+				background: url("__PUBLIC__/images/boxvideo/anniu_3.png") no-repeat;
+				background-size: 100%;
+				margin: 0px 5px;
+			}
+			.menu .down_3hover{
+				position: absolute;
+				left: 122px;
+				float: left;
+				display: block;
+				width: 126px;
+				height: 70px;
+				background: url("__PUBLIC__/images/boxvideo/anniu_3s.png") no-repeat;
+				margin-top: -25px;
+				background-size: 100%;
+				
+			}
+			.menu .down_2{
+				position: absolute;
+				left: 252px;
+				float: left;
+				display: block;
+				cursor: pointer;
+				width: 91px;
+				height: 35px;
+				background: url("__PUBLIC__/images/boxvideo/anniu_2.png") no-repeat;
+				background-size: 100%;
+				margin: 0px 5px;
+			}
+			.menu .down_2hover{
+position: absolute;
+				left: 215px;
+				float: left;
+				display: block;
+				width: 126px;
+				height: 70px;
+				background: url("__PUBLIC__/images/boxvideo/anniu_2s.png") no-repeat;
+				margin-top: -25px;
+				background-size: 100%;
+				
+			}
+			.menu .down_1{
+				position: absolute;
+				left: 347px;
+				float: left;
+				display: block;
+				cursor: pointer;
+				width: 91px;
+				height: 35px;
+				background: url("__PUBLIC__/images/boxvideo/anniu_1.png") no-repeat;
+				background-size: 100%;
+				margin: 0px 5px;
+			}
+			.menu .down_1hover{
+
+				position: absolute;
+				left: 308px;
+				float: left;
+				display: block;
+				width: 126px;
+				height: 70px;
+				background: url("__PUBLIC__/images/boxvideo/anniu_1s.png") no-repeat;
+				margin-top: -25px;
+				background-size: 100%;
+				
+			}
+			
+</style>
+<title>产品 - 宝宝巴士 快乐童年 - 启蒙教育第一品牌</title>
+</head>
+<body>
+<!--=============navbar导航===================
+==============================================-->
+
+
+<div class="container product_two product_list" style="margin-top: 10px;">
+	
+	<div class="row infinitescrolls" id="product_list">
+        <volist name='data' id='vo' >
+            <div class="col-xs-6 border">
+                <div class="box">
+                    <div class="video-container">
+                        <a href="{:U('videotalk/boxvideo_detail','id='.$vo[id])}">
+                            <img src="{$vo.song_img}" onerror="javascript:this.src='__PUBLIC__/images/public/default.gif'" class="img-responsive imgradius"/>
+                        </a>
+                    </div>
+                    <h1>{$vo.song_name}</h1>
+                </div>
+            </div>
+        </volist>
+    </div>
+    
+    <!--<a href="http://wwww.badidu.com/qq.htm?page=1"></a>-->       <!-- 此处可以是url，可以是action，要注意不是每种html都可以加，是跟当前网页有相同布局的才可以。另外一个重要的地方是page参数，这个一定要加在这里，它的作用是指出当前页面页码，没加载一次数据，page自动+1,我们可以从服务器用request拿到他然后进行后面的分页处理。-->
+    
+    <a id="navigation" href="{:U('boxvideopage',array('page'=>2,'class_id'=>$class_id))}">点击查看更多</a>	
+
+</div>
+<div class="actGotops"><a class="top" href="javascript::;"><img src="__PUBLIC__/images/boxvideo/top@2x.png"/></a></div>
+
+<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/js/jquery.infinitescroll.min.js"></script>
+</body>
+<script type='text/javascript'>
+$(window).scroll(function() {      
+        if($(window).scrollTop() >= 100){
+            $('.actGotops').fadeIn(300); 
+        }else{    
+            $('.actGotops').fadeOut(300);    
+        }  
+    });
+	$('.top').click(function(){
+		$('html,body').animate({scrollTop: '0px'}, 800);
+	});
+//	$(".video-container img").click(function() {
+//                  $(this).hide();
+//                  $(this).siblings("img").hide();
+//                  $(this).siblings("iframe").show();
+//              })
+    function scroll(class_name){
+		 $(class_name).infinitescroll({
+		        navSelector: "#navigation",     //页面分页元素--成功后自动隐藏
+		        nextSelector: "#navigation",
+		        itemSelector: ".border " , 
+				loading: {
+				finishedMsg: "没有新动画了...",
+	            img: "/Public/images/product/loading.gif",
+	            msgText:"正在加载动画..."			//加载时显示的文字
+				},
+				extraScrollPx: 150,                                            //离网页底部多少像素时触发ajax
+				errorCallback: function(){
+					//alert("出错！")
+				},                             //加载完数据后的回调函数，可选
+		    }); 
+	 }
+	scroll(".infinitescrolls");
+	$(window).unbind(".infscr");
+	$('#navigation').bind("click",function(){
+		$(".infinitescrolls").infinitescroll("retrieve");				      
+			      return false;			
+	});
+	
+	
+	 video_list();
+     function video_list(){  
+     	
+     	var all		  = $("#all_video").attr('data');
+     	var animation = $("#animation_video").attr('data');
+     	var song	  = $("#song_video").attr('data');
+      all=1;
+       if(song==1){
+        	$('#song_video').addClass("down_1hover");
+        	$('#animation_video').css("left","210px")
+            all=null;
+        }       
+       	if(animation==1){
+            $('#animation_video').addClass("down_2hover");
+            all=null;
+        }
+       	if(all==1){    	
+            $('#all_video').addClass("down_3hover");
+       	} 
+     }
+    
+</script>
+
+
+</html>

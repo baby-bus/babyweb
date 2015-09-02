@@ -1,0 +1,51 @@
+<!--=============navbar导航===================
+==============================================-->
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="logo"><a href="{:WEB_URL}"><img src="__PUBLIC__/images/Public/logo.png" alt="宝宝巴士 - 幼儿教学应用软件第一品牌,专注幼儿应用/软件,支持iPhone /iPad / Android 平台" /></a></div>
+        </div>
+        <div class="navbar-collapse collapse navbar-right navbar-margintop">
+          <ul class="nav navbar-nav">
+            <li data-value="Index"><a href="{:U('Index/index')}">首頁</a></li>
+            <li data-value="Product"><a href="{:U('Product/index')}">產品</a></li>
+            <li data-value="Download"><a href="{:U('Download/index')}">下載</a></li>
+            <li data-value="Join"><a href="{:U('Join/index')}">招聘</a></li>
+            <li data-value="About"><a href="{:U('About/index')}">關於我們</a></li>
+			<li class="dropdown"><a href="#" class="dropdown-toggle"  data-toggle="dropdown">繁體中文<span class="caret"></span></a>
+            	<ul class="dropdown-menu" role="menu">
+					<li><a href="http://cn.babybus.com">简体中文</a></li>
+					<li><a href="http://en.babybus.com">English</a></li>
+					<li><a href="http://ko.babybus.com">한국어</a></li>
+					<li><a href="http://ja.babybus.com">日本語</a></li>
+					<li><a href="http://fr.babybus.com">Français</a></li>
+					<li><a href="http://de.babybus.com">Deutsch</a></li>
+                    <li><a href="http://ru.babybus.com">Русский</a></li>
+					<li><a href="http://pt.babybus.com">Português</a></li>
+                </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+<script>
+  $(function(){
+  	web_url = '{:WEB_URL}';
+  	var model = '{:MODULE_NAME}';
+  	$(".navbar-nav li").each(function(){
+  		var val = $(this).attr("data-value");
+  		if(val!="undefined"){
+  			if(model==val){
+  				$(this).addClass("active");
+  				$(this).siblings().removeClass("active");
+  			}
+  		}
+  	})
+  })
+</script>

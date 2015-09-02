@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta name="description" content="Na BabyBus nos especializamos na produção e desenvolvimento de produtos educativos para crianças em idade pré-escolar, estamos criando nas plataformas portáteis, uma imagem de marca de animação de renome, crescendo e aprendendo com as crianças do mundo inteiro.">
+<meta name="keywords" content="BabyBus,crianças,infantil,despertar,panda,ensino,educação,juvenil,software infantil,aprendendo as formas,aprendendo os números,explorar">
+<meta name="author" content="BabyBus Group">
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="apple-touch-icon-precomposed" href="{:WEB_URL}/favicon.png">
+
+<!--[if lt IE 9]><script src="__PUBLIC__/js/respons/ie8-responsive-file-warning.js"></script><![endif]-->
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="__PUBLIC__/js/respons/html5shiv.js"></script>
+      <script src="__PUBLIC__/js/respons/respond.min.js"></script>
+    <![endif]-->
+<link href="__PUBLIC__/css/public.css" rel="stylesheet">
+<script src="__PUBLIC__/js/jquery.min.js"></script> 
+<title>Blogue - BabyBus - Número 1 em Apps Infantis</title>
+</head>
+<body>
+<!--=============navbar导航===================
+==============================================-->
+
+<include file="Public:_navbar"/>
+
+<!--=============banner横幅广告区===================
+==============================================-->
+<div class="about padding-top70 about-banner">
+	
+		<div class="about-banner1 hidden-xs">
+			
+		</div>
+		<div class="container about-banner2 visible-xs">
+			
+		</div>
+	
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-9">
+			<ol class="breadcrumb">
+				<li><a href='__APP__'>Home</a></li>
+				<li><a href='__URL__'>Blogue</a></li>
+			</ol>
+		</div>
+	</div>
+	<div class="row blog">
+		<h2 class="padding_t"><a href="#">{$data.title}</a></h2>
+		<div class="col-sm-8">
+			<div class="item">
+                <ul class="postmetadata clearfix">
+                    <li class="author">{$data.username}</li>
+                    <li class="date">{$data.createtime}</li>          
+                </ul>
+                <div>
+                    <if condition='$data.is_show eq 1'><img src="{:$vo['thumb'] ? $vo['thumb']:'__PUBLIC__/images/blog/temp42_14.jpg'}" onerror="javascript:this.src='__PUBLIC__/images/blog/temp42_14.jpg'" class="img-responsive" /></if>
+                </div>
+                <p class="digest">{$data.content}</p>
+			</div>
+			<ul class="pager">
+                <li class="previous"><a <if condition="$data.id eq $minid"> style="display: none;" </if> href="__URL__/info/id/{$old_id}">&larr; Mais antigas</a></li>
+                <li class="next"><a <if condition="$data.id eq $maxid"> style="display: none;" </if> href="__URL__/info/id/{$new_id}">Mais recentes &rarr;</a></li>
+            </ul>
+		</div>
+		<div class="col-sm-4 blog bcontact">
+                    <form action='' method='post'>
+                    <p>
+                    	<span style="color: #999999;">Deixe o seu comentário</span> 
+                    	<a href="https://twitter.com/BabyBus_apps"><img src="__PUBLIC__/images/blog/t_icon.png" width="25" height="25" style="margin-top: -5px;"/></a>
+                    	<a href="https://www.facebook.com/babybusen"><img src="__PUBLIC__/images/blog/f_icon.png" width="25" height="25" style="margin-top: -5px;"/></a>
+                    	
+                    </p>
+                    <div id="t_name" class="form-group">
+                    <input type="text" name='name' class="form-control" onblur="isname()">
+                    <p class="leave_p">Nome</p>
+                    </div>
+                    
+                    <div id="t_email" class="form-group">
+                    <input type="text" name='email' class="form-control" onblur="isEmail()">
+                    <p class="leave_p">E-mail</p>
+                    </div>
+                    
+                    <div id="t_content" class="form-group">
+                    <textarea class="form-control" name='content' rows="5" onblur="isContent()"></textarea>
+                    <p class="text-right margin-top20"><span style="float: left;"></span><a class="btn btn-primary" onclick="tosubmit({$data['id']});" >Enviar</a></p>
+                    </div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<!--=============footer页脚====================
+==============================================-->
+<div class="product_three">
+
+</div>
+<include file="Public:_navfooter" />
+
+
+<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/js/public.js"></script>
+<script src="__PUBLIC__/js/function.js"></script>
+
+</body>
+
+
+<script type='text/javascript'>
+    //为元素添加自适应属性
+    $(function(){
+        $('.item img').attr("class","img-responsive");
+        $('.item embed').attr("width","100%");
+        $('img:last').attr("class","");
+    })
+</script>
+
+
+
+</html>

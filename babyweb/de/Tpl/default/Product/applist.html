@@ -1,0 +1,83 @@
+<include file="Public:_navheader" />
+		<title>Glance - BabyBus - Your children's best learning companion!</title>
+	</head>
+	<body style="background: #EFEFEF;">
+		<!--=============navbar导航===================
+==============================================-->
+		<div class="top_banner_position">
+			<div class="top_banner_bg" style="width:100%">
+				<div id="top_home">
+					<a href="{:WEB_URL}"></a>
+				</div>
+				<div class="search_txt_box">
+					Glance
+				</div>
+			</div>
+		</div>
+		<div class="top_banner_bottom"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<ul class="itemlist" style="padding-bottom: 100px;">
+						<volist name="data" id="vo">
+							<li class="app_item_li list_item">
+								<article>
+									<a href="{$vo['cell_android_url']}" target="_blank">
+										<img src="{$vo['app_logo']}" class="app_icon" onerror="javascript:this.src='__PUBLIC__/images/appicon/nodata.png'">
+									</a>
+								</article>
+								<article class="list_con list_url">
+									<div class="t_font">
+										<span class="list_title_font">{$vo['app_name']}</span>
+									</div>
+									<div class="list_star_down">
+	
+										<div class="list_down_tip">
+											version:{$vo['app_version']}&nbsp;&nbsp; Size:{$vo['app_size']}
+										</div>
+									</div>
+								</article>
+								<aside>
+									<a class="down_btn_a" href="{$vo['cell_android_url']}" target="_blank">
+										<div class="down_btn">
+	
+										</div>
+									</a>
+								</aside>
+								
+							</li>
+						</volist>	
+						
+					</ul>
+					<div id="navigation" align="center">         <!-- 页面导航-->
+				        <a href="{:U('getAndroidMore',array('page'=>2))}"></a>       <!-- 此处可以是url，可以是action，要注意不是每种html都可以加，是跟当前网页有相同布局的才可以。另外一个重要的地方是page参数，这个一定要加在这里，它的作用是指出当前页面页码，没加载一次数据，page自动+1,我们可以从服务器用request拿到他然后进行后面的分页处理。-->
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="__PUBLIC__/js/jquery.min.js"></script>
+		<script src="__PUBLIC__/js/jquery.infinitescroll.min.js"></script>
+		<script>
+			$(document).ready(function (){               
+				  $(".itemlist").infinitescroll({
+				        navSelector: "#navigation",     //页面分页元素--成功后自动隐藏
+				        nextSelector: "#navigation a",
+				        itemSelector: ".app_item_li " , 
+				        maxPage: 10,
+						loading: {
+						finishedMsg: "Updated!",
+			            img: "__PUBLIC__/images/product/loading.gif",
+			            msgText:"Updating..."			//加载时显示的文字   
+						},
+						extraScrollPx: 100,                                            //离网页底部多少像素时触发ajax
+						errorCallback: function(){
+							//alert("出错！")
+						},                             //加载完数据后的回调函数，可选
+				        
+				    });
+		
+			 });
+		</script>
+	</body>
+
+</html>

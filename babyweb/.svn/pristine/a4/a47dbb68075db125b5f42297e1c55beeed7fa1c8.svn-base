@@ -1,0 +1,306 @@
+[ 2015-02-06T10:34:04+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.016562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016735s ]
+SQL: SHOW COLUMNS FROM `website_link` [ RunTime:0.015960s ]
+SQL: SELECT * FROM `website_link` WHERE ( `lang` = 'zh-Hans' ) ORDER BY link_sort LIMIT 10   [ RunTime:0.007241s ]
+SQL: SHOW COLUMNS FROM `website_index_images` [ RunTime:0.012804s ]
+SQL: SELECT * FROM `website_index_images` WHERE ( lang='zh-Hans' and used=1 ) ORDER BY num asc,id asc  [ RunTime:0.014670s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 134 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 134 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 147 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 134 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 147 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 258 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 258 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 271 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 258 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 271 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.173976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.174170s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.011852s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009278s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.020710s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.045506s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.026225s ]
+INFO: [ view_end ] --END-- [ RunTime:0.026348s ]
+
+[ 2015-02-06T10:34:07+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/product/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011666s ]
+INFO: [ route_check ] --END-- [ RunTime:0.012891s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002004s ]
+SQL: SHOW COLUMNS FROM `website_apps` [ RunTime:0.007597s ]
+NOTIC: [8] Undefined index: cata_id D:\wamp\www\projcet\babyweb\cn\Lib\Action\ProductAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: search_word D:\wamp\www\projcet\babyweb\cn\Lib\Action\ProductAction.class.php 第 16 行.
+NOTIC: [8] Undefined index: cata_id D:\wamp\www\projcet\babyweb\cn\Lib\Action\ProductAction.class.php 第 22 行.
+NOTIC: [8] Undefined index: is_hot D:\wamp\www\projcet\babyweb\cn\Lib\Action\ProductAction.class.php 第 23 行.
+SQL: SELECT `id`,`ipad_id`,`iphone_id`,`cell_android_url`,`android_url`,`app_name`,`app_images`,`intro`,`myapp_url`,`myios_url` FROM `website_apps` WHERE ( `del` = 0 ) AND ( `lang` = 'zh-Hans' ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.007810s ]
+SQL: SHOW COLUMNS FROM `app_langs` [ RunTime:0.008420s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 123 or app_id = 124) )  [ RunTime:0.059930s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 1318 or app_id = 1317) )  [ RunTime:0.006740s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 1380 or app_id = 1379) )  [ RunTime:0.005323s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 5 or app_id = 20) )  [ RunTime:0.016360s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 1218 or app_id = 1217) )  [ RunTime:0.002849s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 1377 or app_id = 1376) )  [ RunTime:0.006872s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 1368 or app_id = 1367) )  [ RunTime:0.003129s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 1193 or app_id = 1192) )  [ RunTime:0.006094s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 1189 or app_id = 1190) )  [ RunTime:0.001625s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\projcet\babyweb\cn\Lib\Action\ProductAction.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: link_data D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b6c885e76b3fad3e771f7977173d34c6.php 第 189 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.060644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060891s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004357s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002323s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001229s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009842s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002116s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002302s ]
+
+[ 2015-02-06T10:34:10+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/product/info/id/1005.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002075s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002254s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001880s ]
+SQL: SHOW COLUMNS FROM `website_apps` [ RunTime:0.006535s ]
+NOTIC: [8] Undefined index: cata_id D:\wamp\www\projcet\babyweb\cn\Lib\Action\ProductAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: search_word D:\wamp\www\projcet\babyweb\cn\Lib\Action\ProductAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `website_apps` [ RunTime:0.005838s ]
+SQL: SELECT * FROM `website_apps` LEFT JOIN  website_app_imgs on website_apps.id = website_app_imgs.app_id  WHERE ( website_apps.id=1005 )  [ RunTime:0.002659s ]
+SQL: SELECT `ipad_id` FROM `website_apps` WHERE (  id = 1005  ) LIMIT 1   [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `app_langs` [ RunTime:0.006206s ]
+SQL: SELECT `store_url` FROM `app_langs` WHERE (  app_id = '123' and lang = 'zh-Hans'  ) LIMIT 1   [ RunTime:0.071164s ]
+SQL: SELECT `android_url` FROM `website_apps` WHERE ( website_apps.id=1005 ) LIMIT 1   [ RunTime:0.000520s ]
+SQL: SELECT * FROM `website_apps` WHERE (  is_hot = 1 and lang ='zh-Hans'  ) LIMIT 6   [ RunTime:0.001823s ]
+SQL: SELECT * FROM `website_apps` WHERE ( `id` NOT IN ('65','66','68') ) AND ( `lang` = 'zh-Hans' ) ORDER BY  id desc  LIMIT 3   [ RunTime:0.037527s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant app_logo - assumed 'app_logo' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\8b15c8f63c86103f73192ded4e25a1b5.php 第 146 行.
+NOTIC: [8] Use of undefined constant app_logo - assumed 'app_logo' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\8b15c8f63c86103f73192ded4e25a1b5.php 第 235 行.
+NOTIC: [8] Use of undefined constant app_logo - assumed 'app_logo' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\8b15c8f63c86103f73192ded4e25a1b5.php 第 235 行.
+NOTIC: [8] Use of undefined constant app_logo - assumed 'app_logo' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\8b15c8f63c86103f73192ded4e25a1b5.php 第 235 行.
+NOTIC: [8] Use of undefined constant app_logo - assumed 'app_logo' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\8b15c8f63c86103f73192ded4e25a1b5.php 第 235 行.
+NOTIC: [8] Use of undefined constant app_logo - assumed 'app_logo' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\8b15c8f63c86103f73192ded4e25a1b5.php 第 235 行.
+NOTIC: [8] Use of undefined constant app_logo - assumed 'app_logo' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\8b15c8f63c86103f73192ded4e25a1b5.php 第 235 行.
+NOTIC: [8] Undefined variable: link_data D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\8b15c8f63c86103f73192ded4e25a1b5.php 第 258 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.070882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071024s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000930s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000895s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004720s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002109s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002252s ]
+
+[ 2015-02-06T11:00:59+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+SQL: SHOW COLUMNS FROM `website_link` [ RunTime:0.004680s ]
+SQL: SELECT * FROM `website_link` WHERE ( `lang` = 'zh-Hans' ) ORDER BY link_sort LIMIT 10   [ RunTime:0.001558s ]
+SQL: SHOW COLUMNS FROM `website_index_images` [ RunTime:0.005174s ]
+SQL: SELECT * FROM `website_index_images` WHERE ( lang='zh-Hans' and used=1 ) ORDER BY num asc,id asc  [ RunTime:0.001118s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 134 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 134 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 147 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 134 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 147 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 258 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 258 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 271 行.
+NOTIC: [8] Use of undefined constant one - assumed 'one' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 258 行.
+NOTIC: [8] Use of undefined constant one3 - assumed 'one3' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\5ec3307169fe79e2b7d3e10856dd48ce.php 第 271 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.051341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051456s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002547s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000804s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000490s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004966s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000913s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2015-02-06T11:01:01+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/join/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001600s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001769s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `website_link` [ RunTime:0.005680s ]
+SQL: SELECT * FROM `website_link` WHERE ( `lang` = 'zh-Hans' ) ORDER BY link_sort LIMIT 10   [ RunTime:0.001059s ]
+SQL: SHOW COLUMNS FROM `website_jobs` [ RunTime:0.011187s ]
+SQL: SELECT `id`,`job_class_id`,`job_name`,`job_require`,`job_respons`,`job_direction` FROM `website_jobs` WHERE ( `lang` = 'zh-Hans' )  [ RunTime:0.001221s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 183 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 196 行.
+NOTIC: [8] Undefined offset: 4 D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 209 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 310 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 310 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 310 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 310 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 310 行.
+NOTIC: [8] Use of undefined constant job_class_id - assumed 'job_class_id' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b283139ee161edac2b4258929eacd196.php 第 310 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.078944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079241s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001131s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000816s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000508s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000971s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003815s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001437s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001626s ]
+
+[ 2015-02-06T11:01:18+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/product/index.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001535s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001671s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `website_apps` [ RunTime:0.006457s ]
+NOTIC: [8] Undefined index: cata_id D:\wamp\www\projcet\babyweb\cn\Lib\Action\ProductAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: search_word D:\wamp\www\projcet\babyweb\cn\Lib\Action\ProductAction.class.php 第 16 行.
+NOTIC: [8] Undefined index: cata_id D:\wamp\www\projcet\babyweb\cn\Lib\Action\ProductAction.class.php 第 22 行.
+NOTIC: [8] Undefined index: is_hot D:\wamp\www\projcet\babyweb\cn\Lib\Action\ProductAction.class.php 第 23 行.
+SQL: SELECT `id`,`ipad_id`,`iphone_id`,`cell_android_url`,`android_url`,`app_name`,`app_images`,`intro`,`myapp_url`,`myios_url` FROM `website_apps` WHERE ( `del` = 0 ) AND ( `lang` = 'zh-Hans' ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.005280s ]
+SQL: SHOW COLUMNS FROM `app_langs` [ RunTime:0.004752s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 123 or app_id = 124) )  [ RunTime:0.002360s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 1318 or app_id = 1317) )  [ RunTime:0.001299s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 1380 or app_id = 1379) )  [ RunTime:0.000912s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 5 or app_id = 20) )  [ RunTime:0.000778s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 1218 or app_id = 1217) )  [ RunTime:0.000944s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 1377 or app_id = 1376) )  [ RunTime:0.000745s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 1368 or app_id = 1367) )  [ RunTime:0.000755s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 1193 or app_id = 1192) )  [ RunTime:0.000677s ]
+SQL: SELECT `app_id`,`store_url` FROM `app_langs` WHERE ( lang = 'zh-Hans' and (app_id = 1189 or app_id = 1190) )  [ RunTime:0.000668s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\projcet\babyweb\cn\Lib\Action\ProductAction.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: down D:\wamp\www\projcet\babyweb\cn\Common\common.php 第 122 行.
+NOTIC: [8] Undefined variable: link_data D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\b6c885e76b3fad3e771f7977173d34c6.php 第 189 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028405s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001056s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000879s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000615s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003812s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002362s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002493s ]
+
+[ 2015-02-06T11:01:19+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/product/info/id/1005.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001810s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001993s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+SQL: SHOW COLUMNS FROM `website_apps` [ RunTime:0.005505s ]
+NOTIC: [8] Undefined index: cata_id D:\wamp\www\projcet\babyweb\cn\Lib\Action\ProductAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: search_word D:\wamp\www\projcet\babyweb\cn\Lib\Action\ProductAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `website_apps` [ RunTime:0.005254s ]
+SQL: SELECT * FROM `website_apps` LEFT JOIN  website_app_imgs on website_apps.id = website_app_imgs.app_id  WHERE ( website_apps.id=1005 )  [ RunTime:0.002243s ]
+SQL: SELECT `ipad_id` FROM `website_apps` WHERE (  id = 1005  ) LIMIT 1   [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `app_langs` [ RunTime:0.004778s ]
+SQL: SELECT `store_url` FROM `app_langs` WHERE (  app_id = '123' and lang = 'zh-Hans'  ) LIMIT 1   [ RunTime:0.000931s ]
+SQL: SELECT `android_url` FROM `website_apps` WHERE ( website_apps.id=1005 ) LIMIT 1   [ RunTime:0.000482s ]
+SQL: SELECT * FROM `website_apps` WHERE (  is_hot = 1 and lang ='zh-Hans'  ) LIMIT 6   [ RunTime:0.001689s ]
+SQL: SELECT * FROM `website_apps` WHERE ( `id` NOT IN ('65','66','68') ) AND ( `lang` = 'zh-Hans' ) ORDER BY  id desc  LIMIT 3   [ RunTime:0.005049s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant app_logo - assumed 'app_logo' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\8b15c8f63c86103f73192ded4e25a1b5.php 第 146 行.
+NOTIC: [8] Use of undefined constant app_logo - assumed 'app_logo' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\8b15c8f63c86103f73192ded4e25a1b5.php 第 235 行.
+NOTIC: [8] Use of undefined constant app_logo - assumed 'app_logo' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\8b15c8f63c86103f73192ded4e25a1b5.php 第 235 行.
+NOTIC: [8] Use of undefined constant app_logo - assumed 'app_logo' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\8b15c8f63c86103f73192ded4e25a1b5.php 第 235 行.
+NOTIC: [8] Use of undefined constant app_logo - assumed 'app_logo' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\8b15c8f63c86103f73192ded4e25a1b5.php 第 235 行.
+NOTIC: [8] Use of undefined constant app_logo - assumed 'app_logo' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\8b15c8f63c86103f73192ded4e25a1b5.php 第 235 行.
+NOTIC: [8] Use of undefined constant app_logo - assumed 'app_logo' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\8b15c8f63c86103f73192ded4e25a1b5.php 第 235 行.
+NOTIC: [8] Undefined variable: link_data D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\8b15c8f63c86103f73192ded4e25a1b5.php 第 258 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.049519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049634s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001017s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002562s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000967s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000867s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005711s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001336s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001449s ]
+
+[ 2015-02-06T11:05:51+08:00 ] 127.0.0.1 /projcet/babyweb/htdocs/cn/index.php/product/info/id/75.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001427s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001566s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+SQL: SHOW COLUMNS FROM `website_apps` [ RunTime:0.005103s ]
+NOTIC: [8] Undefined index: cata_id D:\wamp\www\projcet\babyweb\cn\Lib\Action\ProductAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: search_word D:\wamp\www\projcet\babyweb\cn\Lib\Action\ProductAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `website_apps` [ RunTime:0.006055s ]
+SQL: SELECT * FROM `website_apps` LEFT JOIN  website_app_imgs on website_apps.id = website_app_imgs.app_id  WHERE ( website_apps.id=75 )  [ RunTime:0.002170s ]
+SQL: SELECT `ipad_id` FROM `website_apps` WHERE (  id = 75  ) LIMIT 1   [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `app_langs` [ RunTime:0.005722s ]
+SQL: SELECT `store_url` FROM `app_langs` WHERE (  app_id = '1380' and lang = 'zh-Hans'  ) LIMIT 1   [ RunTime:0.000853s ]
+SQL: SELECT `android_url` FROM `website_apps` WHERE ( website_apps.id=75 ) LIMIT 1   [ RunTime:0.000286s ]
+SQL: SELECT * FROM `website_apps` WHERE (  is_hot = 1 and lang ='zh-Hans'  ) LIMIT 6   [ RunTime:0.001858s ]
+SQL: SELECT * FROM `website_apps` WHERE ( `id` NOT IN ('65','66','68') ) AND ( `lang` = 'zh-Hans' ) ORDER BY  id desc  LIMIT 3   [ RunTime:0.005178s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant app_logo - assumed 'app_logo' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\8b15c8f63c86103f73192ded4e25a1b5.php 第 146 行.
+NOTIC: [8] Use of undefined constant app_logo - assumed 'app_logo' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\8b15c8f63c86103f73192ded4e25a1b5.php 第 235 行.
+NOTIC: [8] Use of undefined constant app_logo - assumed 'app_logo' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\8b15c8f63c86103f73192ded4e25a1b5.php 第 235 行.
+NOTIC: [8] Use of undefined constant app_logo - assumed 'app_logo' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\8b15c8f63c86103f73192ded4e25a1b5.php 第 235 行.
+NOTIC: [8] Use of undefined constant app_logo - assumed 'app_logo' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\8b15c8f63c86103f73192ded4e25a1b5.php 第 235 行.
+NOTIC: [8] Use of undefined constant app_logo - assumed 'app_logo' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\8b15c8f63c86103f73192ded4e25a1b5.php 第 235 行.
+NOTIC: [8] Use of undefined constant app_logo - assumed 'app_logo' D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\8b15c8f63c86103f73192ded4e25a1b5.php 第 235 行.
+NOTIC: [8] Undefined variable: link_data D:\wamp\www\projcet\babyweb\cn\Runtime\Cache\8b15c8f63c86103f73192ded4e25a1b5.php 第 258 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.048706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048818s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000974s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000758s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000604s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003463s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001544s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001703s ]
+

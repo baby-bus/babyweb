@@ -1,0 +1,17 @@
+<div class="actGotop"><a href="javascript:;" title="맨위로"></a></div>
+<div class="four">
+	<div class="container">
+        <if condition="$link_data neq null">
+            <p>관련링크：
+                <foreach name="link_data" item="vo">
+                    <a href="{$vo.link_url}">{$vo.link_name}</a>&nbsp;&nbsp;
+                </foreach>
+                <a href="{:U('Index/link')}">더보기</a>
+            </p>
+        </if>
+		<P>Copyright © 2014 BabyBus Group All Rights Reserved<br />
+			<a href="{:U('Index/declaration')}" target="_blank">이용약관</a>&nbsp;&nbsp;<a href="{:U('Index/privacyPolicy')}" target="_blank">개인정보취급방침</a>
+			<script src="http://s22.cnzz.com/stat.php?id=3356281&web_id=3356281&show=pic" language="JavaScript"></script>
+		</P>
+	</div>
+</div>

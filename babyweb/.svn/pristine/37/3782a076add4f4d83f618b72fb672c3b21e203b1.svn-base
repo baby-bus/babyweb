@@ -1,0 +1,24 @@
+    <div class="col-xs-12"> 
+    <div class="row innerpadding">
+     <div class="col-xs-12 visible-lg">  
+     	<a id="guide"></a>
+     	<h3 class="text-left" style="text-shadow: 0 1px 0 #efefef; line-height: 60px;">安卓用户下载指南
+     	</h3>
+     </div>    
+   <div class="video-container">
+		<iframe width="100%" height="100%" src="http://player.youku.com/embed/XODY1ODA5MDgw" frameborder="0" allowfullscreen=""></iframe>
+        <a class="playbutton" data-original-title="" title=""></a>
+        <img src="__PUBLIC__/images/home/a_video.jpg" class="img-responsive imgradius">
+   </div>
+ 	<div class="col-xs-12 margin-top20">
+     	<div class="float-left step">STEP</div><div class="span float-left">1</div><div class="float-left content" style=" padding-right: 100px;">进入安卓设备的安卓市场。</div>
+     </div>
+     
+     <div class="col-xs-12 margin-top20">
+     	<div class="float-left step">STEP</div><div class="span float-left">2</div><div class="float-left content">点击顶部的搜索框，搜索关键词“宝宝巴士”或具体的应用名称选择相应的产品“下载”安装即可。</div>
+     </div>
+     <div class="col-xs-12 margin-top40">
+     	<img src="__PUBLIC__/images/download/android_1.jpg">
+     </div>
+     </div>
+   </div> 

@@ -1,0 +1,187 @@
+<include file="Public:_navheader" />
+<title>고객지원 - 베이비버스-유아교육 어린이 두뇌발달 창의력발달 유아앱시리즈</title>
+</head>
+<body data-spy="scroll" data-target=".navbar-example">
+<!--=============navbar导航===================
+==============================================-->
+<include file="Public:_navbar"/>
+
+
+<!--=============banner横幅广告区===================
+==============================================-->
+
+<div class="padding-top70 download-banner">
+	<div class="download-banner-International container">
+		
+	</div>
+	<php>if(device()=='pc'){</php>
+	<div class="product_one">
+	<div class="container">
+		<ul class="list-unstyled menu" role="tablist">
+			<li class="color_green list-clear down" style="width: 33.3333%; height: 35px;"><a style="padding: 8px 10px 15px 10px;" href="javascript:;" id="new_product">QR코드 스캔</a></li>			
+			<li class="color_yellow list-clear guide" style="width: 33.3333%; height: 35px;"><a style="padding: 8px 10px 15px 10px;" href="javascript:;" id="hot_product">가이드 다운로드</a></li>
+			<li class="color_pink list-clear faq" style="width: 33.3333%; height: 35px;"><a style="padding: 8px 10px 15px 10px;" href="javascript:;" id="hot_product">FAQ</a></li>	
+		</ul>
+	</div>	
+	</div>
+	<php>}</php>
+</div>
+
+
+
+
+
+<!--=============section主体内容区域===================
+==============================================-->
+<div class="download">
+	
+
+<div class="container">	
+    <php>if(device()=='pc'){</php>
+	<div class="row">
+		<div class="col-xs-12 downline margin-top10">
+			<a id="down"></a>
+        	<div class="title_icon">        		
+        		<div class="img pull-left"><img src="__PUBLIC__/images/Public/down.png" class="float-left"></div>
+				
+            </div>
+        </div>
+    </div>
+    <php>}</php>
+   <php>if(device()!='pc'){</php>
+	    <div class="row">
+			<div class="col-xs-12 margin-top40 text-center">
+				<a id="down"></a>
+	        	      		
+	        		<a href={:is_ios() ? "https://itunes.apple.com/cn/artist/babybus/id654666096" : U('product/showDownList')}><img src="__PUBLIC__/images/Public/click_down.png" class="img-responsive"></a>
+					
+	        
+	        </div>
+	    </div>
+	<php>}else{</php>
+    
+	<div class="row  margin-top40 hidden-xs">
+		<div class="col-xs-6 text-center">
+			<img src="__PUBLIC__/images/download/code_ios.jpg" />
+			<p class="codebtni">iOS 사용자</p>
+		</div>
+		<div class="col-xs-6 text-center">
+			<img src="__PUBLIC__/images/download/code_android.png" />
+			<p class="codebtna">Android 사용자</p>
+		</div>
+	</div>
+	<php>}</php>
+    <div class="row download_img">
+    	
+        <div class="col-xs-12 downline margin-top40">
+        	
+        	<div class="title_icon">        		
+        		<div class="img pull-left"><img src="__PUBLIC__/images/Public/guide.png" class="float-left"></div>				
+            </div>            
+        </div>  
+            
+    </div>
+    <div class="row download_img">
+        <php>if(device()=='pc'){</php>
+    	  <include file="Download:android"/> 
+    	   <include file="Download:ios"/>
+    	<php>}else if(is_android()){</php>
+    		<include file="Download:android"/>
+    	<php>}else if(is_ios()){</php>
+    		<include file="Download:ios"/>
+    	<php>}</php>
+    </div>
+    
+    
+    
+</div>
+
+</div>
+<!--=============section主体内容区域 问答===================
+==============================================-->
+<php>if(device()=='pc'){</php>
+<div class="download">
+<div class="container max-width960 download_img">
+	<div class="row">
+
+        <div class="col-sm-12 downline margin-top50 title_icon">
+        	<a id="faq"></a>
+        	<h2 class="text-left"><img src="__PUBLIC__/images/Public/title_faq.png" class="response_img"></h2>
+        </div>
+        
+
+            
+        <div class="col-xs-12 margin-top20">
+        	
+        	<div class="panel panel-default">
+              	<a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    
+                      <span>Q1</span>안드로이드 단말기에서 어플을 SD카드로 옮기는 방법은?
+                  </h4>
+                </div>
+                </a>
+                <div id="collapseThree" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                    <P>환경설정>애플리케이션 관리자>옮기고 싶은 어플>SD카드로 이동.반대로 어플을 SD카드에서 내장메모리로 이동을 하실려면 역시 같은 방법으로 하시면 됩니다.</P>
+                  </div>
+                </div>
+              </div>
+        	
+        	
+        	<div class="panel panel-default">
+        		<a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseone"  class="collapsed">
+                <div class="panel-heading clearfix">
+                  <h4 class="panel-title">
+                    
+                      <span>Q2</span>어플을 삭제하는 방법은?
+                    
+                  </h4>
+                </div>
+                </a>
+                <div id="collapseone" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <h5><strong>안드로이드:</strong></h5>
+                    <P>A. 단말기 바탕화면에서 해당앱을 길게 눌러서 쓰레기통 아이콘으로 이동을 하시면됩니다.</P>
+					<P>B. 단말기 바탕화면에서 [환경설정]>[애플리케이션관리자]>해당앱 삭제.</P>
+					<P>C. 컴퓨터와 연결한후 응용프로그램을 이용하여 정리삭제합니다.</P>
+                    <h5><strong>iOS：</strong></h5>
+                    <P>A. 단말기 바탕화면에서 해당앱을 길게 눌러서 로고가 떨때 삭제표시를 누르면됩니다.</P>
+                    <p>B. 컴퓨터와 연결한후 응용프로그램을 이용하여 정리삭제합니다.</p>
+                    <p>C. 삭제가 안되는 경우 [설정]>[일반]>[차단]>[APP삭제 허용].</P>
+                  </div>
+                </div>
+              </div>
+        
+        
+              
+              
+              
+              
+           </div>
+		
+    	</div>
+    </div>
+</div>
+<php>}</php>
+</div>
+
+
+
+
+
+<!--=============footer页脚====================
+==============================================-->
+
+<div class="product_three">
+	<div class="container margin-top50">
+	</div>
+</div>
+<include file="Public:_navfooter"/>
+
+<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/js/public.js"></script>
+<script src="__PUBLIC__/js/function.js"></script>
+</body>
+</html>

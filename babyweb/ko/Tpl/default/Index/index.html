@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+		<meta name="description" content="베이비버스는 미취학 어린이를 위한 교육용 애플리케이션입니다. 연령별 중점 교육 내용을 모두 결합하여 계몽영역과 탐구영역으로 양분했으며, 놀이를 통해 아이들의 기초 교육과 지능 계발에 도움을 줄 수 있도록 만들었습니다.">
+		<meta name="keywords" content="베이비버스,BabyBus,인지,창의력,귀염이,유아교육,조기교육,유아어플,유아앱,색칠놀이,동요,숫자공부,숫자놀이,역할놀이">
+		<meta name="author" content="베이비버스 테크놀러지">
+		<link href="__PUBLIC__/css/bootstrap.min.css?v=1" rel="stylesheet">
+		<link rel="apple-touch-icon-precomposed" href="favicon.png">
+		<!--[if lt IE 9]><script src="__PUBLIC__/js/respons/ie8-responsive-file-warning.js"></script><![endif]-->
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+      <script src="__PUBLIC__/js/respons/html5shiv.js"></script>
+      <script src="__PUBLIC__/js/respons/respond.min.js"></script>
+    <![endif]-->
+		<script src="__PUBLIC__/js/jquery.min.js"></script>
+		<link href="__PUBLIC__/css/animate.css?v=1" rel="stylesheet" />
+		<link href="__PUBLIC__/css/public.css" rel="stylesheet">
+		<title>베이비버스-유아교육 어린이 두뇌발달 창의력발달 유아앱시리즈</title>
+	</head>
+
+	<body data-spy="scroll" data-target=".navbar-example">
+
+		<!--=============navbar导航===================
+==============================================-->
+		<include file="Public:_navbar" />
+		<div id="carousel-example-generic" class="carousel slide visible-lg" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<!-- edit by csg 14-09-19 -->
+				<volist name='list' id='vo' key='k'>
+					<li data-target="#carousel-example-generic" data-slide-to="{$k-1}" class="<if condition='$k eq 1' >active</if>"></li>&nbsp;
+				</volist>
+				<!-- end -->
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<!-- edit by csg 14-09-19 -->
+				<!-- 没有数据的情况下使用固定图片 -->
+				<empty name='list'>
+					<div class="item active ">
+						<div class="one" style="background: url(/Public/images/banner/bg.png) repeat #4db9e2;">
+							<div class="page-vertical-align">
+								<div class="page-content-wrapper">
+									<div data-wow-delay="1.15s" class="captionimgauto wow fadeInLeft animated">
+										<img src="/Public/images/home/title.png" class="captionimg" alt="" />
+									</div>
+									<h1 class="caption hidden-xs">
+
+                                <small data-wow-delay="1.85s" class="wow fadeInLeft animated">
+
+                                    <p>창의적 잠재력을 키우는 <br />
+
+                                    자기주도형 놀이식 두뇌계발 <br />
+
+                                    단순한 조기교육이 아닌 같이 성장하는 친구역할<br /> 
+
+                                    단순한 제품이 아닌 부모님의 자녀교육 나침반역할</p>
+
+                                </small>
+
+                            </h1>
+								</div>
+								<!--one类的主图图片大小要求控制在782X494像素-->
+								<div data-wow-delay="2s" class="bus wow bounceInRight animated animated">
+									<img src="/Public/images/home/bus.png" class="img-responsive" alt="" />
+								</div>
+							</div>
+							<div class="bottombg hidden-xs"></div>
+						</div>
+					</div>
+					<else />
+					<!-- banner循环 -->
+					<volist name='list' id='vo' key='k'>
+						<div class="item <if condition='$k eq 1'>active</if> ">
+							<div class="{$vo.bg_class}" style="background: url({$vo.image_bg}) 
+
+                         <php>switch($vo['bg_align']){case 1:echo 'left';break;case 2:echo 'center';break;case 3:echo 'right';break;default:break;}</php>
+
+                         <php>switch($vo['bg_vertical']){case 1:echo 'top';break;case 2:echo 'middle';break;case 3:echo 'bottom';break;default:break;}</php>
+
+                         <if condition='$vo.bg_repeat eq 1' >repeat<else />no-repeat</if>
+
+                         {$vo.bg_color}; ">
+								<div class="page-vertical-align">
+									<div class="page-content-wrapper">
+										<div data-wow-delay="1.15s" class="captionimgauto wow fadeInLeft animated">
+											<img src="{$vo.image_left}" onerror="javascript:this.src='/Public/images/home/title.png'" class="captionimg" alt="" />
+										</div>
+										<h1 class="caption hidden-xs">
+
+                                    <!--class为one才显示-->
+
+                                    <if condition='$vo.bg_class eq one '>
+
+                                        <small data-wow-delay="1.85s" class="wow fadeInLeft animated">
+
+                                            <p>
+
+                                                <php>if($vo['description']['p2']==''){echo '&nbsp';}else{echo $vo['description']['p2']; }</php>
+
+                                            <br />
+
+                                                <php>if($vo['description']['p3']==''){echo '&nbsp';}else{echo $vo['description']['p3']; }</php>
+
+                                            <br />
+
+                                                <php>if($vo['description']['p4']==''){echo '&nbsp';}else{echo $vo['description']['p4']; }</php>
+
+                                            <br />
+
+                                                <php>if($vo['description']['p5']==''){echo '&nbsp';}else{echo $vo['description']['p5']; }</php>
+
+                                            </p>
+
+                                        </small>
+
+                                    </if>
+
+                                </h1>
+										<!-- 当class为one3时才显示产品下载 -->
+										<if condition='$vo.bg_class eq one3'>
+											<div data-wow-delay="2.1s" class="btn wow fadeInLeft animated">
+												<switch name="device">
+													<case value="iphone">
+														<a target="_blank" href="{$vo.ios_url}" class="ios"></a>
+													</case>
+													<case value="ipad">
+														<a target="_blank" href="{$vo.ios_url}" class="ios"></a>
+													</case>
+													<case value="ipod">
+														<a target="_blank" href="{$vo.ios_url}" class="ios"></a>
+													</case>
+													<case value="android">
+														<a target="_blank" href="{$vo.and_url}" class="android"></a>
+													</case>
+													<case value="pc">
+														<a target="_blank" href="{$vo.ios_url}" class="ios"></a>
+														<a target="_blank" href="{$vo.and_url}" class="android"></a>
+													</case>
+													<default/>
+												</switch>
+											</div>
+										</if>
+									</div>
+									<!--one类的主图图片大小要求控制在782X494像素-->
+									<div data-wow-delay="2s" class="bus wow bounceInRight animated">
+										<img class="img-responsive " src="{$vo.image_right}" onerror="javascript:this.src='/Public/images/home/bus.png'" alt="" />
+									</div>
+								</div>
+								<div class="bottombg hidden-xs"></div>
+							</div>
+						</div>
+					</volist>
+					<!-- 循环end -->
+				</empty>
+				<!-- end -->
+			</div>
+
+			<!-- Controls -->
+			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span> <span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span> <span class="sr-only">Next</span>
+			</a>
+		</div>
+
+		<!--手机端-->
+		<div id="myCarousel" class="carousel slide hidden-lg" data-ride="carousel">
+			<div id="owl-demo" class="owl-carousel">
+				<!-- 没有数据的情况下使用固定图片 -->
+				<empty name='list'>
+					<div class="item">
+						<div class="one" style="background: url(__PUBLIC__/images/banner/bg.png) repeat #4db9e2;">
+							<div class="page-vertical-align">
+								<div class="page-content-wrapper">
+
+									<div class="captionimgauto">
+										<img src="__PUBLIC__/images/home/title.png" class="captionimg" alt="" />
+									</div>
+									<h1 class="caption hidden-xs"> 
+
+                                <small data-wow-delay="1.85s" class="wow fadeInLeft animated">
+
+                                    <p>창의적 잠재력을 키우는 <br />
+
+                                                              자기주도형 놀이식 두뇌계발 <br />
+
+                                                              단순한 조기교육이 아닌 같이 성장하는 친구역할<br /> 
+
+                                                              단순한 제품이 아닌 부모님의 자녀교육 나침반역할</p>
+
+                                </small>
+
+                            </h1>
+								</div>
+								<div class="bus">
+									<img class="img-responsive " src="__PUBLIC__/images/home/bus.png" alt=""> </div>
+							</div>
+							<div class="bottombg hidden-xs"> </div>
+						</div>
+					</div>
+					<else />
+					<!-- banner循环 -->
+					<volist name='list' id='vo' key='k'>
+						<div class="item <if condition='$k eq 1'>active</if> ">
+							<div class="{$vo.bg_class}" style="background: url({$vo.image_bg}) 
+
+                         <php>switch($vo['bg_align']){case 1:echo 'left';break;case 2:echo 'center';break;case 3:echo 'right';break;default:break;}</php>
+
+                         <php>switch($vo['bg_vertical']){case 1:echo 'top';break;case 2:echo 'middle';break;case 3:echo 'bottom';break;default:break;}</php>
+
+                         <if condition='$vo.bg_repeat eq 1' >repeat<else />no-repeat</if>
+
+                         {$vo.bg_color}; ">
+								<div class="page-vertical-align">
+									<div class="page-content-wrapper">
+
+										<div data-wow-delay="1.15s" class="captionimgauto wow fadeInLeft animated">
+											<img src="{$vo.image_left}" onerror="javascript:this.src='/Public/images/home/title.png'" class="captionimg" alt="" />
+										</div>
+
+										<h1 class="caption hidden-xs">
+
+                                    <!--class为one才显示-->
+
+                                    <if condition='$vo.bg_class eq one '>
+
+                                        <!--<span data-wow-delay="1.45s" class="wow fadeInLeft animated"><php>if($vo['description']['p1']==''){echo '&nbsp';}else{echo $vo['description']['p1']; }</php></span><br />-->
+
+                                        <small data-wow-delay="1.85s" class="wow fadeInLeft animated">
+
+                                            <p>
+
+                                                <php>if($vo['description']['p2']==''){echo '&nbsp';}else{echo $vo['description']['p2']; }</php>
+
+                                            <br />
+
+                                                <php>if($vo['description']['p3']==''){echo '&nbsp';}else{echo $vo['description']['p3']; }</php>
+
+                                            </p>
+
+                                            <p>
+
+                                                <php>if($vo['description']['p4']==''){echo '&nbsp';}else{echo $vo['description']['p4']; }</php>
+
+                                            <br />
+
+                                                <php>if($vo['description']['p5']==''){echo '&nbsp';}else{echo $vo['description']['p5']; }</php>
+
+                                            </p>
+
+                                        </small>
+
+                                    </if>
+
+                                </h1>
+									</div>
+									<div data-wow-delay="2s" class="bus wow bounceInRight animated">
+										<img class="img-responsive " src="{$vo.image_right}" onerror="javascript:this.src='/Public/images/home/bus.png'" alt="" />
+									</div>
+								</div>
+								<div class="bottombg hidden-xs"></div>
+							</div>
+						</div>
+					</volist>
+					<!-- 循环end -->
+				</empty>
+			</div>
+		</div>
+
+		<!--=============section主体内容区域===================
+==============================================-->
+		<div class="two">
+			<div class="container indexicon">
+				<h1 class="caption">완벽한 지식체계<br />즐거운 놀이방식<br />두뇌발달과 자기계발</h1>
+				<div class="row">
+					<div class="col-sm-3 col-xs-6 font-center margin-top50">
+						<img class="animated" alt="인지발달" src="__PUBLIC__/images/home/icon_1.png">
+						<h4>인지발달</h4>
+						<p>인지발달단계 유형별 디자인</p>
+					</div>
+					<div class="col-sm-3 col-xs-6 font-center margin-top50">
+						<img class="animated" alt="감성지능" src="__PUBLIC__/images/home/icon_2.png">
+						<h4>감성지능</h4>
+						<p>감정 조절능력,자기인식과 인내심</p>
+					</div>
+
+					<div class="col-sm-3 col-xs-6 font-center margin-top50">
+						<img class="animated" alt="예술창의력" src="__PUBLIC__/images/home/icon_3.png">
+						<h4>예술창의력</h4>
+						<p>창의력과 도전정신 및 자신감</p>
+					</div>
+					<div class="col-sm-3 col-xs-6 font-center margin-top50">
+						<img class="animated" alt="사고능력" src="__PUBLIC__/images/home/icon_4.png">
+						<h4>사고능력</h4>
+						<p>창의적인 사고능력,문제해결 능력</p>
+					</div>
+				</div>
+				<div class="row ">
+					<div class="col-sm-3 col-xs-6 font-center icon-margin-top">
+						<img class="animated" alt="자연과학" src="__PUBLIC__/images/home/icon_8.png">
+						<h4>자연과학</h4>
+						<p>눈높이에 맞춘 자연현상 탐구</p>
+					</div>
+					<div class="col-sm-3 col-xs-6 font-center icon-margin-top">
+						<img class="animated" alt="역할놀이" src="__PUBLIC__/images/home/icon_5.png">
+						<h4>역할놀이</h4>
+						<p>정서활용, 문제대처,의사소통능력</p>
+					</div>
+					<div class="col-sm-3 col-xs-6 font-center icon-margin-top">
+						<img class="animated" alt="올바른 습관" src="__PUBLIC__/images/home/icon_7.png">
+						<h4>올바른 습관</h4>
+						<p>인성이 바른 아이,생활의 길잡이</p>
+					</div>
+					<div class="col-sm-3 col-xs-6 font-center icon-margin-top">
+						<img class="animated" alt="안전환경보호" src="__PUBLIC__/images/home/icon_6.png">
+						<h4>안전환경보호</h4>
+						<p>안전의식 및 환경보호의식 </p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="product_three">
+
+		</div>
+		<include file="Public:_navfooter" />
+		</div>
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content" style="margin-top: 15%;">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+						</button>
+						<h4 class="modal-title" id="myModalLabel" style="text-align: center;">BabyBus is Kid Safe with COPPA </h4>
+					</div>
+					<div class="modal-body">
+
+						<p>Following the FTC review, BabyBus apps have been tested to meet COPPA requirements. We are happy to bring you this good news, and we will continue to work hard to publish the safest and friendliest apps to our 60 million young users around the world. Thank you for everyone’s support for BabyBus!</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+		<script src="__PUBLIC__/js/public.js"></script>
+		<script src="__PUBLIC__/js/function.js"></script>
+		<script type="text/javascript">
+//			$('#myModal').modal({
+//				keyboard: false
+//			})
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,28 @@
+<volist name="data" id="vo">
+	<li class="app_item_li list_item">
+		<article>
+			<a href="{$vo['cell_android_url']}" target="_blank">
+				<img src="{$vo['app_logo']}" class="app_icon" onerror="javascript:this.src='__PUBLIC__/images/appicon/nodata.png'">
+			</a>
+		</article>
+		<article class="list_con list_url">
+			<div class="t_font">
+				<span class="list_title_font">{$vo['app_name']}</span>
+			</div>
+			<div class="list_star_down">
+
+				<div class="list_down_tip">
+					版本:{$vo['app_version']}&nbsp;&nbsp; 大小:{$vo['app_size']}
+				</div>
+			</div>
+		</article>
+		<aside>
+			<a class="down_btn_a" href="{$vo['cell_android_url']}" target="_blank">
+				<div class="down_btn">
+
+				</div>
+			</a>
+		</aside>
+		
+	</li>
+</volist>	

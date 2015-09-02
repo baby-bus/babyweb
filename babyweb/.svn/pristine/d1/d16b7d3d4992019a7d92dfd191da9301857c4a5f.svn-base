@@ -1,0 +1,18 @@
+<div class="actGotop"><a href="javascript:;" title="TOP"></a></div>
+<div class="four">
+	<div class="container">
+        <if condition="$link_data neq null">
+            <p>友情鏈接：
+                <foreach name="link_data" item="vo">
+                    <a href="{$vo.link_url}">{$vo.link_name}</a>&nbsp;&nbsp;
+                </foreach>
+                <a href="{:U('Index/link')}">更多</a>
+            </p>
+        </if>
+		<P>Copyright © 2014 BabyBus Group All Rights Reserved<br />
+			<a href="{:U('Index/declaration')}" target="_blank">使用聲明</a>&nbsp;&nbsp;<a href="{:U('Index/privacyPolicy')}" target="_blank">隱私政策</a>
+			<script src="http://s22.cnzz.com/stat.php?id=3356281&web_id=3356281&show=pic" language="JavaScript"></script>
+			<script type="text/javascript" name="baidu-tc-cerfication" data-appid="4744355" src="http://apps.bdimg.com/cloudaapi/lightapp.js"></script>
+		</P>
+	</div>
+</div>

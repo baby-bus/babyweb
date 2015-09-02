@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta name="description" content="宝宝巴士专注为学龄前儿童研发教育应用产品，通过移动互联平台，打造一个全球知名的卡通品牌形象，将中国传统文化融合国际化元素传播至大中华文化圈乃至全球。">
+<meta name="keywords" content="宝宝巴士,宝贝巴士,BabyBus,启蒙,启蒙教育,在线教育,幼儿教学,儿童软件,儿童应用,移动早教,熊猫,早教,幼教">
+<meta name="author" content="宝宝巴士（福建）网络科技有限公司">
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="apple-touch-icon-precomposed" href="{:WEB_URL}/favicon.png">
+
+<!--[if lt IE 9]><script src="__PUBLIC__/js/respons/ie8-responsive-file-warning.js"></script><![endif]-->
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="__PUBLIC__/js/respons/html5shiv.js"></script>
+      <script src="__PUBLIC__/js/respons/respond.min.js"></script>
+    <![endif]-->
+<link href="__PUBLIC__/css/public.css" rel="stylesheet">
+<script src="__PUBLIC__/js/jquery.min.js"></script> 
+
+<title>关于我们 - 宝宝巴士 快乐童年 - 启蒙教育第一品牌</title>
+</head>
+<body>
+<!--=============navbar导航===================
+==============================================-->
+
+<include file="Public:_navbar"/>
+
+<!--=============banner横幅广告区===================
+==============================================-->
+<div class="about padding-top70 about-banner">
+	
+		<div class="about-banner1 hidden-xs">
+			
+		</div>
+		<div class="container about-banner2 visible-xs">
+			
+		</div>
+	
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--=============section主体内容区域===================
+==============================================-->
+<div class="container download">
+	<div class="row joinus">
+    	<div class="col-sm-12 downline title_icon2">
+        	<h2><img src="__PUBLIC__/images/Public/title_about2.png" class="response_img"></h2>
+        </div>
+        <div class="col-sm-5 margin-top20">
+        	<img class="response_img slide-left" src="__PUBLIC__/images/joinus/c_photo.jpg">
+        </div>
+        <div class="col-sm-7 margin-top10">
+        <h4><strong class="font_c_blue">WHO :</strong></h4>
+        <P>宝宝巴士（BabyBus），专门针对学龄前儿童研发教育应用产品。结合不同年龄阶段的早教重点设计了启蒙站和探索站两个系列，通过寓教于乐的方式达到启蒙益智的目的。 </P>
+        
+        <h4 class="margin-top30"><strong class="font_c_blue">WHAT :</strong></h4>
+        <P>宝宝巴士（BabyBus）系列已拥有产品逾100款，支持iOS,Android两平台和九大语种（中文简体，中文繁体，日语，英语，俄语，阿拉伯语，法语，韩语，德语）。</P>
+        
+        <h4 class="margin-top30"><strong class="font_c_blue">WHY :</strong></h4>
+        <P>我们专注启蒙，而不只是教育。 <br>
+            我们细分年龄段，是父母育儿的好帮手。<br>
+            我们融合国际化元素，将宝宝巴士带给全球。</P>
+        
+        <h4 class="margin-top30"><strong class="font_c_blue">HOPE :</strong></h4>
+        <P>我们用心为孩子创造一个轻松、快乐的童年，努力成为宝宝成长的好伙伴。</P>
+        </div>
+    </div>
+    
+    <div class="row joinus margin-top30">
+    	<div class="col-sm-12 downline margin-top20 title_icon2">
+        	<h2><img src="__PUBLIC__/images/Public/title_honour2.png" class="response_img"></h2>
+        </div>
+    </div>
+    <div class="row joinus">
+    	<div class="col-sm-4 hidden-xs margin-top90"><img src="__PUBLIC__/images/joinus/Honor_bg.png" class="response_img"/></div>
+        <div class="col-sm-8 height500">
+        
+        <div id="history">
+        	
+        
+            <div class="title">
+                <div id="circle" >
+
+                </div>
+            </div>
+            
+            <div id="content">
+                <ul class="list">
+                	
+                    <li>
+                        <div class="liwrap">
+                            <div class="lileft">
+                                <div class="date">
+                                    <span class="year">2009年</span>
+                                </div>
+                            </div>
+                            
+                            <div class="point"><b></b></div>
+                            
+                            <div class="liright">
+                                <div class="histt histtline"><a href="javascript:void(0)">公司成立。</a></div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="liwrap">
+                            <div class="lileft">
+                                <div class="date">
+                                    <span class="year">2010年</span>
+                                </div>
+                            </div>
+                            
+                            <div class="point"><b></b></div>
+                            
+                            <div class="liright">
+                                <div class="histt histtline"><a href="javascript:void(0)">全面转型移动互联网。</a></div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="liwrap">
+                            <div class="lileft">
+                                <div class="date">
+                                    <span class="year">2011年</span>
+                                </div>
+                            </div>
+                            
+                            <div class="point"><b></b></div>
+                            
+                            <div class="liright">
+                                <div class="histt"><a href="javascript:void(0)">宝宝巴士与奇奇妙妙诞生，产品全球上线，每款产品均进入AppStore教育榜前10名。</a></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="liwrap">
+                            <div class="lileft">
+                                <div class="date">
+                                    <span class="year">2012年</span>
+                                </div>
+                            </div>
+                            
+                            <div class="point"><b></b></div>
+                            
+                            <div class="liright">
+                                <div class="histt"><a href="javascript:void(0)">全球用户达到千万级别，获得CVAwards年度最具潜力企业100强。</a></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="liwrap">
+                            <div class="lileft">
+                                <div class="date">
+                                    <span class="year">2013年</span>
+                                </div>
+                            </div>
+                            
+                            <div class="point"><b></b></div>
+                            
+                            <div class="liright">
+                                <div class="histt"><a href="javascript:void(0)">宝宝巴士获得顺为基金A轮数百万美元融资。</a></div>
+                            </div>
+                        </div>
+                    </li>
+              		  <li>
+                        <div class="liwrap">
+                            <div class="lileft">
+                                <div class="date">
+                                    <span class="year">2014年</span>
+                                </div>
+                            </div>
+                            
+                            <div class="point"><b></b></div>
+                            
+                            <div class="liright">
+                                <div class="histt"><a href="javascript:void(0)">宝宝巴士成为中国第七大非游戏类应用发布商。</a></div>
+                            </div>
+                        </div>
+                    </li>
+
+                    
+                </ul>
+            </div>
+        </div>
+        </div> 
+		
+
+    </div>
+    
+</div>
+
+
+
+
+<include file="Public:_navcontact" />
+
+
+
+
+<!--=============footer页脚====================
+==============================================-->
+<div class="product_three">
+
+</div>
+<include file="Public:_navfooter" />
+
+
+<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/js/public.js"></script>
+<script src="__PUBLIC__/js/function.js"></script>
+</body>
+</html>
